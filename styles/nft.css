@@ -1,0 +1,979 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; 
+  
+}
+
+html{
+  font-size: 62.5%;
+  font-family: "Inter","SFProText","Segoe UI","Roboto","Helvetica Neue","Arial",sans-serif;
+}
+
+body{
+  background-color: black;
+}
+
+.nav__list{
+  margin-top: 0.2rem;
+}
+.nav__logo{
+  margin-bottom:1rem;
+}
+
+/* carrucel */
+
+.carousel-item{
+  background-color: rgba(0, 0, 0, 0.973);
+}
+
+
+
+.carousel-inner img{
+  width:100%; 
+  position: relative;
+  height:85rem;
+  opacity: 0.9; 
+  margin: 0 auto;
+}
+
+
+.carousel-control-next-icon{
+  width: 6rem;
+  height: 6rem;
+}
+
+.carousel-control-prev-icon{
+  width: 6rem;
+  height: 6rem;
+
+}
+.carousel-control-prev{
+  width: 10rem;
+}
+
+.carousel-control-next{
+  width: 10rem;
+}
+
+.text h2{
+  position: absolute;
+  width: 100%;
+  color:white;
+  font-size: 8rem;
+  top: 25%;
+  padding: 0 15rem;
+  z-index: 23;
+  margin: 0 auto;
+}
+.text h3{
+  position: absolute;
+  width: 100%;
+  color:white;
+  font-size: 3rem;
+  top: 38%;
+  padding: 0 19rem;
+  z-index: 23;
+}
+
+.galler {
+  position: absolute;
+  padding-top: 1rem;
+  color:white;
+  top: 45%;
+  margin-left: 25rem;
+  z-index: 23;
+  width: 100%;
+}
+
+.galler a{
+  color:white;
+  z-index: 23;
+  border-radius: 60px;
+  padding: 5px 15px;
+  font-size: 2.5rem;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 112);
+  background-color: rgba(0, 0, 43, 0.767);
+  text-decoration: none;
+}
+
+.collec {
+  padding-top: 1rem;
+  position: absolute;
+  color:white;
+  top: 45%;
+  margin-left: 38rem;
+  z-index: 23;
+}
+
+.collec a{
+  color:white;
+  z-index: 23;
+  border-radius: 60px;
+  padding: 5px 15px;
+  font-size: 2.5rem;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 112);
+  background-color: rgba(0, 0, 43, 0.767);
+  text-decoration: none;
+}
+
+  /* Carrucel hallowen */
+
+
+.carruHallo img{
+  opacity: 0.5;
+}
+
+.textHa {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color:white;
+  top: 40%;
+  width: 100%;
+  flex-wrap: wrap;
+  z-index: 23;
+}
+.textHa p{
+  width: 100%;
+  text-align: center;
+  color:white;
+  font-size: 7rem;
+  z-index: 23;
+}
+
+.textHa a{
+  color:white;
+  z-index: 23;
+  border-radius: 60px;
+  padding: 5px 15px;
+  font-size: 2.5rem;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 112);
+  background-color: rgba(0, 0, 43, 0.767);
+  text-decoration: none;
+  position: relative;
+  width: 15%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/* Special Halloween */
+
+    /* ribbon */
+
+.ribbon {
+  width: 200px;
+  height: 160px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.ribbon span {
+  position: absolute;
+  display: bock;
+  width: 160px;
+  padding: 7px 0;
+  background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  color: rgb(98, 0, 255);
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-shadow: 0 0 rem rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid rgb(93, 0, 255);
+
+}
+
+
+/* top right*/
+.ribbon-top-right {
+  top: 0px;
+  right: 0px;
+}
+
+.ribbon-top-right span {
+  left: 80px;
+  top: 25px;
+  transform: rotate(45deg);
+}
+
+/* box */
+
+
+.titleHallow{
+  font-family:fantasy;
+  font-size: 6rem;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  letter-spacing: 1rem;
+  padding: 5rem 0;
+
+}
+
+.boxHalloween{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+  background-color: black;
+  gap: 2rem;
+  padding: 5rem;
+  justify-content: center;
+  position: relative;
+
+}
+
+
+.cardHallow {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5%;
+  overflow: hidden;
+  width: 320px;
+  height: 100%;
+  border: none;
+  box-shadow: 0 0 4rem rgba(56, 56, 56, 0.808),rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+.card-headerHallow img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+ 
+.card-headerHallow {
+margin: 0;
+padding: 0;
+border-bottom: none;
+}
+
+.card-bodyHallow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 6rem 20px;
+  height: 10rem;
+  background-color: white;
+ }
+
+.card-bodyHallow h2{
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+ .card-bodyHallow p {
+   font-size: 2rem;
+   margin: 0 0 40px;
+ }
+
+
+ .userHallow {
+   display: flex;
+   margin-top: auto;
+ }
+ 
+ .userHallow img {
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 50%;
+   width: 60px;
+   background-color: rgba(0, 0, 4, 0.925);
+   height: 60px;
+   margin-right: 10px;
+
+ }
+
+ .user-infoHallow h5 {
+   margin: 0;
+   padding: 1.5rem 0;
+   font-size: 2rem;
+ }
+ .user-infoHallow small {
+   color: #545d7a;
+ }
+
+
+
+/*top 10 creators  */
+
+.topCollection{
+  padding-top: 15rem;
+  background-color: black;
+}
+
+.textTop10{
+  font-family:fantasy;
+  font-size: 6rem;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  letter-spacing: 1rem;
+  padding: 5rem 0;
+
+}
+
+
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 3.5));
+            transform: translateX(calc(-250px * 3.5));
+  }
+}
+.slider {
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.267);
+  height:190px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  padding: 1rem;
+  width: 100%;
+  background-color: black;
+}
+.slider::before, .slider::after {
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(200px *11);
+}
+
+
+.slider .slidex {
+  height: 100px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slidex p{
+  font-size: 2rem;
+  color: white;
+}
+.slidex h3{
+  font-size: 2rem;
+  color: white;
+}
+
+.slidex img{
+  border: 3px solid rgba(255, 255, 255, 0.425);
+  border-radius: 50%;
+}
+
+
+/* GALLERY */
+
+.galleryNft{
+  min-height: 100vh;
+  width: 100%;
+  height:  100%;
+  padding-bottom: 15rem;
+  padding-top: 20rem;
+  position: relative;
+  background-image: url(../img/backblue.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(2, 7, 17);
+  box-shadow: 0 0 14rem rgb(42, 17, 110);
+}
+
+.titleGalery{
+  display: grid;
+  justify-content: center;
+}
+.titleGalery p{
+  font-family:fantasy;
+  font-size: 6rem;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  letter-spacing: 1rem;
+}
+.titleGalery hr{
+  height: 5px;
+  opacity: 1;
+  background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+}
+.boxCard{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-template-rows: repeat(4, auto);
+  height:  100%;
+  justify-content: center;
+  gap: 10rem;
+  padding-bottom: 15rem;
+  padding-top: 20rem;
+  position: relative;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
+  overflow: hidden;
+  width: 380px;
+  height: 100%;
+  border: none;
+  box-shadow: 0 0 4rem rgba(56, 56, 56, 0.808),rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+.card-header img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+ }
+ 
+.card-header {
+margin: 0;
+padding: 0;
+border-bottom: none;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 150px;
+ }
+
+.card-body h2{
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+ .card-body p {
+   font-size: 2rem;
+   margin: 0 0 40px;
+ }
+
+.price{
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+.price p{
+  font-size: 1.5rem;
+}
+
+.price h3{
+  
+  padding: 1rem 0;
+  padding-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.buy{
+  font-size: 2rem;
+  width: 20%;
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+}
+
+.buy a{
+  font-size: 2rem;
+  border: 1px solid black;
+  width: 20%;
+  border-radius: 20%;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 1.4rem;
+  
+}
+
+ .user {
+   display: flex;
+   margin-top: auto;
+ }
+ 
+ .user img {
+   border-radius: 50%;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 50%;
+   width: 60px;
+   background-color: rgba(0, 0, 4, 0.925);
+   height: 62px;
+   margin-right: 10px;
+
+ }
+
+ .user-info h5 {
+   margin: 0;
+   padding: 2rem 0;
+   font-size: 1.8rem;
+ }
+ .user-info small {
+   color: #545d7a;
+ }
+
+
+/* FOOTER */
+
+
+.container5{
+
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10rem 1fr 13rem 1fr;
+  grid-template-areas:
+      ".           logoFooter     ."
+      "listFooter      .         social"
+      ".             copy         ."
+      "legacy        legacy      legacy"
+  ;
+  padding: 2rem;
+  justify-items: center;
+  position: relative;
+  align-items: center;
+}
+
+.nav4{
+  grid-area: listFooter;
+  list-style: none;
+}
+.nav4 li{
+  padding: 0.2rem;
+  font-size: 1.5rem;
+}
+.navLi4 a{
+  text-decoration: none;
+  color: white;
+}
+
+.titleFooter{
+  grid-area: logoFooter;
+  font-size: 2.5rem;
+  
+}
+
+.socialFooter{
+  grid-area: social;
+  font-size: 1.5rem;
+}
+
+.autorFooter{
+  grid-area: copy;
+  padding-top: 8rem;
+  font-size: 1.3rem;
+}
+
+.legalFooter{
+  grid-area: legacy;
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgba(128, 128, 128, 0.694);
+}
+
+
+
+/* Notebooks tablets */
+
+@media (min-width: 900px) and (max-width :1500px){
+  
+
+  /* carrucel */
+
+
+  .carousel-inner img{
+    height:75rem;
+    opacity: 0.9; 
+  }
+
+
+  .text h2{
+    font-size: 7rem;
+    top: 25%;
+    padding: 0 6rem;
+  }
+
+  .text h3{
+    font-size: 2.5rem;
+    top: 38%;
+    padding: 0 10rem;
+  }
+
+  .galler {
+    top: 45%;
+    margin-left: 14rem;
+  }
+
+  .collec {
+    top: 45%;
+    margin-left: 26rem;
+  }
+
+    /* Carrucel hallowen */
+
+  .textHa a{
+    width: 25%;
+  }
+
+  /* top collection */
+  .slider {
+    height:160px;
+  }
+
+  .textTop10{
+    font-size: 4rem;
+    padding: 5rem 0;
+  }
+  
+  .slidex p{
+    font-size: 1.8rem;
+  }
+  .slidex h3{
+    font-size: 1.8rem;
+  }
+  
+  .slidex img{
+    border: 1.5px solid rgb(76, 0, 255);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+
+/* sPECIAL HALLOWEEN */
+
+.titleHallow{
+  font-size: 4rem;
+}
+
+  /* GALLERY */
+  .boxCard{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10rem 0;
+    grid-gap: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .card {
+    height: 100%;
+    margin: 0 auto;
+  }
+
+
+}
+
+@media (min-width: 481px) and (max-width :899px){
+   
+  /* carrucel */
+
+  .carousel-inner img{
+    width: auto;
+    height:60%;
+    opacity: 0.9; 
+  }
+
+
+  .text h2{
+    font-size: 4rem;
+    top: 26%;
+    padding: 0rem 8rem;
+    width: 100%;
+  }
+  
+  .text h3{
+    font-size: 1.6rem;
+    top: 36%;
+    padding: 2rem 9rem;
+  }
+
+  .galler {
+    padding: 4rem 0rem;
+    top: 44%;
+    margin-left: 9rem;
+  }
+  .galler a{
+    font-size: 1.7rem;
+  }
+
+  .collec {
+    top: 44%;
+    padding: 4rem 0rem;
+    margin-left: 18rem;
+  }
+  .collec a{
+    font-size: 1.7rem;
+  }
+
+    /* Carrucel hallowen */
+
+  .textHa a{
+    text-decoration: none;
+    position: relative;
+    min-width: 35%;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+
+  .textHa p{
+    font-size: 4rem;
+  }
+
+  /* Special Halloween */
+  .titleHallow{
+    font-size: 3rem;
+  }
+   
+  /* TOP collections */
+  .textTop10{
+    font-size: 4rem;
+    padding: 5rem 0;
+  }
+
+  .slider {
+    height:140px;
+  }
+
+  .slidex p{
+    font-size: 1.5rem;
+  }
+  .slidex h3{
+    font-size: 1.5rem;
+  }
+  
+  .slidex img{
+    width: 70px;
+    height: 70px;
+  }
+
+
+  /* GALLERY */
+
+  .boxCard{
+    grid-template-columns: auto ;
+    grid-template-rows: repeat(6, auto);
+    gap: 8rem;
+  }
+  
+  .card {
+    height: 103%;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+  
+  /* carrucel */
+
+  .carousel-inner img{
+    width: auto;
+    height:60%;
+    opacity: 0.7;
+  }
+
+
+  .text h2{
+    font-size: 2.6rem;
+    top: 20%;
+    padding-left: 0;
+    margin-left: 7rem;
+    width: 100%;
+  }
+  
+  .text h3{
+    font-size: 1.4rem;
+    top: 30%;
+    padding-left: 0;
+    padding: 2rem 0;
+    margin-left: 7rem;
+  }
+
+  .galler {
+    padding: 4rem 0rem;
+    top: 40%;
+    margin-left: 7rem;
+  }
+  .galler a{
+    font-size: 1.3rem;
+  }
+
+  .collec {
+    top: 40%;
+    padding: 4rem 0rem;
+    margin-left: 15rem;
+  }
+  .collec a{
+    font-size: 1.3rem;
+  }
+
+  .carousel-control-next-icon{
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .carousel-control-prev-icon{
+    width: 3rem;
+    height:3rem;
+  
+  }
+
+    /* Carrucel hallowen */
+
+  .textHa a{
+    text-decoration: none;
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  .textHa{
+    top: 20%;
+  }
+  
+  .textHa p{
+    font-size: 2.4rem;
+  }
+
+    /* Special Halloween */
+    .titleHallow{
+      font-size: 2rem;
+    }
+
+
+ /* TOP collections */
+
+
+ .slider {
+  height:140px;
+}
+.textTop10{
+  font-size: 3rem;
+  padding: 5rem 0;
+}
+
+
+.slidex p{
+  font-size: 1.5rem;
+}
+.slidex h3{
+  font-size: 1.5rem;
+}
+
+.slidex img{
+  width: 70px;
+  height: 70px;
+}
+
+
+  
+
+  /* GALLERY */
+  .boxCard{
+    grid-template-columns: auto ;
+    grid-template-rows: repeat(6, auto);
+    gap: 6rem;
+
+  }
+
+
+  .card {
+    width: 100%;
+    height: 100%;
+  }
+  .containerCard{
+    max-width: 1496px;
+    padding: 10rem 20px;
+    margin: 0 auto;
+  }
+
+  .buy{
+    width: 25%;
+    top: 5rem;
+    right: 3rem;
+  }
+  
+  .buy a{
+    font-size: 1.8rem;
+    padding: 1.4rem;
+    
+  }
+  .card-header img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 1%;
+   }
+   
+  .user img {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .user-info h5 {
+    font-size: 1.4rem;
+  }
+
+
+}
+
+
+
+
+
+
+
