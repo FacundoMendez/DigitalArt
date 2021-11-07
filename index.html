@@ -40,6 +40,10 @@
                         <a href="./pages/collection.html" class="nav__listBox">Collection</a>
                         <div class="nav__listSombra"><img src="./img/sombra.png" class="nav__sombra-img"></div>
                     </li>
+                    <li class="nav__listEnlacesMuseum nav__listEnlaces">
+                        <a href="./pages/museum.html" class="nav__listBox">Museum</a>
+                        <div class="nav__listSombra"><img src="./img/sombra.png" class="nav__sombra-img"></div>
+                    </li>
                     <li class="nav__listEnlaces">
                         <a href="./pages/about.html" class="nav__listBox">About</a>
                         <div class="nav__listSombra"><img src="./img/sombra.png" class="nav__sombra-img"></div>
@@ -54,7 +58,7 @@
    </header>
 
    <main>
-        <div class="container1">
+<!--         <div class="container1">
             <div class="imgContainer1"></div>
             <div class="titleContainer1">
                 <h2>Lorem ipsum consectetur dolor sit.</h2>
@@ -63,7 +67,24 @@
             <div class="scroll">
                 <p>SCROLL TO EXPLORE</p>
             </div>
+        </div> -->
+        <div class="planet">
+            <canvas class="planetWebGL"></canvas>
+
+            <div class="planet__title">
+                <p class="title1">Lorem, ipsum  consectetur adipisicing elit.</p>
+                <p class="title2">Lorem, consectetur adipisicing elit.</p>
+            </div>
+            <div class="planet__scroll">
+                <p>SCROLL TO EXPLORE</p>
+            </div>
+
+            <div class="planet__enlace">
+                <a href="./pages/nft.html"> > &nbsp;&nbsp; GET YOUR NFT</a>
+                <div class="planet__circulo"></div>
+            </div>
         </div>
+
 
         <div class="container3">
             <div class="container3__box">
@@ -72,19 +93,19 @@
                 </div>
                 <div class="container3__text">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, ipsa! Iusto, quos? Optio odio ipsum nihil quo iusto nisi animi voluptatum. Animi rem quasi molestiae modi alias ut, eaque iure.
-                    Delectus, ipsa! Iusto, quos? Optio odio ipsum nihil quoiusto nisi animi voluptatum. Animi rem quasi molestiaemodi alias ut, eaque iure.
+                     Animi rem quasi molestiaemodi alias ut, eaque iure.
                     </p>
                 </div>
                 <div class="container3__card">
                     <canvas class="container3__card-webgl"></canvas>
                     <canvas class="container3__cardMovile1"></canvas>
                     <div class="container3__text-card1">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius ab aliquid consequuntur natus eos consectetur in corporis architecto quisquam repudiandae!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius ab aliquid repudiandae!</p>
                     </div>
                 </div>
                 <div class="container3__card2">
                     <div class="container3__text-card2">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius ab aliquid consequuntur natus eos consectetur in corporis architecto quisquam repudiandae!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius ab aliquid repudiandae!</p>
                     </div>
                     <canvas class="container3__card-webgl2"></canvas>
                     <canvas class="container3__cardMovile2"></canvas>
@@ -93,12 +114,12 @@
                     <canvas class="container3__card-webgl3"></canvas>
                     <canvas class="container3__cardMovile3"></canvas>
                     <div class="container3__text-card3">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius ab aliquid consequuntur natus eos consectetur in corporis architecto quisquam repudiandae!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius ab aliquid repudiandae!</p>
                     </div>
                 </div>
                 <div class="container3__card4">
                     <div class="container3__text-card4">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius ab aliquid consequuntur natus eos consectetur in corporis architecto quisquam repudiandae!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius ab aliquid  repudiandae!</p>
                     </div>
                     <canvas class="container3__card-webgl4"></canvas>
                     <canvas class="container3__cardMovile4"></canvas>
@@ -128,7 +149,7 @@
                     </div>
                 </div>
                 <div class="imgNft">
-                    <video class="videoNft1"  autoplay="" muted="" autobuffer="" loop="" src="../img/opcion7.mp4"> </video>
+                    <video class="videoNft1"  autoplay="" muted="" autobuffer="" loop="" src="./img/opcion7.mp4"> </video>
                 </div>
             </div>
         </div>
@@ -193,7 +214,8 @@
 
 <script src= "./jsm/jsThree/three.js-master/build/three.min.js"></script>
 <script type = "module" src="./jsm/jsThree/three.js-master/examples/jsm/controls/OrbitControls.js" ></script>
-<script type = "module" src= "./jsm/jsThree/js/main.js"></script>
+<script type = "module" src= "./jsm/jsThree/js/planet.js"></script>
+<script type = "module" src= "./jsm/jsThree/js/card1.js"></script>
 <script type = "module" src= "./jsm/jsThree/js/card2.js"></script>
 <script type = "module" src= "./jsm/jsThree/js/card3.js"></script>
 <script type = "module" src= "./jsm/jsThree/js/card4.js"></script>

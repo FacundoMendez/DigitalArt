@@ -6,7 +6,7 @@ const canvas = document.querySelector('.container3__card-webgl2')
 const scene = new THREE.Scene()
 
 
-const texture = new THREE.TextureLoader().load( "./jsm/jsThree/img/1.jpg" );
+const texture = new THREE.TextureLoader().load( "./img/collections/atlantis/1.png" );
 
 
 
@@ -16,7 +16,7 @@ const material = new THREE.MeshStandardMaterial({
     roughness:2,       
   }) 
   material.roughnessMap = texture        
-const geometry= new THREE.BoxGeometry(9.5,9.5,0.5)
+const geometry= new THREE.BoxGeometry(8,9,0.5)
     
 const mesh = new THREE.Mesh(geometry,material)
 
@@ -96,8 +96,8 @@ const animate = () =>{
     camera.lookAt(camera,scene)
     controls.update()
 
-    mesh.position.y= Math.sin(time)*0.3
-    mesh.rotation.y= Math.sin(time)* -0.2
+    mesh.position.y= Math.sin(time)*0.2
+    mesh.rotation.y= Math.sin(time)* -0.1
    /*  mesh.rotation.y -= 0.004 */
     renderer.render(scene,camera)
     window.requestAnimationFrame(animate)

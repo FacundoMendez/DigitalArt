@@ -22,7 +22,6 @@
         height: 100%;
         align-items: center;
         justify-content: space-evenly;
-
         
         .nav__listEnlaces{
             position: relative;
@@ -32,7 +31,9 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            text-align: center;
+            text-align: center;     
+            display: inline-block;
+            color: white;
         }
 
         .nav__sombra-img{
@@ -46,11 +47,7 @@
             transition:all 0.5s ease-in-out;
         }
 
-        .nav__listEnlaces {
-            display: inline-block;
-            color: white;
-            
-        }
+        
         .nav__listBox{
             font-size: 1.7rem;
             color: white;
@@ -63,10 +60,13 @@
             color: white;
             font-weight: 600;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
-            z-index: 5000;        
+            margin-top: 2.5rem;
+            height: 100%;
+            z-index: 5000;     
         }
+
 
         .nav__logo a{
             font-family: "Inter","SFProText","Segoe UI","Roboto","Helvetica Neue","Arial",sans-serif;
@@ -80,11 +80,13 @@
             padding: 0 0.5rem;
             
         }
-  
+
+ 
     }
 
+  
     .nav__img{
-        width: 95%;
+        width: 96%;
         margin: 0 auto;
     }
    
@@ -111,7 +113,9 @@
     
     /* MOBILE */
     @media (max-width: 868px) {
-    
+        .nav__listEnlacesMuseum{
+          display: none !important;
+        }
         .header {
         height: 6rem;
         }
