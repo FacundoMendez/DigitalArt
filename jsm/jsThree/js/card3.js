@@ -6,7 +6,7 @@ const canvas = document.querySelector('.container3__card-webgl3')
 const scene = new THREE.Scene()
 
 
-const texture = new THREE.TextureLoader().load( "./jsm/jsThree/img/3.png" );
+const texture = new THREE.TextureLoader().load( "./img/collections/MiVillanoFavorito/11.png" );
 
 
 
@@ -20,20 +20,22 @@ const geometry= new THREE.BoxGeometry(8,9,0.5)
 const mesh = new THREE.Mesh(geometry,material)
 scene.add(mesh)
 
-const ambientLight = new THREE.AmbientLight(0xffffff, 5)
+const ambientLight = new THREE.AmbientLight(0xffffff, 2)
 scene.add(ambientLight)
 
-const pointLight1 = new THREE.PointLight(0xffffff,  2.5)
-pointLight1.position.set(0,4,1.2)
+const pointLight1 = new THREE.PointLight(0xffffff, 2)
+pointLight1.position.set(0,1.5,1.5)
 scene.add(pointLight1)
 
-const pointLight2 = new THREE.PointLight(0x777777,  1.5)
-pointLight2.position.set(2.5,0,2)
+const pointLight2 = new THREE.PointLight(0x777777, 2.5)
+pointLight2.position.set(2.5,0,3)
 scene.add(pointLight2)
 
+const pointLight3 = new THREE.PointLight(0x777777, 2.5)
+pointLight3.position.set(0.5,-4,2)
+scene.add(pointLight3)
 
-
-const pointLight4 = new THREE.PointLight(0x777777, 1.5)
+const pointLight4 = new THREE.PointLight(0x777777, 2.5)
 pointLight4.position.y = 0
 pointLight4.position.x = -5
 pointLight4.position.z = 2
@@ -41,7 +43,7 @@ scene.add(pointLight4)
 
 
 const size = {
-    width : 600,
+    width : 700,
     height : 700
 }
 
@@ -64,9 +66,9 @@ const camera = new THREE.PerspectiveCamera(65, size.width/size.height, 0.1,100)
 
 
 const controls = new OrbitControls(camera,canvas)
-    controls.enableDamping = true
-/*     controls.enablePan = false */
-   controls.enableZoom = false 
+controls.enableDamping = true
+controls.enableZoom = false 
+controls.enablePan= false
 /*     controls.maxDistance = 11;
     controls.minDistance = 8;  */
 

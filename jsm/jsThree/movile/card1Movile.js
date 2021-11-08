@@ -12,8 +12,8 @@ const texture = new THREE.TextureLoader().load( "./jsm/jsThree/img/8.png" );
 
 const material = new THREE.MeshStandardMaterial({
     map: texture,
-    metalness:0.9,
-    roughness:100,     
+    metalness:1,
+    roughness:2.5,         
   }) 
   material.roughnessMap = texture        
 const geometry= new THREE.BoxGeometry(6,7,0.2)
@@ -70,6 +70,7 @@ const controls = new OrbitControls(camera,canvas)
     controls.enableDamping = true
 /*     controls.enablePan = false */
    controls.enableZoom = false 
+   controls.enabled= false
 /*     controls.maxDistance = 11;
     controls.minDistance = 8;  */
 
@@ -81,7 +82,8 @@ const controls = new OrbitControls(camera,canvas)
 
 const renderer = new THREE.WebGLRenderer({
     canvas: canvas,
-    alpha:true  
+    alpha:true,
+    antialias:true
 })
 renderer.setSize ( size.width , size.height)
 renderer.setPixelRatio(Math.min(window.devicePixelRatio),2)

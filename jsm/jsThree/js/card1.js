@@ -44,7 +44,7 @@ scene.add(pointLight4)
 
 
 const size = {
-    width : 900,
+    width : 700,
     height : 700
 }
 
@@ -67,11 +67,9 @@ const camera = new THREE.PerspectiveCamera(65, size.width/size.height, 0.1,100)
 
 
 const controls = new OrbitControls(camera,canvas)
-    controls.enableDamping = true
-/*     controls.enablePan = false */
-   controls.enableZoom = false 
-/*     controls.maxDistance = 11;
-    controls.minDistance = 8;  */
+controls.enableDamping = true
+controls.enableZoom = false 
+controls.enablePan= false
 
     controls.minPolarAngle = 1.4; // radians
     controls.maxPolarAngle = 1.6; 

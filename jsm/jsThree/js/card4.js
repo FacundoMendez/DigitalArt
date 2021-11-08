@@ -22,6 +22,9 @@ const mesh = new THREE.Mesh(geometry,material)
 
 scene.add(mesh)
 
+
+
+
 const ambientLight = new THREE.AmbientLight(0xffffff, 2.6)
 scene.add(ambientLight)
 
@@ -44,7 +47,7 @@ pointLight4.position.z = 2
 scene.add(pointLight4)
 
 const size = {
-    width : 900,
+    width : 700,
     height : 700
 }
 
@@ -62,14 +65,14 @@ window.addEventListener ('resize', () => {
 
 const camera = new THREE.PerspectiveCamera(65, size.width/size.height, 0.1,100)
 camera.position.z= 10
-camera.position.x= 1.5
+camera.position.x= -1
     scene.add(camera)
 
 
 const controls = new OrbitControls(camera,canvas)
-    controls.enableDamping = true
-   /*  controls.enablePan = false */
-   controls.enableZoom = false 
+controls.enableDamping = true
+controls.enableZoom = false 
+controls.enablePan= false
 /*     controls.maxDistance = 11;
     controls.minDistance = 8;  */
     controls.minPolarAngle = 1.4; // radians

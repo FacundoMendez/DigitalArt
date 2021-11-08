@@ -26,8 +26,8 @@ window.addEventListener ('resize', () => {
 })
 
 
-const camera = new THREE.PerspectiveCamera(60, size.width/size.height, 0.1,100)
-camera.position.z = 2.5
+const camera = new THREE.PerspectiveCamera(60, size.width/size.height, 0.1,10000)
+camera.position.z = 2.8
 scene.add(camera)
 
 
@@ -63,19 +63,14 @@ window.addEventListener('mousemove', (event) =>{
 
 
 
-
-
-
 // earth geometry
 const earthGeometry = new THREE.SphereGeometry(0.6, 32, 32);
 
 // earth material
 const earthMaterial = new THREE.MeshPhongMaterial({
-    roughness: 1,
-    metalness: 0,
     map: THREE.ImageUtils.loadTexture('./jsm/jsThree/img/texturePlaneta/earthmap1k.jpg'),
     bumpMap: THREE.ImageUtils.loadTexture('./jsm/jsThree/img/texturePlaneta/earthbump.jpg'),
-    bumpScale: 0.3
+    bumpScale: 0.2
 });
 
 // earth mesh
