@@ -103,7 +103,7 @@ main{
 
 /* CONTEINER 2 -ABOUT- */
 .container2-color{
-    background-image: url("./img/museum2.png");
+    background-image: url("./img/museum.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -112,7 +112,7 @@ main{
     position: relative;
     width: 100%;
     color: white;
-    background-color: rgba(0, 0, 0, 0.123);
+    background-color: rgba(0, 0, 0, 0.568);
     min-height: 100vh;
 
 }
@@ -517,7 +517,7 @@ main{
 
 /* CONTEINER 2 -ABOUT- */
     .container2-color{
-        background-image: url("./img/Museum2.PNG");
+        background-image: url("./img/museum.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -751,7 +751,7 @@ main{
 
 
     .container2-color{
-        background-image: url("./img/Museum2.PNG");
+        background-image: url("./img/museum.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -1100,7 +1100,7 @@ main{
     /* about */
 
     .container2-color{
-        background-image: url("./img/Museum2.PNG");
+        background-image: url("./img/museum.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -1358,7 +1358,7 @@ main{
   /* about */
 
   .container2-color{
-    background-image: url("./img/Museum2.PNG");
+    background-image: url("./img/museum.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
