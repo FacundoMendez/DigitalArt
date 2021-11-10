@@ -16,7 +16,7 @@ html{
 
 main{
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.878);
+    background-color: rgba(0, 0, 0, 0.801);
     position: relative;
 }
 
@@ -112,8 +112,9 @@ main{
     position: relative;
     width: 100%;
     color: white;
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(0, 0, 0, 0.678);
     min-height: 100vh;
+    padding-top: 10rem;
 
 }
 
@@ -132,7 +133,7 @@ main{
     margin-top:2%;
 
     color: white;
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight: 900;
 }
 
@@ -147,7 +148,7 @@ main{
 .textAbout p{
     margin-top: 3rem;
     color: white;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     font-style: italic;
     width: 100% ;
     font-weight: 500;
@@ -167,18 +168,18 @@ main{
 .enlaceAbout a{
     display: flex;
     flex-wrap: wrap;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-decoration: none;
     color: white;
     z-index: 1;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1.5rem;
     width: max-content;
 }
 
 .circuloAbout{
     position: absolute;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
     background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
     background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
@@ -525,9 +526,9 @@ main{
         position: relative;
         width: 100%;
         color: white;
-        background-color: rgba(0, 0, 0, 0.123);
-        min-height: 100vh;
-
+        background-color: rgba(0, 0, 0, 0.849);
+        min-height: 90vh;
+        padding-top: 10rem;
     }
 
 
@@ -545,7 +546,7 @@ main{
         margin-top:2%;
 
         color: white;
-        font-size: 9rem;
+        font-size: 5rem;
         font-weight: 900;
     }
 
@@ -560,7 +561,7 @@ main{
     .textAbout p{
         margin-top: 3rem;
         color: white;
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-style: italic;
         width: 100% ;
         font-weight: 500;
@@ -580,18 +581,18 @@ main{
     .enlaceAbout a{
         display: flex;
         flex-wrap: wrap;
-        font-size: 3rem;
+        font-size: 2rem;
         text-decoration: none;
         color: white;
         z-index: 1;
-        padding: 0.5rem 2rem;
+        padding: 0.7rem 1.6rem;
         width: max-content;
     }
 
     .circuloAbout{
         position: absolute;
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
         border-radius: 50%;
         background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
         background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
@@ -750,7 +751,7 @@ main{
 
 
     .container2-color{
-        background-image: url("./img/museum.jpg");
+        background-image: url("./img/museum2.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -759,9 +760,8 @@ main{
         position: relative;
         width: 100%;
         color: white;
-        background-color: rgba(0, 0, 0, 0.123);
-        min-height: 100vh;
-
+        background-color: rgba(0, 0, 0, 0.384);
+        min-height: 112vh;
     }
 
 
@@ -772,6 +772,7 @@ main{
         align-items: center;
         justify-content: center;
         width: 100%;
+        padding-top: 25rem;
         
     }
 
@@ -1122,7 +1123,7 @@ main{
     /* about */
 
     .container2-color{
-        background-image: url("./img/museum.jpg");
+        background-image: url("./img/museum2.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -1131,8 +1132,8 @@ main{
         position: relative;
         width: 100%;
         color: white;
-        background-color: rgba(0, 0, 0, 0.514);
-        min-height: 100vh;
+        background-color: rgba(0, 0, 0, 0.623);
+        min-height: 60vh;
 
     }
 
@@ -1377,94 +1378,94 @@ main{
 
 
 
-  /* about */
+    /* about */
 
-  .container2-color{
-    background-image: url("./img/museum.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+    .container2-color{
+        background-image: url("./img/museum2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
-.container2{
-    position: relative;
-    width: 100%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.514);
-    min-height: 100vh;
+    .container2{
+        position: relative;
+        width: 100%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.644);
+        min-height: 60vh;
 
-}
-
-
-.titleAbout{
-    padding: 5rem 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    
-}
-
-.titleAbout h2 {
-    margin-top:2%;
-    color: white;
-    font-size: 6rem;
-    font-weight: 900;
-}
-
-.titleAbout h3 {
-    color: rgb(255, 255, 255);
-    font-size: 4.5rem;
-    margin-bottom: 8rem;
-}
+    }
 
 
-.textAbout p{
-    margin-top: 3rem;
-    color: white;
-    font-size: 2.5rem;
-    font-style: italic;
-    width: 100% ;
-    font-weight: 900;
-    text-align: center;
-    margin-bottom: 15rem;
-    padding: 0 2rem;
-}
+    .titleAbout{
+        padding: 5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+
+    .titleAbout h2 {
+        margin-top:2%;
+        color: white;
+        font-size: 4rem;
+        font-weight: 900;
+    }
+
+    .titleAbout h3 {
+        color: rgb(255, 255, 255);
+        font-size: 4rem;
+        margin-bottom: 8rem;
+    }
 
 
-.enlaceAbout{
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    bottom: 0rem;
-}
+    .textAbout p{
+        margin-top: 3rem;
+        color: white;
+        font-size: 2rem;
+        font-style: italic;
+        width: 100% ;
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: 15rem;
+        padding: 0 2rem;
+    }
 
-.enlaceAbout a{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 2rem;
-    text-decoration: none;
-    color: white;
-    z-index: 1;
-    padding: 0.5rem 1.5rem;
-    width: max-content;
-}
 
-.circuloAbout{
-    position: absolute;
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 50%;
-    background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-    background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-    background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-}
+    .enlaceAbout{
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        bottom: 0rem;
+    }
 
-.enlaceAbout a:hover ~ .circuloAbout{
-    background-color:rgb(255, 1, 86);
-    border-radius: 2%;
-    width: 400px;
-    color: white;
-    transition: all 0.9s ;
+    .enlaceAbout a{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: white;
+        z-index: 1;
+        padding: 0.6rem 1.4rem;
+        width: max-content;
+    }
+
+    .circuloAbout{
+        position: absolute;
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 50%;
+        background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+        background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+        background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+    }
+
+    .enlaceAbout a:hover ~ .circuloAbout{
+        background-color:rgb(255, 1, 86);
+        border-radius: 2%;
+        width: 400px;
+        color: white;
+        transition: all 0.9s ;
 }
 }
