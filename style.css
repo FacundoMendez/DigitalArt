@@ -846,6 +846,9 @@ main{
 
 @media (max-width: 634px){
 
+    .planetWebGL{
+        display: none;
+    }
 
     .planet{
         width: 100%;
@@ -991,6 +994,10 @@ main{
         overflow: hidden;
     }
 
+    .container3__cardMovile5{
+        display: block;
+        overflow: hidden;
+    }
     
     .container3__title{
         width: 100%;

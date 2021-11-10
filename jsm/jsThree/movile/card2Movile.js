@@ -16,7 +16,7 @@ const material = new THREE.MeshStandardMaterial({
     roughness:2,       
   }) 
   material.roughnessMap = texture        
-const geometry= new THREE.BoxGeometry(6,7,0.2)
+const geometry= new THREE.BoxGeometry(10,8,0.2)
     
 const mesh = new THREE.Mesh(geometry,material)
 

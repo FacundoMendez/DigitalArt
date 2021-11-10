@@ -5,22 +5,21 @@ gsap.from(".container2",{
     duration:2,
     pin:true,
     backgroundColor: '#ffffff',
-    x:"-=2000",
-    ease:"linear",
+    x:"-=1000",
     scrollTrigger:{
         trigger: ".container2",
         markers:true,
-        start: "top 50%",
+        start: "top 100%",
         end: "100% 100%",
         pinSpacing:true,
-        scrub: 1,
+        scrub: 0.5,
     }
 })
 
 gsap.from(".container3__card-webgl",{
     duration:2,
     opacity:0,
-    x:"-=1000",
+    x:"-=300",
     pin:true,
     ease:"linear",
     scrollTrigger:{
@@ -36,7 +35,7 @@ gsap.from(".container3__card-webgl",{
 gsap.from(".container3__card-webgl2",{
     duration:2,
     opacity:0,
-    x:"+=1000",
+    x:"+=300",
     pin:true,
     ease:"linear",
     scrollTrigger:{
@@ -53,7 +52,7 @@ gsap.from(".container3__card-webgl2",{
 gsap.from(".container3__card-webgl4",{
     duration:3,
     opacity:0,
-    x:"-=1000",
+    x:"-=300",
     pin:true,
     ease:"linear",
     scrollTrigger:{
@@ -70,7 +69,7 @@ gsap.from(".container3__card-webgl4",{
 gsap.from(".container3__card-webgl5",{
     duration:3,
     opacity:0,
-    x:"+=1000",
+    x:"+=300",
     pin:true,
     ease:"linear",
     scrollTrigger:{
@@ -87,7 +86,7 @@ gsap.from(".container3__card-webgl5",{
 gsap.from(".container3__card-webgl6",{
     duration:3,
     opacity:0,
-    x:"-=1000",
+    x:"-=300",
     pin:true,
     ease:"linear",
     scrollTrigger:{
@@ -105,7 +104,7 @@ gsap.from(".container3__card-webgl6",{
 gsap.from(".container3__card-webgl8",{
     duration:3,
     opacity:0,
-    x:"+=1000",
+    x:"+=300",
     pin:true,
     ease:"linear",
     scrollTrigger:{
@@ -122,7 +121,7 @@ gsap.from(".container3__card-webgl8",{
 gsap.from(".container3__card-webgl9",{
     duration:3,
     opacity:0,
-    x:"-=1000",
+    x:"-=300",
     pin:true,
     ease:"linear",
     scrollTrigger:{
@@ -139,7 +138,7 @@ gsap.from(".container3__card-webgl9",{
 gsap.from(".container3__card-webgl10",{
     duration:3,
     opacity:0,
-    x:"+=1000",
+    x:"+=300",
     pin:true,
     ease:"linear",
     scrollTrigger:{
@@ -151,6 +150,91 @@ gsap.from(".container3__card-webgl10",{
         scrub: 1,
     }
 })
+
+gsap.from(".container3__cardMovile1",{
+    duration:3,
+    opacity:0,
+    x:"+=300",
+    pin:true,
+    ease:"linear",
+    scrollTrigger:{
+        trigger: ".container3__cardMovile1",
+        markers:true,
+        start: "top 100%",
+        end: "100% 100%",
+        pinSpacing:true,
+        scrub: 1,
+    }
+})
+
+
+gsap.from(".container3__cardMovile2",{
+    duration:3,
+    opacity:0,
+    x:"-=300",
+    pin:true,
+    ease:"linear",
+    scrollTrigger:{
+        trigger: ".container3__cardMovile2",
+        markers:true,
+        start: "top 100%",
+        end: "100% 100%",
+        pinSpacing:true,
+        scrub: 1,
+    }
+})
+
+
+gsap.from(".container3__cardMovile3",{
+    duration:3,
+    opacity:0,
+    x:"+=300",
+    pin:true,
+    ease:"linear",
+    scrollTrigger:{
+        trigger: ".container3__cardMovile3",
+        markers:true,
+        start: "top 100%",
+        end: "100% 100%",
+        pinSpacing:true,
+        scrub: 1,
+    }
+})
+
+
+gsap.from(".container3__cardMovile4",{
+    duration:3,
+    opacity:0,
+    x:"-=300",
+    pin:true,
+    ease:"linear",
+    scrollTrigger:{
+        trigger: ".container3__cardMovile4",
+        markers:true,
+        start: "top 100%",
+        end: "100% 100%",
+        pinSpacing:true,
+        scrub: 1,
+    }
+})
+
+gsap.from(".container3__cardMovile5",{
+    duration:3,
+    opacity:0,
+    x:"+=300",
+    pin:true,
+    ease:"linear",
+    scrollTrigger:{
+        trigger: ".container3__cardMovile5",
+        markers:true,
+        start: "top 100%",
+        end: "100% 100%",
+        pinSpacing:true,
+        scrub: 1,
+    }
+})
+
+
 
 
 gsap.from("main",{
