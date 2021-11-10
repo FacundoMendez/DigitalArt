@@ -528,7 +528,8 @@ main{
         color: white;
         background-color: rgba(0, 0, 0, 0.849);
         min-height: 90vh;
-        padding-top: 10rem;
+        padding-top: 13rem;
+        padding-bottom:13rem ;
     }
 
 
@@ -544,7 +545,6 @@ main{
 
     .titleAbout h2 {
         margin-top:2%;
-
         color: white;
         font-size: 5rem;
         font-weight: 900;
