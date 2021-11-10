@@ -41,9 +41,8 @@ main{
 
 .planet__title{
     font-family: 'Oranienbaum', serif;
-
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
     position: absolute;
     font-style: italic;
     top: 37%;
