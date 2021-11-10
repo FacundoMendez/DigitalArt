@@ -236,7 +236,7 @@ div.foo{
   padding-bottom: 20rem;
   position: relative;
   border-radius: 20%;
-  margin-bottom: 4%;
+  margin-bottom: 1%;
 }
 
 .titlepp h2{
@@ -405,31 +405,82 @@ div.foo{
 }
 
 
-@media (min-width: 900px) and (max-width :1500px){
-  .about{
-    gap: 2rem;
-  }
-  
-  
-  .defi h2{
-    font-size: 5rem;
-  }
-  
-  .defi p{
-    font-size: 2rem;
-  }
+@media (max-width :1400px){
+    .about{
+      gap: 2rem;
+    }
     
     
-  .boxAbout{
-    font-size: 2rem;
-    padding: 3rem ;
-  }
-  
+    .defi h2{
+      font-size: 5rem;
+    }
+    
+    .defi p{
+      font-size: 2rem;
+    }
+      
+      
+    .boxAbout{
+      font-size: 2rem;
+      padding: 3rem ;
+    }
+    
 
+    /* Container3 */
+    .container3{
+      width: 100%;
+      min-height: 100vh;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 300px 500px 500px;
+      padding: 3rem 5rem;
+      padding-bottom: 20rem;
+      position: relative;
+      border-radius: 10%;
+      margin-bottom: 4%;
+      padding-top: 15rem;
+    }
   
+    .titlepp h2{
+      font-size: 5.5rem;
+      color: white;
+      height: 100%;
+      width: 100%;
+    }
+    .titlepp h3{
+      color: rgb(255, 255, 255);
+      font-size: 6rem; 
+      height: 100%;
+      width: 100%;
+    }
+  
+    .titlepp hr{
+      width: 25rem;
+      margin-top: 2rem;
+      height: 4px;
+  
+    }
+  
+    .boxAlgorithm h3{
+      font-size: 2.6rem;
+      color: white;
+      padding: 2rem;
+    }
+      
+    .boxAlgorithm p{
+      padding: 2rem 1rem;
+      font-size: 1.9rem;
+      color: white;
+      
+    }
+  }
+
+
+
+@media (max-width: 1082px){
+
 }
 
-@media (min-width: 481px) and (max-width :899px){
+@media (max-width :868px){
   .about{
     display: flex;
     flex-direction: column;
@@ -453,38 +504,62 @@ div.foo{
     padding: 5rem;
     margin: 2rem;
   }
+
   
+  .container3{
+    width: 100%;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 500px 500px;
+    padding: 3rem 5rem;
+    padding-bottom: 20rem;
+    position: relative;
+    border-radius: 10%;
+    margin-bottom: 4%;
+    padding-top: 15rem;
+  }
+
+  .titlepp h2{
+    font-size: 5.5rem;
+    color: white;
+    height: 100%;
+    width: 100%;
+  }
+  .titlepp h3{
+    color: rgb(255, 255, 255);
+    font-size: 6rem; 
+    height: 100%;
+    width: 100%;
+  }
+
+  .titlepp hr{
+    width: 25rem;
+    margin-top: 2rem;
+    height: 4px;
+
+  }
+
+  .boxAlgorithm h3{
+    font-size: 2.6rem;
+    color: white;
+    padding: 2rem;
+  }
+    
+  .boxAlgorithm p{
+    padding: 2rem 1rem;
+    font-size: 1.9rem;
+    color: white;
+    
+  }
+}
+
+@media (max-width: 634px){
+
+
 }
 
 
-@media (max-width: 480px) {
-  .about{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  .defi h2{
-    font-size: 5rem;
-  }
-  
-  .defi p{
-    font-size: 2rem;
-  }
-    
-    
-  .boxAbout{
-    font-size: 2rem;
-    padding: 5rem;
-    margin: 2rem;
-  }
 
-
-}
-  
 @media (max-width: 320px){
 
   .about{

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -38,12 +40,14 @@ main{
 
 
 .planet__title{
+    font-family: 'Oranienbaum', serif;
+
     color: white;
-    font-size: 4rem;
+    font-size: 5rem;
     position: absolute;
     font-style: italic;
-    top: 40%;
-    left: 5%;
+    top: 37%;
+    left: 7%;
     z-index: 100;
 }
 
@@ -57,34 +61,36 @@ main{
     z-index: 100;
 }
 
-
+/* 
 .planet__enlace{
     position: absolute;
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    top:55%;
-    left: 4%;
+    top:50%;
+    left: 6%;
     padding-top: 3rem;
     padding-left: 2rem;
 }
 
 .planet__enlace a{
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-decoration: none;
     color: white;
     z-index: 1;
-    padding: 1rem 1.9rem;
+    padding: 1rem 2rem;
     height: 100%;
     width: 100%;
     width: max-content;
+    font-weight: 600;
+    font-style: italic;
 }
 
 
 .planet__circulo{
     position: absolute;
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
     background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
@@ -93,12 +99,12 @@ main{
 
 .planet__enlace a:hover ~ .planet__circulo{
     border-radius: 2%;
-    width: 240px;
+    width: 300px;
     color: white;
     transition: all 0.9s ;
 }
 
-
+ */
 
 
 /* CONTEINER 2 -ABOUT- */
@@ -120,6 +126,7 @@ main{
 
 
 .titleAbout{
+    
     padding: 5rem 15rem;
     display: flex;
     flex-direction: column;
@@ -131,7 +138,6 @@ main{
 
 .titleAbout h2 {
     margin-top:2%;
-
     color: white;
     font-size: 8rem;
     font-weight: 900;
@@ -245,6 +251,7 @@ main{
     width: 100%;
     padding: 10rem 0;
 }
+
 .container3__title p{
     text-align: center;
     font-size: 3.5rem;
