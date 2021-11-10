@@ -16,7 +16,7 @@
 </head>
 
 <body>
-
+    
     <header class="header">
         <nav class="nav">
             <div class="nav__img">
@@ -79,45 +79,48 @@
 
 
         <div class="container3">
-            <div class="container3__box">
-                <div class="container3__title">
-                    <p> A unique trip to your childhood</p>
-                </div>
-                <div class="container3__text">
-                    <p>DigitalArt brings its collection of unique NFTs so that you can explore and enjoy the art that
-                        will make you remember your childhood again. Join us on this trip and get your NFT works of art
-                        that will be in our museum!
-                    </p>
-                </div>
-                <div class="container3__card">
-                    <canvas class="container3__card-webgl"></canvas>
-                    <canvas class="container3__cardMovile1"></canvas>
-
-                    <canvas class="container3__card-webgl2"></canvas>
-                    <canvas class="container3__cardMovile2"></canvas>
-
-                    <canvas class="container3__cardMovile3"></canvas>
-
-                    <canvas class="container3__card-webgl4"></canvas>
-                    <canvas class="container3__cardMovile4"></canvas>
-
-                    <canvas class="container3__card-webgl5"></canvas>
-                    <canvas class="container3__cardMovile5"></canvas>
-
-                    <canvas class="container3__card-webgl6"></canvas>
-
-                    <canvas class="container3__card-webgl8"></canvas>
-
-                    <canvas class="container3__card-webgl9"></canvas>
-
-                    <canvas class="container3__card-webgl10"></canvas>
-                </div>
-                <div class="container3__enlaceNft">
-                    <a href="./pages/collection.html"> > &nbsp;&nbsp; The Best Collections</a>
-                    <div class="container3__circuloNft"></div>
+            <section class="s_container3">
+                <div class="container3__box">
+                    <div class="container3__title">
+                        <p> A unique trip to your childhood</p>
+                    </div>
+                    <div class="container3__text">
+                        <p>DigitalArt brings its collection of unique NFTs so that you can explore and enjoy the art that
+                            will make you remember your childhood again. Join us on this trip and get your NFT works of art
+                            that will be in our museum!
+                        </p>
+                    </div>
+                    <div class="container3__card">
+                        <canvas class="container3__card-webgl"></canvas>
+                        <canvas class="container3__cardMovile1"></canvas>
+    
+                        <canvas class="container3__card-webgl2"></canvas>
+                        <canvas class="container3__cardMovile2"></canvas>
+    
+                        <canvas class="container3__cardMovile3"></canvas>
+    
+                        <canvas class="container3__card-webgl4"></canvas>
+                        <canvas class="container3__cardMovile4"></canvas>
+    
+                        <canvas class="container3__card-webgl5"></canvas>
+                        <canvas class="container3__cardMovile5"></canvas>
+    
+                        <canvas class="container3__card-webgl6"></canvas>
+    
+                        <canvas class="container3__card-webgl8"></canvas>
+    
+                        <canvas class="container3__card-webgl9"></canvas>
+    
+                        <canvas class="container3__card-webgl10"></canvas>
+                    </div>
+                    <div class="container3__enlaceNft">
+                        <a href="./pages/collection.html"> > &nbsp;&nbsp; The Best Collections</a>
+                        <div class="container3__circuloNft"></div>
+                    </div>
                 </div>
             </div>
-        </div>
+            </section>
+
 
         <div class="container2-color">
             <div class="container2">
@@ -211,6 +214,12 @@
             </div>
         </footer>
 
+        <script  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js" integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        
+        <script type="module" src="./jsm/jsThree/js/move.js"></script>
+        
 
         <script src="./jsm/jsThree/three.js-master/build/three.min.js"></script>
         <script type="module" src="./jsm/jsThree/three.js-master/examples/jsm/controls/OrbitControls.js"></script>

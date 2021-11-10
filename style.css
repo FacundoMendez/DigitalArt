@@ -200,7 +200,6 @@ main{
 .container3__box{
     display: flex;
     justify-content: center;
-
     align-items: center;
     flex-wrap: wrap;
     background-image: url("./img/fondoCardsIndex.png");
@@ -918,62 +917,78 @@ main{
 
 
     /* container 3 CARDS */
-
+    .container3{
+        overflow: hidden;
+    }
 
 
     .container3__card-webgl{
         display: none;
+        overflow: hidden;
     }
 
     .container3__card-webgl2{
         display: none;
+        overflow: hidden;
     }
 
     .container3__card-webgl3{
         display: none;
+        overflow: hidden;
     }
 
     .container3__card-webgl4{
         display: none;
+        overflow: hidden;
     }
 
     .container3__card-webgl5{
         display: none;
+        overflow: hidden;
     }
 
     .container3__card-webgl6{
         display: none;
+        overflow: hidden;
     }
     .container3__card-webgl7{
         display: none;
+        overflow: hidden;
     }
 
     .container3__card-webgl8{
         display: none;
+        overflow: hidden;
     }
     .container3__card-webgl9{
         display: none;
+        overflow: hidden;
     }
     .container3__card-webgl10{
         display: none;
+        overflow: hidden;
     }
 
 
 
     .container3__cardMovile2{
         display: block;
+        overflow: hidden;
     }
     
     .container3__cardMovile1{
         display: block;
+        overflow: hidden;
     }
 
     .container3__cardMovile3{
         display: block;
+        overflow: hidden;
     }
 
     .container3__cardMovile4{
         display: block;
+        overflow: hidden;
     }
 
     
