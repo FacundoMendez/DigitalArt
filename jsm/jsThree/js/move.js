@@ -11,12 +11,11 @@ gsap.from(".container2",{
         start: "top 50%",
         end: "100% 100%",
         pinSpacing:true,
-        scrub: 0.1,
+      /*   scrub: 0.1, */
     }
 })
 
 gsap.from(".container3__card-webgl",{
-    duration:2,
     opacity:0,
     x:"-=300",
     pin:true,
@@ -30,7 +29,6 @@ gsap.from(".container3__card-webgl",{
 })
 
 gsap.from(".container3__card-webgl2",{
-    duration:2,
     opacity:0,
     x:"+=300",
     pin:true,
@@ -45,7 +43,6 @@ gsap.from(".container3__card-webgl2",{
 
 
 gsap.from(".container3__card-webgl4",{
-    duration:2,
     opacity:0,
     x:"-=300",
     pin:true,
@@ -60,7 +57,6 @@ gsap.from(".container3__card-webgl4",{
 
 
 gsap.from(".container3__card-webgl5",{
-    duration:2,
     opacity:0,
     x:"+=300",
     pin:true,
@@ -75,7 +71,6 @@ gsap.from(".container3__card-webgl5",{
 
 
 gsap.from(".container3__card-webgl6",{
-    duration:2,
     opacity:0,
     x:"-=300",
     pin:true,
@@ -91,7 +86,6 @@ gsap.from(".container3__card-webgl6",{
 
 
 gsap.from(".container3__card-webgl8",{
-    duration:2,
     opacity:0,
     x:"+=300",
     pin:true,
@@ -106,7 +100,6 @@ gsap.from(".container3__card-webgl8",{
 
 
 gsap.from(".container3__card-webgl9",{
-    duration:2,
     opacity:0,
     x:"-=300",
     pin:true,
@@ -121,7 +114,6 @@ gsap.from(".container3__card-webgl9",{
 
 
 gsap.from(".container3__card-webgl10",{
-    duration:2,
     opacity:0,
     x:"+=300",
     pin:true,
@@ -135,7 +127,6 @@ gsap.from(".container3__card-webgl10",{
 })
 
 gsap.from(".container3__cardMovile1",{
-    duration:2,
     opacity:0,
     x:"+=300",
     pin:true,
@@ -150,7 +141,6 @@ gsap.from(".container3__cardMovile1",{
 
 
 gsap.from(".container3__cardMovile2",{
-    duration:2,
     opacity:0,
     x:"-=300",
     pin:true,
@@ -165,7 +155,6 @@ gsap.from(".container3__cardMovile2",{
 
 
 gsap.from(".container3__cardMovile3",{
-    duration:2,
     opacity:0,
     x:"+=300",
     pin:true,
@@ -180,7 +169,6 @@ gsap.from(".container3__cardMovile3",{
 
 
 gsap.from(".container3__cardMovile4",{
-    duration:2,
     opacity:0,
     x:"-=300",
     pin:true,
@@ -194,7 +182,6 @@ gsap.from(".container3__cardMovile4",{
 })
 
 gsap.from(".container3__cardMovile5",{
-    duration:2,
     opacity:0,
     x:"+=300",
     pin:true,

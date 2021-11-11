@@ -16,7 +16,7 @@ const material = new THREE.MeshStandardMaterial({
     roughness:2.5,     
   }) 
   material.roughnessMap = texture        
-const geometry= new THREE.BoxGeometry(8,9,0.5)
+const geometry= new THREE.BoxBufferGeometry(8,9,0.5)
 const mesh = new THREE.Mesh(geometry,material)
 
 scene.add(mesh)
@@ -79,7 +79,8 @@ controls.enablePan= false
 
 const renderer = new THREE.WebGLRenderer({
     canvas: canvas,
-    alpha:true  
+    alpha:true,
+    antialias:true
 })
 renderer.setSize ( size.width , size.height)
 renderer.setPixelRatio(Math.min(window.devicePixelRatio),2)

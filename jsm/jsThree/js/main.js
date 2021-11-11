@@ -268,7 +268,7 @@ for (let i = 0; i < 600; i++){
 }
 
 /* tronco  */
-const troncoGeometry= new THREE.CylinderGeometry( 30, 17, 260, 102 );
+const troncoGeometry= new THREE.CylinderBufferGeometry( 30, 17, 260, 102 );
 const troncoMaterial= new THREE.MeshStandardMaterial({color:'brown'} )
 
 
@@ -289,7 +289,7 @@ for (let i = 0; i < 500; i++){
 
 
 /* hojas  */
-const hojasGeometry= new THREE.ConeGeometry( 100, 150, 7,  true);
+const hojasGeometry= new THREE.ConeBufferGeometry( 100, 150, 7,  true);
 const hojasMaterial= new THREE.MeshStandardMaterial({color:'green'} )
 
 
@@ -401,7 +401,7 @@ const materialCard1 = new THREE.MeshBasicMaterial({
     map: card1Texture,
   }) 
   materialCard1.roughnessMap = card1Texture        
-const geometryCard1= new THREE.BoxGeometry(35,45,2)
+const geometryCard1= new THREE.BoxBufferGeometry(35,45,2)
 const card1 = new THREE.Mesh(geometryCard1,materialCard1)
 
 card1.position.y = 45;
@@ -416,7 +416,7 @@ const materialCard2 = new THREE.MeshBasicMaterial({
     map: card2Texture,
   }) 
   materialCard2.roughnessMap = card2Texture        
-const geometryCard2= new THREE.BoxGeometry(40,50,2)
+const geometryCard2= new THREE.BoxBufferGeometry(40,50,2)
 const card2 = new THREE.Mesh(geometryCard2,materialCard2)
 
 card2.position.z = -498
@@ -430,7 +430,7 @@ const materialCard3 = new THREE.MeshBasicMaterial({
     map: card3Texture,
   }) 
   materialCard3.roughnessMap = card3Texture        
-const geometryCard3= new THREE.BoxGeometry(35,45,2)
+const geometryCard3= new THREE.BoxBufferGeometry(35,45,2)
 const card3 = new THREE.Mesh(geometryCard3,materialCard3)
 
 card3.position.z = -498
@@ -446,7 +446,7 @@ const materialCard4 = new THREE.MeshBasicMaterial({
     map: card4Texture,
   }) 
   materialCard4.roughnessMap = card4Texture        
-const geometryCard4= new THREE.BoxGeometry(35,45,2)
+const geometryCard4= new THREE.BoxBufferGeometry(35,45,2)
 const card4 = new THREE.Mesh(geometryCard4,materialCard4)
 
 card4.position.z =-498
@@ -461,7 +461,7 @@ const materialCard5 = new THREE.MeshBasicMaterial({
     map: card5Texture,
   }) 
   materialCard5.roughnessMap = card5Texture        
-const geometryCard5= new THREE.BoxGeometry(35,25,2)
+const geometryCard5= new THREE.BoxBufferGeometry(35,25,2)
 const card5 = new THREE.Mesh(geometryCard5,materialCard5)
 
 card5.position.z = -498
@@ -477,7 +477,7 @@ const materialCard6 = new THREE.MeshBasicMaterial({
     map: card6Texture,
   }) 
   materialCard6.roughnessMap = card6Texture        
-const geometryCard6= new THREE.BoxGeometry(38,28,2)
+const geometryCard6= new THREE.BoxBufferGeometry(38,28,2)
 const card6 = new THREE.Mesh(geometryCard6,materialCard6)
 
 card6.position.z = -498
@@ -491,7 +491,7 @@ const materialCard7 = new THREE.MeshBasicMaterial({
   map: card7Texture,
 }) 
 materialCard7.roughnessMap = card7Texture        
-const geometryCard7= new THREE.BoxGeometry(50,75,2)
+const geometryCard7= new THREE.BoxBufferGeometry(50,75,2)
 const card7 = new THREE.Mesh(geometryCard7,materialCard7)
 
 card7.position.z = -498
@@ -505,7 +505,7 @@ const materialCard8 = new THREE.MeshBasicMaterial({
   map: card8Texture,
 }) 
 materialCard8.roughnessMap = card8Texture        
-const geometryCard8= new THREE.BoxGeometry(38,38,2)
+const geometryCard8= new THREE.BoxBufferGeometry(38,38,2)
 const card8 = new THREE.Mesh(geometryCard8,materialCard8)
 
 card8.position.z = -498
@@ -518,7 +518,7 @@ const materialCard9 = new THREE.MeshBasicMaterial({
   map: card9Texture,
 }) 
 materialCard9.roughnessMap = card9Texture        
-const geometryCard9= new THREE.BoxGeometry(42,50,2)
+const geometryCard9= new THREE.BoxBufferGeometry(42,50,2)
 const card9= new THREE.Mesh(geometryCard9,materialCard9)
 
 card9.position.z = -498
@@ -546,7 +546,7 @@ const materialCardMonster1 = new THREE.MeshBasicMaterial({
     map: cardMonster1Texture,
   }) 
   materialCardMonster1.roughnessMap = cardMonster1Texture        
-const geometryCardMonster1= new THREE.BoxGeometry(40,53,2)
+const geometryCardMonster1= new THREE.BoxBufferGeometry(40,53,2)
 const card1Monster = new THREE.Mesh(geometryCardMonster1,materialCardMonster1)
 
 card1Monster.position.y = 40;
@@ -562,7 +562,7 @@ const materialCardMonster2 = new THREE.MeshBasicMaterial({
     map: cardMonster2Texture,
   }) 
   materialCardMonster2.roughnessMap = cardMonster2Texture        
-const geometryCardMonster2= new THREE.BoxGeometry(40,36,2)
+const geometryCardMonster2= new THREE.BoxBufferGeometry(40,36,2)
 const card2Monster = new THREE.Mesh(geometryCardMonster2,materialCardMonster2)
 
 card2Monster.position.z = -498
@@ -576,7 +576,7 @@ const materialCardMonster3 = new THREE.MeshBasicMaterial({
     map: cardMonster3Texture,
   }) 
   materialCardMonster3.roughnessMap = cardMonster3Texture        
-const geometryCardMonster3= new THREE.BoxGeometry(56,58,2)
+const geometryCardMonster3= new THREE.BoxBufferGeometry(56,58,2)
 const card3Monster = new THREE.Mesh(geometryCardMonster3,materialCardMonster3)
 
 card3Monster.position.z = -498
@@ -591,7 +591,7 @@ const materialCardMonster4 = new THREE.MeshBasicMaterial({
     map: cardMonster4Texture,
   }) 
   materialCardMonster4.roughnessMap = cardMonster4Texture        
-const geometryCardMonster4= new THREE.BoxGeometry(54,30,2)
+const geometryCardMonster4= new THREE.BoxBufferGeometry(54,30,2)
 const card4Monster = new THREE.Mesh(geometryCardMonster4,materialCardMonster4)
 
 card4Monster.position.z =-498
@@ -606,7 +606,7 @@ const materialCardMonster5 = new THREE.MeshBasicMaterial({
     map: cardMonster5Texture,
   }) 
   materialCardMonster5.roughnessMap = cardMonster5Texture        
-const geometryCardMonster5= new THREE.BoxGeometry(45,45,2)
+const geometryCardMonster5= new THREE.BoxBufferGeometry(45,45,2)
 const card5Monster = new THREE.Mesh(geometryCardMonster5,materialCardMonster5)
 
 card5Monster.position.z = -498
@@ -622,7 +622,7 @@ const materialCardMonster6 = new THREE.MeshBasicMaterial({
     map: cardMonster6Texture,
   }) 
   materialCardMonster6.roughnessMap = cardMonster6Texture        
-const geometryCardMonster6= new THREE.BoxGeometry(50,40,2)
+const geometryCardMonster6= new THREE.BoxBufferGeometry(50,40,2)
 const card6Monster = new THREE.Mesh(geometryCardMonster6,materialCardMonster6)
 
 card6Monster.position.z = -498
