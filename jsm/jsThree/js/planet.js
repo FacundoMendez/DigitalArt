@@ -27,7 +27,7 @@ window.addEventListener ('resize', () => {
 
 
 const camera = new THREE.PerspectiveCamera(60, size.width/size.height, 0.1,100)
-camera.position.z = 2.8
+camera.position.z = 3
 scene.add(camera)
 
 
@@ -69,9 +69,7 @@ const textureLoader = new THREE.TextureLoader()
 
 const texturePlaneta = textureLoader.load('./jsm/jsThree/img/texturePlaneta/earthmap1k.jpg')
 const bumpMapPlaneta = textureLoader.load('./jsm/jsThree/img/texturePlaneta/earthbump.jpg')
-
 const texturecloud = textureLoader.load('./jsm/jsThree/img/texturePlaneta/earthCloud.png')
-
 const textureGalaxy = textureLoader.load('./jsm/jsThree/img/texturePlaneta/galaxy.png')
 
 
@@ -106,7 +104,7 @@ const cloudMesh = new THREE.Mesh(cloudGeometry, cloudMetarial);
 scene.add(cloudMesh);
 
 // galaxy geometry
-const starGeometry = new THREE.SphereBufferGeometry(80, 64, 64);
+const starGeometry = new THREE.SphereBufferGeometry(80, 32, 32);
 
 // galaxy material
 const starMaterial = new THREE.MeshBasicMaterial({
@@ -132,9 +130,6 @@ pointLight.position.set(5, 3, 5);
 scene.add(pointLight);
 
 
-
-
-const clock = new THREE.Clock()
 
 const animate = () =>{
 

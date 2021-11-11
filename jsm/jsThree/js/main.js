@@ -1,6 +1,5 @@
 import {PointerLockControls} from "../three.js-master/examples/jsm/controls/PointerLockControls.js"
 
-
 const canvas = document.querySelector('.boxWebgl')
 
 
@@ -313,25 +312,25 @@ for (let i = 0; i < 500; i++){
 const fontLoader = new THREE.FontLoader()
 
     fontLoader.load(
-        '../jsm/jsThree/three.js-master/examples/fonts/helvetiker_bold.typeface.json',        //cargamos la fuente
+        '../jsm/jsThree/three.js-master/examples/fonts/helvetiker_bold.typeface.json',       
         (font) =>
         {
             const textGeometry = new THREE.TextBufferGeometry(
                 'DigitalArt',
                 {
-                    font: font,                                      //adquirimos la fuenta ya cargada previamente
-                    size: 15.5,                                      //proporcionamos el tamaño
-                    height: 5.1,                                    //proporcinamos el grosor
-                    curveSegments: 5,                              //proporcionamos la curvatura (sirve para optimizar mas bajo mas optimizado)
-                    bevelEnable: true,                              //proporcionam
-                    bevelThickness: 0.03,                           //proporcionamos el grosor
-                    bevelSize: 0.02,                                // 
-                    bevelOffset: 0,                                 //
-                    bevelSegments: 4                                //sirve para optimizar los segmentos ( mas bajo mas optimizado)
+                    font: font,                                   
+                    size: 15.5,                                      
+                    height: 5.1,                                    
+                    curveSegments: 5,                              
+                    bevelEnable: true,                              
+                    bevelThickness: 0.03,                           
+                    bevelSize: 0.02,                                
+                    bevelOffset: 0,                                 
+                    bevelSegments: 4                                
                 }
             )
              
-            textGeometry.center()                                //centramos el texto en el centro
+            textGeometry.center()                                
 
             const textMaterial = new THREE.MeshNormalMaterial()          
                 //textMaterial.matcap = textureCube
@@ -349,7 +348,7 @@ const fontLoader = new THREE.FontLoader()
     const fontLoader2 = new THREE.FontLoader()
 
     fontLoader2.load(
-        '../jsm/jsThree/three.js-master/examples/fonts/helvetiker_bold.typeface.json',       //cargamos la fuente
+        '../jsm/jsThree/three.js-master/examples/fonts/helvetiker_bold.typeface.json',       
         (font) =>
         {
             const textGeometry = new THREE.TextBufferGeometry(
@@ -367,7 +366,7 @@ const fontLoader = new THREE.FontLoader()
                 }
             )
              
-            textGeometry.center()                                //centramos el texto en el centro
+            textGeometry.center()                            
 
             const textMaterial = new THREE.MeshNormalMaterial()          
                 //textMaterial.matcap = textureCube
@@ -394,7 +393,7 @@ const card5Texture = textureLoader.load( "../img/collections/dragonBall/7.png"  
 const card6Texture = textureLoader.load( "../img/collections/dragonBall/6.png"  );
 const card7Texture = textureLoader.load( "../img/collections/dragonBall/2.png"  );
 const card8Texture = textureLoader.load( "../img/collections/dragonBall/3.png"  );
-const card9Texture = textureLoader.load( "../img/collections/dragonBall/4.png"  );
+const card9Texture = textureLoader.load( "../img/collections/dragonBall/10.png"  );
 //Card1 goku
 
 const materialCard1 = new THREE.MeshBasicMaterial({
@@ -723,20 +722,6 @@ const renderer = new THREE.WebGLRenderer({
 renderer.setSize ( size.width , size.height)
 renderer.setPixelRatio(Math.min(window.devicePixelRatio),2)
 renderer.setClearColor("#262837")
-renderer.shadowMap.enabled = true
-
-
-//SOMBRAS
-
-/* luzLuna.castShadow = true
-luzPuerta.castShadow = true
-moviLuz1.castShadow = true
-moviLuz2.castShadow = true
-moviLuz3.castShadow = true
-
-box.castShadow = true */
-/* plane.receiveShadow = true */
-
 
 
 
@@ -829,7 +814,7 @@ document.addEventListener('keyup', (e)=>{
 
 
 tiempoI = Date.now()
-vel = 100
+vel = 120
 yi = 12
 vi = 20
 
