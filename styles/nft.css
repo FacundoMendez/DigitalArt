@@ -308,7 +308,7 @@ border-bottom: none;
 
 
 
-/*top 10 creators  */
+/*top 10 collections  */
 
 .topCollection{
   padding-top: 15rem;
@@ -408,7 +408,7 @@ border-bottom: none;
 
 .slidex img{
   border: 3px solid rgba(255, 255, 255, 0.425);
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 
