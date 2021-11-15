@@ -102,7 +102,7 @@ const animate = () =>{
     controls.update()
     renderer.render(scene,camera)
     window.requestAnimationFrame(animate)
-
+    renderer.autoClear = true
 }
 
 animate()

@@ -103,7 +103,7 @@ const animate = () =>{
    /*  mesh.rotation.y -= 0.004 */
     renderer.render(scene,camera)
     window.requestAnimationFrame(animate)
-
+    renderer.autoClear = true
 }
 
 animate()

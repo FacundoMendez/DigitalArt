@@ -83,8 +83,8 @@ const renderer = new THREE.WebGLRenderer({
     antialias:true
 })
 renderer.setPixelRatio(Math.min(window.devicePixelRatio),2)
-renderer.setSize ( size.width/2 , size.height/2)
-renderer.autoClear = false
+renderer.setSize ( size.width , size.height)
+renderer.state.reset()
 
 
 
@@ -103,6 +103,7 @@ const animate = () =>{
     controls.update()
     renderer.render(scene,camera)
     window.requestAnimationFrame(animate)
+    renderer.autoClear = true
 
 }
 

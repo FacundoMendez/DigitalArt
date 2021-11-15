@@ -889,7 +889,7 @@ const animate = () =>{
 
     window.requestAnimationFrame(animate)
 
-    
+    renderer.autoClear = true
 
 }
 
