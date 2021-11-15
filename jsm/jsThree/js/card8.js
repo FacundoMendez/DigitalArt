@@ -46,8 +46,8 @@ scene.add(pointLight4)
 
 
 const size = {
-    width :  window.innerWidth,
-    height : window.innerHeight
+    width :  window.innerWidth/1.4,
+    height : window.innerHeight/1.4
 }
 
 window.addEventListener ('resize', () => {

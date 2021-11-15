@@ -46,8 +46,8 @@ scene.add(pointLight4)
 
 
 const size = {
-    width :  window.innerWidth,
-    height : window.innerHeight
+    width :  window.innerWidth/1.4,
+    height : window.innerHeight/1.4
 }
 
 window.addEventListener ('resize', () => {
@@ -87,6 +87,7 @@ const renderer = new THREE.WebGLRenderer({
 })
 renderer.setPixelRatio(Math.min(window.devicePixelRatio),2)
 renderer.setSize ( size.width , size.height,false)
+renderer.state.reset()
 
 
 const clock = new THREE.Clock()
