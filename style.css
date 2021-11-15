@@ -75,16 +75,15 @@ main{
  
 /* CONTAINER 3-*/
 
+
 .container3{
     transform: translate3d(0px, 0px, 0px) scale(0.85, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
 
 }
-
 
 
 .container3__text{
@@ -550,6 +549,12 @@ main{
     .container3__card-webgl6{
         display: none;
     }
+
+
+   
+
+
+
 
 
     .container3__box{
