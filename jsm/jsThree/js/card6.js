@@ -6,7 +6,7 @@ const canvas = document.querySelector('.container3__card-webgl6')
 const scene = new THREE.Scene()
 
 
-const texture = new THREE.TextureLoader().load( "./img/collections/mulan/14.png" );
+const texture = new THREE.TextureLoader().load( "./img/collections/mulan/14.webP" );
 
 
 

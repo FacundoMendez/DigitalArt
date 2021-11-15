@@ -6,7 +6,7 @@ const canvas = document.querySelector('.container3__card-webgl5')
 const scene = new THREE.Scene()
 
 
-const texture = new THREE.TextureLoader().load( "./img/collections/shrek/7.png" );
+const texture = new THREE.TextureLoader().load( "./img/collections/shrek/7.webP" );
 
 
 
