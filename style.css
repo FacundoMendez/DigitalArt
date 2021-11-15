@@ -547,7 +547,9 @@ main{
     .container3__card-webgl9{
         display: none;
     }
-
+    .container3__card-webgl6{
+        display: none;
+    }
 
 
     .container3__box{
@@ -1113,7 +1115,8 @@ main{
     }
 
     /* container 3 cards */
-
+ 
+    
 
     .container3__box{
         display: flex;
