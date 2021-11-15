@@ -6,7 +6,7 @@ const canvas = document.querySelector('.container3__card-webgl')
 const scene = new THREE.Scene()
 
 
-const texture = new THREE.TextureLoader().load( "./jsm/jsThree/img/8.webP" );
+const texture = new THREE.TextureLoader().load( "./jsm/jsThree/img/8.webp" );
 
 
 
@@ -83,7 +83,7 @@ const renderer = new THREE.WebGLRenderer({
     antialias:true
 })
 renderer.setPixelRatio(Math.min(window.devicePixelRatio),2)
-renderer.setSize ( size.width , size.height)
+renderer.setSize ( size.width/2 , size.height/2)
 renderer.autoClear = false
 
 

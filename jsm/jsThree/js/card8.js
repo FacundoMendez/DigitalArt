@@ -6,7 +6,7 @@ const canvas = document.querySelector('.container3__card-webgl8')
 const scene = new THREE.Scene()
 
 
-const texture = new THREE.TextureLoader().load( "./img/collections/elReyLeon/11.webP" );
+const texture = new THREE.TextureLoader().load( "./img/collections/elReyLeon/11.webp" );
 
 
 

@@ -6,7 +6,7 @@ const canvas = document.querySelector('.container3__card-webgl2')
 const scene = new THREE.Scene()
 
 
-const texture = new THREE.TextureLoader().load( "./img/collections/atlantis/1.webP" );
+const texture = new THREE.TextureLoader().load( "./img/collections/atlantis/1.webp" );
 
 
 
