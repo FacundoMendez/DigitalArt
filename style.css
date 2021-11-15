@@ -27,6 +27,8 @@ main{
 
 .planetWebGL{
     overflow: hidden;
+    width: 100%;
+    height: 100vh;
 }
 
 
@@ -36,74 +38,138 @@ main{
     width: 100%;
     min-height: 100vh;
     position: relative;
+    box-shadow: 0 0 2rem #000000;
+
 }
 
 
-.planet__title{
-    font-family: 'Oranienbaum', serif;
-    color: white;
-    font-size: 5rem;
+.planet__title {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 7px;
+    word-spacing: 12px;
+    text-transform: uppercase;
+    color:rgb(238, 238, 238);
+    top: 40%;
     position: absolute;
-    font-style: italic;
-    top: 37%;
-    left: 7%;
+    width: 100%;
     z-index: 100;
+
 }
 
 .planet__scroll p{
     color: rgba(255, 255, 255, 0.445);
     font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 7px;
+    word-spacing: 12px;
+    text-transform: uppercase;
     width: 100%;
     position: absolute ;
     text-align: center;
     bottom:5%;
     z-index: 100;
+
 }
 
-/* 
-.planet__enlace{
-    position: absolute;
+ 
+/* CONTAINER 3-*/
+
+.container3{
+    transform: translate3d(0px, 0px, 0px) scale(0.85, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+
+
+.container3__text{
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 7px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    color:rgb(238, 238, 238);
+    text-align: center;
+    padding: 0 15rem;
+    padding-bottom: 10rem;
+}
+
+
+.container3__title{
+    width: 100%;
+    padding-bottom: 8rem;
+}
+
+.container3__title p{
+    font-size: 5rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 7px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    color:rgb(238, 238, 238);
+    text-align: center;
+}
+
+/* CARDS*/
+
+.container3__card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 25%;
+
+}
+
+
+  /* Enlaces */
+
+.container3__enlaceNft{
     display: flex;
     justify-content: flex-start;
-    width: 100%;
-    top:50%;
-    left: 6%;
-    padding-top: 3rem;
-    padding-left: 2rem;
+    position: relative;
+    bottom: 20rem;
 }
 
-.planet__enlace a{
-    font-size: 2.5rem;
+.container3__enlaceNft a{
+    display: flex;
+    flex-wrap: wrap;
     text-decoration: none;
-    color: white;
     z-index: 1;
-    padding: 1rem 2rem;
-    height: 100%;
-    width: 100%;
-    width: max-content;
-    font-weight: 600;
-    font-style: italic;
+    padding: 0.8rem 2.6rem;
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 4px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    color:rgb(238, 238, 238);
 }
 
-
-.planet__circulo{
+.container3__circuloNft{
     position: absolute;
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
     border-radius: 50%;
     background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
     background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
     background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
 }
 
-.planet__enlace a:hover ~ .planet__circulo{
+.container3__enlaceNft a:hover ~ .container3__circuloNft{
+    background-color:rgb(255, 1, 86);
     border-radius: 2%;
-    width: 300px;
+    width: 700px;
     color: white;
     transition: all 0.9s ;
 }
 
- */
 
 
 /* CONTEINER 2 -ABOUT- */
@@ -199,120 +265,6 @@ main{
     transition: all 0.9s ;
 }
 
-
-/* CONTAINER 3-*/
-
-
-.container3__box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-image: url("./img/backblue.png");
-    background-size: contain;
-}
-
-
-
-
-.container3__cardMovile2{
-    display: none;
-}
-
-.container3__cardMovile1{
-    display: none;
-}
-
-.container3__cardMovile3{
-    display: none;
-}
-.container3__cardMovile4{
-    display: none;
-}
-
-.container3__cardMovile5{
-    display: none;
-}
-
-
-
-.container3__text{
-    font-size: 2.5rem;
-    color: white;
-    font-weight: 700;
-    padding: 0 13rem;
-    padding-bottom: 15rem;
-    text-align: center;
-}
-
-
-.container3__title{
-    width: 100%;
-    padding: 10rem 0;
-}
-
-.container3__title p{
-    text-align: center;
-    font-size: 3.5rem;
-    font-style: italic;
-    font-weight: 900;
-    color: white;
-}
-
-
-
-/* CARDS*/
-
-
-.container3__card{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding-bottom: 15%;
-}
-
-
-  /* Enlaces */
-
-
-.container3__enlaceNft{
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    bottom: 20rem;
-}
-
-.container3__enlaceNft a{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 4rem;
-    text-decoration: none;
-    color: white;
-    z-index: 1;
-    padding: 0.5rem 2rem;
-    width: max-content;
-}
-
-.container3__circuloNft{
-    position: absolute;
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-    background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-    background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-    background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-}
-
-.container3__enlaceNft a:hover ~ .container3__circuloNft{
-    background-color:rgb(255, 1, 86);
-    border-radius: 2%;
-    width: 500px;
-    color: white;
-    transition: all 0.9s ;
-}
 
 
 
@@ -888,79 +840,6 @@ main{
     }
 
 
-    .container3__card-webgl{
-        display: none;
-        overflow: hidden;
-    }
-
-    .container3__card-webgl2{
-        display: none;
-        overflow: hidden;
-    }
-
-    .container3__card-webgl3{
-        display: none;
-        overflow: hidden;
-    }
-
-    .container3__card-webgl4{
-        display: none;
-        overflow: hidden;
-    }
-
-    .container3__card-webgl5{
-        display: none;
-        overflow: hidden;
-    }
-
-    .container3__card-webgl6{
-        display: none;
-        overflow: hidden;
-    }
-    .container3__card-webgl7{
-        display: none;
-        overflow: hidden;
-    }
-
-    .container3__card-webgl8{
-        display: none;
-        overflow: hidden;
-    }
-    .container3__card-webgl9{
-        display: none;
-        overflow: hidden;
-    }
-    .container3__card-webgl10{
-        display: none;
-        overflow: hidden;
-    }
-
-
-
-    .container3__cardMovile2{
-        display: block;
-        overflow: hidden;
-    }
-    
-    .container3__cardMovile1{
-        display: block;
-        overflow: hidden;
-    }
-
-    .container3__cardMovile3{
-        display: block;
-        overflow: hidden;
-    }
-
-    .container3__cardMovile4{
-        display: block;
-        overflow: hidden;
-    }
-
-    .container3__cardMovile5{
-        display: block;
-        overflow: hidden;
-    }
     
     .container3__title{
         width: 100%;

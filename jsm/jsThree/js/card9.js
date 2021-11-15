@@ -44,13 +44,13 @@ scene.add(pointLight4)
 
 
 const size = {
-    width : 700,
-    height : 700
+    width :  window.innerWidth,
+    height : window.innerHeight
 }
 
 window.addEventListener ('resize', () => {
- /*    size.width = window.innerWidth
-    size.height = window.innerHeight */
+    size.width = window.innerWidth
+    size.height = window.innerHeight
 
     camera.aspect = size.width / size.height
     camera.updateProjectionMatrix()
@@ -84,8 +84,9 @@ const renderer = new THREE.WebGLRenderer({
     alpha:true,
     antialias:true   
 })
-renderer.setSize ( size.width , size.height)
 renderer.setPixelRatio(Math.min(window.devicePixelRatio),2)
+renderer.setSize ( size.width , size.height)
+renderer.state.reset()
 
 
 const clock = new THREE.Clock()
@@ -107,3 +108,4 @@ const animate = () =>{
 animate()
 
 renderer.render(scene,camera)
+renderer.clear()
