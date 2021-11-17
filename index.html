@@ -18,8 +18,7 @@
     <script defer type="module" src="./jsm/jsThree/js/card2.js"></script>
     <script defer type="module" src="./jsm/jsThree/js/card4.js"></script>
     <script defer type="module" src="./jsm/jsThree/js/card6.js"></script>
-    <script defer type="module" src="./jsm/jsThree/js/card8.js"></script>
-    <script defer type="module" src="./jsm/jsThree/js/card9.js"></script>
+
     <title>DigitalArt</title>
 </head>
 
@@ -81,35 +80,59 @@
         </div>
 
 
-        <div class="container3">
-            <div class="container3__title">
-                <p> A unique trip to your childhood</p>
-            </div>
-            <div class="container3__text">
-                <p>DigitalArt brings its collection of unique NFTs so that you can explore and enjoy the art that
-                    will make you remember your childhood again. Join us on this trip and get your NFT works of art
-                    that will be in our museum!
-                </p>
-            </div>
-            <div class="container3__card">
-                <canvas class="container3__card-webgl"></canvas>
-        
-                <canvas class="container3__card-webgl2"></canvas>
-        
-                <canvas class="container3__card-webgl4"></canvas>
-        
-                <canvas class="container3__card-webgl6"></canvas>
-        
-                <canvas class="container3__card-webgl8"></canvas>
-        
-                <canvas class="container3__card-webgl9"></canvas>
-        
-            </div>
-            <div class="container3__enlaceNft">
-                <a href="./pages/collection.html"> > &nbsp;&nbsp; The Best Collections</a>
-                <div class="container3__circuloNft"></div>
+        <div class="container3__fondo">
+            <canvas class="starsWebGL"></canvas>
+
+            <div class="container3">
+                
+                <div class="container3__title">
+                    <p> A unique trip to your childhood</p>
+                </div>
+                <div class="container3__text">
+                    <p>DigitalArt brings its collection of unique NFTs so that you can explore and enjoy the art that
+                        will make you remember your childhood again. Join us on this trip and get your NFT works of art
+                        that will be in our museum!
+                    </p>
+                </div>
+                
+                <div class="container3__card">
+                    <section class="container3__movil">
+                        <div class="card1"></div>
+                        <div class="card2"></div>
+                        <div class="card3"></div>
+                        <div class="card4"></div>
+                        <div class="card5"></div>
+                        <div class="card6"></div>
+                    </section>
+
+
+            
+                    <div class="container3__box2">
+                        <canvas class="container3__card-webgl2"></canvas>
+                    </div>
+
+                    <div class="container3__box1">
+                        <canvas class="container3__card-webgl"></canvas>
+                    </div>
+            
+                    <div class="container3__box4">
+                        <canvas class="container3__card-webgl4"></canvas>
+                    </div>
+
+                    <div class="container3__box6">
+                        <canvas class="container3__card-webgl6"></canvas>
+                    </div>
+                </div>
+                <div class="container3__enlaceNft">
+                    <a href="./pages/collection.html"> > &nbsp;&nbsp; The Best Collections</a>
+                    <div class="container3__circuloNft"></div>
+                </div>
             </div>
         </div>
+
+
+
+
 
         <div class="container2-color">
             <div class="container2">
@@ -205,8 +228,12 @@
         <script src="./jsm/jsThree/three.js-master/build/three.min.js"></script>
         
         <script type="module" src="./jsm/jsThree/js/planet.js"></script>
+        <script type="module" src="./jsm/jsThree/js/stars.js"></script>
 
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js" integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="module" src="./jsm/jsThree/js/move.js"></script>
         
 </body>
 

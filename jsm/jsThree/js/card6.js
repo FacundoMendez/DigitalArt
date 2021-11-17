@@ -46,13 +46,13 @@ scene.add(pointLight4)
 
 
 const size = {
-    width :  window.innerWidth/1.4,
-    height : window.innerHeight/1.4
+    width :  300,
+    height : 500
 }
 
 window.addEventListener ('resize', () => {
-    size.width = window.innerWidth
-    size.height = window.innerHeight
+/*     size.width = window.innerWidth
+    size.height = window.innerHeight */
 
     camera.aspect = size.width / size.height
     camera.updateProjectionMatrix()
@@ -98,8 +98,9 @@ const animate = () =>{
     camera.lookAt(camera,scene)
     controls.update()
 
-    mesh.position.y= Math.sin(time)*0.2
-    mesh.rotation.y= Math.sin(time)* -0.1
+    mesh.position.y= Math.sin(time)*0.3
+    mesh.rotation.y= Math.sin(time)*0.3
+
    /*  mesh.rotation.y -= 0.004 */
     renderer.render(scene,camera)
     window.requestAnimationFrame(animate)
