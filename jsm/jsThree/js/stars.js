@@ -65,7 +65,7 @@ geometry.setAttribute("position", new THREE.BufferAttribute(position,3))
 const material = new THREE.PointsMaterial({
     size:0.3,
     sizeAttenuation: true,
-    color: new THREE.Color("#ff00ff"),
+    color: new THREE.Color("#4DaaFF"),
     map:starTexture,
     alphaMap:starTexture,
     transparent: true,
