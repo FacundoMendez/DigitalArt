@@ -147,13 +147,13 @@ gsap.from(".container3__enlaceNft",{
 })
 
 gsap.from(".container4",{
-    opacity:-2,
+    opacity:-5,
     scale:2,
     scrollTrigger:{
         trigger: ".container4",
-        start: "top 130%",
+        start: "top 150%",
         end: "100% 100%",
-        scrub: 2,
+        scrub: 1,
     }
 })
 
@@ -187,7 +187,7 @@ gsap.from(".container4__line",{
         trigger: ".container4__line",
         start: "top 150%",
         end: "100% 100%",
-        scrub: 3,
+        scrub: 2,
     }
 })
 
@@ -200,7 +200,7 @@ gsap.from(".container3__title",{
         trigger: ".container3__title",
         start: "top 50%",
         end: "100% 100%",
-        scrub: 2,
+        scrub: 5,
     }
 })
 
@@ -209,9 +209,9 @@ gsap.from(".container3__text",{
     scale:.5,
     scrollTrigger:{
         trigger: ".container3__text",
-        start: "top 50%",
+        start: "top 80%",
         end: "100% 100%",
-        scrub: 2,
+        scrub: 4,
     }
 })
 
