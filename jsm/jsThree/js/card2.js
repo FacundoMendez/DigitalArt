@@ -46,7 +46,7 @@ scene.add(pointLight4)
 
 
 const size = {
-    width :  300,
+    width :  350,
     height : 500
 }
 

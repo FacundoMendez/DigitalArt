@@ -133,74 +133,14 @@ gsap.from(card6,{
 
 
 
-gsap.from(".container3__enlaceNft",{
-    duration:3,
-    opacity:0,
-    y:"+=200",
-    ease:"linear",
-    scrollTrigger:{
-        trigger: ".container3__enlaceNft",
-        start: "top 150%",
-        end: "100% 100%",
-        scrub: 2,
-    }
-})
-
-gsap.from(".container4",{
-    opacity:-5,
-    scale:2,
-    scrollTrigger:{
-        trigger: ".container4",
-        start: "top 150%",
-        end: "100% 100%",
-        scrub: 1,
-    }
-})
-
-gsap.from(".container4__text2",{
-    opacity:-4,
-    x: 600,
-    scrollTrigger:{
-        trigger: ".container4__text2",
-        start: "top 60%",
-        end: "100% 100%",
-        scrub: 3,
-    }
-})
-
-gsap.from(".container4__text1",{
-    opacity:-4,
-    x: -600,
-    scrollTrigger:{
-        trigger: ".container4__text1",
-        start: "top 60%",
-        end: "100% 100%",
-        scrub: 3,
-    }
-})
-
-gsap.from(".container4__line",{
-    opacity:-4,
-    y: 300,
-    ease: "Back.easeOut",
-    scrollTrigger:{
-        trigger: ".container4__line",
-        start: "top 150%",
-        end: "100% 100%",
-        scrub: 2,
-    }
-})
-
-
-
 gsap.from(".container3__title",{
     opacity:-4,
     scale:.5,
     scrollTrigger:{
         trigger: ".container3__title",
-        start: "top 50%",
+        start: "top 80%",
         end: "100% 100%",
-        scrub: 5,
+        scrub: 4,
     }
 })
 
@@ -216,17 +156,15 @@ gsap.from(".container3__text",{
 })
 
 gsap.from(".starsWebGL",{
-    opacity:-4,
+    opacity:-2,
     scale:.5,
     scrollTrigger:{
         trigger: ".starsWebGL",
-        start: "top 50%",
+        start: "top 100%",
         end: "100% 100%",
-        scrub: 2,
+        scrub: 4,
     }
 })
-
-
 
 
 /* cards */
@@ -279,4 +217,76 @@ gsap.from(".container3__card-webgl6",{
     }
 })
 
+
+gsap.from(".container3__enlaceNft",{
+    duration:3,
+    opacity:0,
+    y:"+=200",
+    ease:"linear",
+    scrollTrigger:{
+        trigger: ".container3__enlaceNft",
+        start: "top 150%",
+        end: "100% 100%",
+        scrub: 2,
+    }
+})
+
+
+/* CONTAINER 4 */
+
+gsap.from(".container4",{
+    opacity:-3,
+    scale:2,
+    scrollTrigger:{
+        trigger: ".container4",
+        start: "top 100%",
+        end: "100% 100%",
+        scrub: 2,
+    }
+})
+
+gsap.from(".container4__title",{
+    opacity:-3,
+    scale:2,
+    scrollTrigger:{
+        trigger: ".container4__title",
+        start: "top 100%",
+        end: "100% 100%",
+        scrub:1.8,
+    }
+})
+
+gsap.from(".container4__text2",{
+    opacity:-3,
+    x: 600,
+    scrollTrigger:{
+        trigger: ".container4__text2",
+        start: "top 60%",
+        end: "100% 100%",
+        scrub: 2.2,
+    }
+})
+
+gsap.from(".container4__text1",{
+    opacity:-2,
+    x: -600,
+    scrollTrigger:{
+        trigger: ".container4__text1",
+        start: "top 60%",
+        end: "100% 100%",
+        scrub: 2.2,
+    }
+})
+
+gsap.from(".container4__line",{
+    opacity:-2,
+    y: 300,
+    ease: "Back.easeOut",
+    scrollTrigger:{
+        trigger: ".container4__line",
+        start: "top 150%",
+        end: "100% 100%",
+        scrub: 2.2,
+    }
+})
 

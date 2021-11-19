@@ -193,12 +193,8 @@ main{
     margin: 0 25%;
     text-align: center;
     margin-top: 15rem;
-  }
+}
   
-
-
-
-
 
 /* CONTAINER 3-*/
 
@@ -217,7 +213,6 @@ main{
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-
 }
 
 
@@ -227,7 +222,6 @@ main{
     width: 100%;
 }
 
-
 .container3__card{
     display: flex;
     flex-direction: row;
@@ -236,7 +230,6 @@ main{
     flex-wrap: wrap;
     padding-bottom: 20%;
     width: 100%;
-
 }
 
 .container3__box1{
@@ -275,11 +268,11 @@ main{
     font-family: 'Prompt', sans-serif;
     letter-spacing: 0.1px;
     word-spacing: -1px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     color:rgb(238, 238, 238);
     text-align: center;
-    padding: 0 45rem;
+    padding: 0 30rem;
     padding-bottom: 15rem;
 }
 
@@ -554,6 +547,147 @@ main{
     
     }
     
+    
+    /* CONTAINER 4 -- WHAT IS AN NFT */
+    .container4{
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 20rem 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container4__title p{
+        font-size: 8rem;
+    }
+
+
+    .container4__text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:0rem;
+    }
+    .container4__text1 p{
+        letter-spacing: .9px;
+        font-family: 'Poppins';
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .container4__text1{
+        font-size: 2rem;
+        color: white;
+        width: 100%;
+        padding: 3rem 4rem;
+        text-align: center;
+        margin-right: 0rem;
+    }
+
+    .container4__text2{
+        font-size: 2rem;
+    }
+
+    .container4__text2-d1{
+        text-align: start;
+        padding-left: 0;
+        width: 100%;
+        font-size: 2rem;
+
+    }
+
+    .container4__text2-title{
+        padding-bottom: 2.5rem;
+        width: 100%;
+        text-align: center;
+        font-size: 3.2rem;
+
+    }
+
+
+    .container4__text2 li{
+        margin-left: 3rem;
+    }
+
+    .container4__text2-d1{
+        padding: 0.2rem 0;
+
+    }
+
+    .container4__text2 span{
+        color: white;
+    }
+
+
+
+
+    .container4__line {
+        width: 50%;
+        border-radius: 80%;
+        height: 0.5rem;
+        margin: 0 25%;
+        text-align: center;
+        margin-top: 15rem;
+    }
+    
+
+    .container3__box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .container3__title{
+        width: 100%;
+        padding: 5rem 0;
+    }
+    .container3__text{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+        font-weight: 100;
+    }
+
+    .container3__enlaceNft{
+        bottom: 0rem;
+        padding-bottom: 15rem;
+    }
+    
+    .container3__enlaceNft a{
+        font-size: 2.5rem;
+        padding: 0.7rem 2rem;
+    }
+    
+    .container3__circuloNft{
+        width: 5rem;
+        height: 5rem;
+    }
+    .container3__enlaceNft a:hover ~ .container3__circuloNft{
+        width: 500px;
+    }
+
+    .container3__title p{
+        font-size: 3rem;
+        margin-top: 20rem;
+    }
+    .container3__card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding:0rem 0rem;
+        flex-flow: column-reverse;   
+        padding-bottom: 10rem;
+    }
+
+
+
 
 
 /* CONTEINER 2 -ABOUT- */
@@ -696,6 +830,7 @@ main{
         text-shadow: 0 0.0 0.2rem rgb(0, 0, 0);
         margin-bottom: 14%;
         font-size:2.5rem;
+        padding: 2rem;
     }
     .scroll{
         font-size: 2rem;
@@ -716,7 +851,7 @@ main{
     .card1{
         background-image: url("./img/cc/1.png");
         background-size: cover;
-        width: 60%;
+        width: 55%;
         height: 30rem;
         margin: 10rem 2rem;
 
@@ -724,7 +859,7 @@ main{
     .card2{
         background-image: url("./img/cc/2.png");
         background-size: cover;
-        width: 60%;
+        width: 55%;
         height: 30rem;
         margin: 10rem 2rem;
 
@@ -734,7 +869,7 @@ main{
     .card3{
         background-image: url("./img/cc/3.png");
         background-size: cover;
-        width: 60%;
+        width: 55%;
         height: 30rem;
         margin: 10rem 2rem;
 
@@ -744,7 +879,7 @@ main{
     .card4{
         background-image: url("./img/cc/4.png");
         background-size: cover;
-        width: 60%;
+        width: 55%;
         height: 30rem;
         margin: 10rem 2rem;
 
@@ -815,6 +950,7 @@ main{
 
     .container3__title p{
         font-size: 3rem;
+        margin-top: 20rem;
     }
     .container3__card{
         display: flex;
@@ -826,172 +962,91 @@ main{
         flex-flow: column-reverse;   
         padding-bottom: 10rem;
     }
-  
 
-    /* NFT */
 
+    /* CONTAINER 4 -- WHAT IS AN NFT */
     .container4{
-        width: 100%;
-        min-height: 150vh;
-        position: relative;
-    }
-
-    .videoNft{
-        position: absolute;
-        width: 100%;
-    }
-
-    .boxNft{
-        color: white;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        padding-top: 10%;
-        padding-left: 5%;
-        width: 100%;
-        height: 150vh;
-    }
-
-    .mov3{
-        padding: 10rem 4rem;
-        width: 100%;
-    }
-
-    .titleNft{
-        font-size: 2rem;
-        width: 100%;
-        padding:2rem;
+        background-color: rgb(0, 0, 0);
         text-align: center;
-    }
-
-    .imgNft{
-        padding-left: 0;
-        max-width: 100%;
-        padding-bottom: 15rem;
-
-    }
-    .imgNft video{
-        margin-left: 14rem;
-        width: 60%;
-        border: 3px outset #b405c4;
-        border-radius: 5%;
-        box-shadow: 0 0 0.5rem white;
-        box-shadow: 0 0 4rem #b405c4;
-    }
-
-    .textNft p{
-        color: white;
-        font-size: 2.3rem;
-        padding: 5rem 0;
+        padding: 20rem 0;
         width: 100%;
-        color: white;
+        height: 100vh;
     }
 
-    .enlaceNft{
+    .container4__title p{
+        font-size: 6rem;
+    }
+
+
+    .container4__text{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:0rem;
     }
-
-
-    .circuloNft{
-        margin-right: 20rem;
-    }
-
-
-    .container2-color{
-        background-image: url("./img/museum2.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .container2{
-        position: relative;
-        width: 100%;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.384);
-        min-height: 112vh;
-    }
-
-
-    .titleAbout{
-        padding: 5rem 5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        padding-top: 25rem;
-        
-    }
-
-    .titleAbout h2 {
-        margin-top:2%;
-
-        color: white;
-        font-size: 9rem;
+    .container4__text1 p{
+        letter-spacing: .9px;
+        font-family: 'Poppins';
         font-weight: 900;
-    }
-
-    .titleAbout h3 {
-        color: rgb(255, 255, 255);
-        font-size: 5rem;
-        margin-bottom: 8rem;
-    
-    }
-
-
-    .textAbout p{
-        margin-top: 3rem;
-        color: white;
-        font-size: 2.5rem;
-        font-style: italic;
-        width: 100% ;
-        font-weight: 500;
         text-align: center;
-        margin-bottom: 15rem;
-        padding: 0 0rem;
     }
 
-
-    .enlaceAbout{
-        display: flex;
-        justify-content: flex-start;
-        position: relative;
-        bottom: 0rem;
-    }
-
-    .enlaceAbout a{
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 3rem;
-        text-decoration: none;
+    .container4__text1{
+        font-size: 2rem;
         color: white;
-        z-index: 1;
-        padding: 0.5rem 2rem;
-        width: max-content;
+        width: 100%;
+        padding: 3rem 4rem;
+        text-align: center;
+        margin-right: 0rem;
     }
 
-    .circuloAbout{
-        position: absolute;
-        width: 5rem;
-        height: 5rem;
-        border-radius: 50%;
-        background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-        background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-        background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+    .container4__text2{
+        font-size: 2rem;
     }
 
-    .enlaceAbout a:hover ~ .circuloAbout{
-        background-color:rgb(255, 1, 86);
-        border-radius: 2%;
-        width: 450px;
+    .container4__text2-d1{
+        text-align: start;
+        padding-left: 0;
+        width: 100%;
+        font-size: 2rem;
+
+    }
+
+    .container4__text2-title{
+        padding-bottom: 2.5rem;
+        width: 100%;
+        text-align: center;
+        font-size: 3.2rem;
+
+    }
+
+
+    .container4__text2 li{
+        margin-left: 3rem;
+    }
+
+    .container4__text2-d1{
+        padding: 0.2rem 0;
+
+    }
+
+    .container4__text2 span{
         color: white;
-        transition: all 0.9s ;
     }
 
 
+
+
+    .container4__line {
+        width: 50%;
+        border-radius: 80%;
+        height: 0.5rem;
+        margin: 0 25%;
+        text-align: center;
+        margin-top: 15rem;
+    }  
 }
 
 
@@ -1199,15 +1254,7 @@ main{
 }
 
 .container4__title p{
-    font-family: 'Open Sans', sans-serif;
     font-size: 3rem;
-    color: transparent;
-    font-weight: 900;
-    background: -webkit-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-    background: -moz-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-    background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-    -webkit-background-clip: text;
-    background-clip: text;
 }
 
 
