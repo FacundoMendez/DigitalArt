@@ -65,7 +65,7 @@ geometry.setAttribute("position", new THREE.BufferAttribute(position,3))
 const material = new THREE.PointsMaterial({
     size:0.3,
     sizeAttenuation: true,
-    color: new THREE.Color("#4DaaFF"),
+    color: new THREE.Color("#ff00ff"),
     map:starTexture,
     alphaMap:starTexture,
     transparent: true,
@@ -82,9 +82,9 @@ const animate = () =>{
 
 
 
-    particle.rotation.x += -0.00001 
-    particle.rotation.y += 0.0009
-    particle.rotation.z += 0.00019 
+    particle.rotation.x += -0.0001 
+    particle.rotation.y += 0.001
+    particle.rotation.z += 0.0003 
 
     renderer.render(scene,camera)
     window.requestAnimationFrame(animate)
