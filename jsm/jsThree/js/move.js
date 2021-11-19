@@ -121,3 +121,25 @@ gsap.from(".container3__enlaceNft",{
         scrub: 2,
     }
 })
+
+gsap.from(".container4",{
+    opacity:0,
+    scale:2.5,
+    scrollTrigger:{
+        trigger: ".container4",
+        start: "top 100%",
+        end: "100% 100%",
+        scrub: 2,
+    }
+})
+
+gsap.from(".container4__text2",{
+    opacity:-4,
+    x: 300,
+    scrollTrigger:{
+        trigger: ".container4__text2",
+        start: "top 60%",
+        end: "100% 100%",
+        scrub: 3,
+    }
+})
