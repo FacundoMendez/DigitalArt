@@ -17,10 +17,7 @@ gsap.from(".nav",{
 })
 
 
-gsap.from(".text",{
-    opacity:-5,
-    duration:1.5,
-})
+
 
 
 gsap.from(".nav__logo",{
