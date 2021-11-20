@@ -2,9 +2,9 @@ gsap.registerPlugin (ScrollTrigger);
 gsap.registerPlugin( CSSPlugin )
 
 gsap.from("main",{
-    opacity:-5,
-    duration:2,
-    y: -300,
+    opacity:-2,
+    duration:5.3,
+    y: -200,
 })
 
 /* Header */
@@ -12,20 +12,26 @@ gsap.from("main",{
 
 gsap.from(".nav",{
     opacity:0,
-    duration:2.5,
-    y: -300,
+    duration:5.3,
+    y: -200,
+})
+
+
+gsap.from(".text",{
+    opacity:-5,
+    duration:1.5,
 })
 
 
 gsap.from(".nav__logo",{
     opacity:0,
-    duration:2.2,
-    x: -500,
+    duration:5.3,
+    x: -400,
 })
 
 gsap.from(".nav__listEnlaces",{
     opacity:0,
-    duration:2.6,
+    duration:5.3,
     y: -200,
 })
 

@@ -26,6 +26,60 @@ main{
 
 
 
+/* PRELOAD */
+
+
+.preload{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(80deg,#0b0914, #2a2449);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9000;
+}
+
+.text{
+    width: 100%;
+    height: 100vh;
+    font-family:fantasy;
+    font-weight: 500;
+    font-size: 10rem;
+    text-align: center;
+    line-height: 650px;
+    position: absolute;
+    top: 47%;
+    left: 49%;
+    transform: translate(-50%, -50%) rotate(-5deg);
+    color: transparent;
+    background: -webkit-linear-gradient(to bottom right, #1C8EFF 50%, #D30EF2 50%);
+    background: -moz-linear-gradient(to bottom right, #1C8EFF 50%, #D30EF2 50%);
+    background: linear-gradient(to bottom right, #1C8EFF 41%, #D30EF2 56%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    pointer-events: none;
+    animation: anim1 4s infinite;
+}
+
+@keyframes anim1{
+    0%{color: #e2157f94}
+    0%{color: #a30da394}
+    50%{color: #5683fd}
+    650%{color: #9a0dbd}
+    85%{color: #39029e93}
+    100%{color: #9a0dbd}
+}
+
+
+.cerrar{
+    opacity: -0;
+    transition: all 0.5s;
+}
+
+
+
+
 
 .planetWebGL{
     overflow: hidden;
@@ -44,6 +98,37 @@ main{
 
 }
 
+.planet__button {
+    width: 40%;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.planet__button img{
+    width: 65%;
+}
+.planet__button-text p{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+    left: 0;
+    font-size: 1.8rem;
+}
+
+.planet__button:hover{
+    transform: scale(1.14);
+    filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+    transition: all 2s; 
+}
 
 .planet__title {
     font-size: 36px;
@@ -453,8 +538,9 @@ main{
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         width: 50%;
+        padding-right: 8rem;
 
     }
 
@@ -487,8 +573,6 @@ main{
         top: 6%;
     
     }
-    
-    
 }
 
 
@@ -500,20 +584,48 @@ main{
         position: relative;
     }
 
+    .planet__button {
+        width: 40%;
+        margin-top: 2rem;
+        position: relative;
+    }
+    
+    .planet__button img{
+        width: 95%;
+    }
+    .planet__button-text p{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 3px;
+        position: absolute;
+        width: 100%;
+        top: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        left: 0;
+        font-size: 1.8rem;
+    }
+    
+    .planet__button:hover{
+        transform: scale(1.14);
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        transition: all 2s; 
+    }
+
     .planet__title{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 4rem;
-        width: 100%;
-        font-weight: 900;
-        position: absolute;
-        text-align: center;
-        font-style: italic;
-        top: 45%;
-        z-index: 100;
+        font-size: 2.5rem;
+        width: 50%;
+        padding-right: 8rem;
+
     }
     
  
@@ -785,7 +897,51 @@ main{
 
 @media (max-width: 868px) {
 
+    .planet__button {
+        width: 40%;
+        margin-top: 4rem;
+        position: relative;
+    }
+    
+    .planet__button img{
+        width: 55%;
+    }
+    .planet__button-text p{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 3px;
+        position: absolute;
+        width: 100%;
+        top: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        left: 0;
+        font-size: 1.8rem;
+    }
+    
+    .planet__button:hover{
+        transform: scale(1.14);
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        transition: all 2s; 
+    }
 
+    .planet__title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: 3.5rem;
+        width: 100%;
+        padding-right: 0rem;
+
+    }
+    
+ 
     /* displays none */
     
     .container3__card-webgl{
@@ -1061,20 +1217,46 @@ main{
         flex-direction: column;
     }
 
+    .planet__button {
+        width: 40%;
+        margin-top: 4rem;
+        position: relative;
+    }
+    
+    .planet__button img{
+        width: 100%;
+    }
+    .planet__button-text p{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 1px;
+        position: absolute;
+        top: 20%;
+        font-weight: 900;
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        left: 0;
+        font-size: 1.8rem;
+    }
+    
+    .planet__button:hover{
+        transform: scale(1.14);
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        transition: all 2s; 
+    }
+
     .planet__title{
         display: flex;
-        flex-direction: column;
-        text-align: center;
+        align-items: center;
         justify-content: center;
-        font-size: 3.4rem;
-        top: 30%;
-        left: 0%;
-        text-align: center;
+        flex-direction: column;
+        color: white;
+        font-size: 3.5rem;
         width: 100%;
-        height: 40%;
-        margin: 0 auto;
-        background-color: rgba(0, 0, 0, 0.479);
+        padding-right: 0rem;
+
     }
+    
 
     .planet__enlace{
         position: absolute;
@@ -1432,16 +1614,49 @@ main{
         min-height: 100vh;
         position: relative;
     }
+    
+    .planet__button {
+        width: 60%;
+        margin-top: 5rem;
+        position: relative;
+    }
+    
+    .planet__button img{
+        width: 100%;
+    }
+    .planet__button-text p{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 3px;
+        position: absolute;
+        width: 100%;
+        top: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        left: 0;
+        font-size: 1.8rem;
+    }
+    
+    .planet__button:hover{
+        transform: scale(1.14);
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        transition: all 2s; 
+    }
+
+    
 
     .planet__title{
         color: white;
-        font-size: 2.4rem;
+        font-size: 3rem;
         font-style: italic;
         top: 30%;
         left: 0%;
         text-align: center;
         width: 100%;
-        height: 40%;
         background-color: rgba(0, 0, 0, 0.479);
     }
 
