@@ -3,7 +3,7 @@ gsap.registerPlugin( CSSPlugin )
 
 gsap.from("main",{
     opacity:-2,
-    duration:5.3,
+    duration:3.3,
     y: -200,
 })
 
@@ -12,13 +12,13 @@ gsap.from("main",{
 
 gsap.from(".nav__logo",{
     opacity:0,
-    duration:5.3,
+    duration:3.3,
     x: -400,
 })
 
 gsap.from(".nav__listEnlaces",{
     opacity:0,
-    duration:5.3,
+    duration:3.3,
     y: -200,
 })
 
