@@ -327,7 +327,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 20%;
+    padding-bottom: 8%;
     width: 100%;
 }
 
@@ -586,7 +586,7 @@ main{
     }
 
     .container3__button img{
-        width: 30%;
+        width: 20%;
     }
     .container3__button-text p{
         text-decoration: none;
@@ -602,7 +602,7 @@ main{
         font-weight: 900;
         filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
         left: 0;
-        font-size: 2.7rem;
+        font-size: 2.5rem;
     }
 
     .container3__button:hover{
@@ -628,31 +628,41 @@ main{
         position: relative;
     }
     
-    .planet__button img{
-        width: 95%;
-    }
-    .planet__button-text p{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        letter-spacing: 2px;
-        position: absolute;
-        width: 100%;
-        top: 20%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: 900;
-        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
-        left: 0;
-        font-size: 1.8rem;
-    }
-    
-    .planet__button:hover{
-        transform: scale(1.14);
-        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
-        transition: all 2s; 
-    }
+
+  /* Enlaces */
+  .container3__button {
+    width: 100%;
+    margin-top: 2rem;
+    position: relative;
+    text-align: center;
+}
+
+.container3__button img{
+    width: 20%;
+}
+.container3__button-text p{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    position: absolute;
+    width: 100%;
+    top: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+    left: 0;
+    font-size: 2rem;
+}
+
+.container3__button:hover{
+    transform: scale(1.1);
+    filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+    transition: all 2s; 
+}
+
 
     .container3__title p{
         font-family: 'Open Sans', sans-serif;
