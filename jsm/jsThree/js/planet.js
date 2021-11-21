@@ -117,7 +117,7 @@ scene.add(cloudMesh);
 
 const textureLoader = new THREE.TextureLoader()
 
-const starTexture = textureLoader.load('./jsm/jsThree/img/star3.png')
+const starTexture = textureLoader.load('./jsm/jsThree/img/star3.webp')
 
 const geometry = new THREE.BufferGeometry()
 const count = 700

@@ -17,9 +17,6 @@ gsap.from(".nav",{
 })
 
 
-
-
-
 gsap.from(".nav__logo",{
     opacity:0,
     duration:5.3,
