@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
 *{
     margin: 0%;
@@ -45,7 +46,7 @@ main{
 .preload{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(80deg,#0b0914, #2a2449);
+    background: linear-gradient(80deg,#0b0914, #171133);
     position: fixed;
     top: 0px;
     left: 0px;
@@ -55,7 +56,7 @@ main{
 .text{
     width: 100%;
     height: 100vh;
-    font-family:fantasy;
+    font-family: 'Rampart One', cursive;
     font-weight: 500;
     font-size: 10rem;
     text-align: center;
@@ -383,64 +384,53 @@ main{
 }
 
 .container3__title p{
-    font-size: 5rem;
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 3px;
-    padding-bottom: 2rem;
-    word-spacing: 3px;
-    text-transform: uppercase;
-    color:rgb(238, 238, 238);
-    text-align: center;
+    font-size: 5rem;
     color: transparent;
-    font-weight: 800;
+    font-weight: 900;
     background: -webkit-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
     background: -moz-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
     background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
     -webkit-background-clip: text;
     background-clip: text;
+    width: 100%;
+    text-align: center;
+    padding: 0 15rem;
 }
 
   /* Enlaces */
-
-.container3__enlaceNft{
-    display: flex;
-    justify-content: flex-start;
+  .container3__button {
+    width: 100%;
+    margin-top: 2rem;
     position: relative;
-    bottom: 20rem;
+    text-align: center;
 }
 
-.container3__enlaceNft a{
-    display: flex;
-    flex-wrap: wrap;
+.container3__button img{
+    width: 20%;
+}
+.container3__button-text p{
     text-decoration: none;
-    z-index: 1;
-    padding: 0.8rem 2.6rem;
-    font-size: 4rem;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 4px;
-    word-spacing: 1px;
-    text-transform: uppercase;
-    color:rgb(238, 238, 238);
-}
-
-.container3__circuloNft{
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
     position: absolute;
-    width: 7rem;
-    height: 7rem;
-    border-radius: 50%;
-    background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-    background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-    background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+    width: 100%;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+    left: 0;
+    font-size: 2.5rem;
 }
 
-.container3__enlaceNft a:hover ~ .container3__circuloNft{
-    background-color:rgb(255, 1, 86);
-    border-radius: 2%;
-    width: 700px;
-    color: white;
-    transition: all 0.9s ;
+.container3__button:hover{
+    transform: scale(1.1);
+    filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+    transition: all 2s; 
 }
-
 
 
 /* CONTEINER 2 -ABOUT- */
@@ -586,6 +576,41 @@ main{
         top: 6%;
     
     }
+
+        /* Enlaces */
+    .container3__button {
+        width: 100%;
+        margin-bottom: 10rem;
+        position: relative;
+        text-align: center;
+    }
+
+    .container3__button img{
+        width: 30%;
+    }
+    .container3__button-text p{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;
+        position: absolute;
+        width: 100%;
+        top: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        left: 0;
+        font-size: 2.7rem;
+    }
+
+    .container3__button:hover{
+        transform: scale(1.1);
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        transition: all 2s; 
+    }
+
 }
 
 
@@ -629,16 +654,19 @@ main{
         transition: all 2s; 
     }
 
-    .planet__title{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        color: white;
-        font-size: 2.5rem;
-        width: 50%;
-        padding-right: 8rem;
-
+    .container3__title p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 5rem;
+        color: transparent;
+        font-weight: 900;
+        background: -webkit-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+        background: -moz-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+        background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        width: 100%;
+        text-align: center;
+        padding: 0 15rem;
     }
     
  
@@ -1090,16 +1118,13 @@ main{
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .container3__title{
-        width: 100%;
-        padding: 5rem 0;
-    }
+
     .container3__text{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        padding: 3rem;
+        padding: 3rem 6rem;
         font-weight: 100;
     }
 
@@ -1121,10 +1146,23 @@ main{
         width: 500px;
     }
 
+
     .container3__title p{
-        font-size: 3rem;
-        margin-top: 20rem;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 4rem;
+        color: transparent;
+        font-weight: 900;
+        background: -webkit-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+        background: -moz-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+        background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        width: 100%;
+        text-align: center;
+        padding: 0 5rem;
     }
+    
+ 
     .container3__card{
         display: flex;
         flex-direction: row;
@@ -1135,6 +1173,40 @@ main{
         flex-flow: column-reverse;   
         padding-bottom: 10rem;
     }
+      /* Enlaces */
+    .container3__button {
+        width: 100%;
+        margin-top: 2rem;
+        position: relative;
+        text-align: center;
+    }
+
+    .container3__button img{
+        width: 35%;
+    }
+    .container3__button-text p{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;
+        position: absolute;
+        width: 100%;
+        top: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        left: 0;
+        font-size: 2.5rem;
+    }
+
+    .container3__button:hover{
+        transform: scale(1.1);
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        transition: all 2s; 
+    }
+
 
 
     /* CONTAINER 4 -- WHAT IS AN NFT */
@@ -1393,15 +1465,21 @@ main{
 
 
     
-    .container3__title{
-        width: 100%;
-        padding: 5rem 0;
-    }
-
     .container3__title p{
+        font-family: 'Open Sans', sans-serif;
         font-size: 3rem;
+        color: transparent;
+        font-weight: 900;
+        background: -webkit-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+        background: -moz-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+        background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        width: 100%;
+        text-align: center;
+        padding: 0 2rem;
     }
-
+    
 
     .container3__text{
         display: flex;
@@ -1422,112 +1500,126 @@ main{
         padding: 0;
         width: 100%;
     }
-  
-    .container3__enlaceNft{
-        bottom: 0rem;
-        padding-bottom: 15rem;
+    /* Enlaces */
+    .container3__button {
+        width: 100%;
+        margin-top: 2rem;
+        position: relative;
+        text-align: center;
     }
-    
-    .container3__enlaceNft a{
-        font-size: 2rem;
-        padding: 0.6rem 1.6rem;
+
+    .container3__button img{
+        width: 50%;
     }
-    
-    .container3__circuloNft{
-        width: 4rem;
-        height: 4rem;
+    .container3__button-text p{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;
+        position: absolute;
+        width: 100%;
+        top: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        left: 0;
+        font-size: 2.5rem;
     }
-    .container3__enlaceNft a:hover ~ .container3__circuloNft{
-        width: 400px;
+
+    .container3__button:hover{
+        transform: scale(1.1);
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        transition: all 2s; 
+    }
+
+    
+
+
+    /* CONTAINER 4 -- WHAT IS AN NFT */
+    .container4{
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 20rem 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container4__title p{
+        font-size: 4rem;
+    }
+
+
+    .container4__text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:0rem;
+    }
+    .container4__text1 p{
+        letter-spacing: .9px;
+        font-family: 'Poppins';
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .container4__text1{
+        font-size: 1.6rem;
+        color: white;
+        width: 100%;
+        padding: 3rem 4rem;
+        text-align: center;
+        margin-right: 0rem;
+    }
+
+    .container4__text2{
+        font-size: 1.6rem;
+    }
+
+    .container4__text2-d1{
+        text-align: start;
+        padding-left: 0;
+        width: 100%;
+        font-size: 1.6rem;
 
     }
-    
-    
+
+    .container4__text2-title{
+        padding-bottom: 2.5rem;
+        width: 100%;
+        text-align: center;
+        font-size: 2.5rem;
+
+    }
 
 
- /* CONTAINER 4 -- WHAT IS AN NFT */
- .container4{
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 20rem 0;
-    width: 100%;
-    height: 100vh;
-}
+    .container4__text2 li{
+        margin-left: 3rem;
+    }
 
-.container4__title p{
-    font-size: 4rem;
-}
+    .container4__text2-d1{
+        padding: 0.2rem 0;
 
+    }
 
-.container4__text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap:0rem;
-}
-.container4__text1 p{
-    letter-spacing: .9px;
-    font-family: 'Poppins';
-    font-weight: 900;
-    text-align: center;
-}
-
-.container4__text1{
-    font-size: 1.6rem;
-    color: white;
-    width: 100%;
-    padding: 3rem 4rem;
-    text-align: center;
-    margin-right: 0rem;
-}
-
-.container4__text2{
-    font-size: 1.6rem;
-}
-
-.container4__text2-d1{
-    text-align: start;
-    padding-left: 0;
-    width: 100%;
-    font-size: 1.6rem;
-
-}
-
-.container4__text2-title{
-    padding-bottom: 2.5rem;
-    width: 100%;
-    text-align: center;
-    font-size: 2.5rem;
-
-}
-
-
-.container4__text2 li{
-    margin-left: 3rem;
-}
-
-.container4__text2-d1{
-    padding: 0.2rem 0;
-
-}
-
-.container4__text2 span{
-    color: white;
-}
+    .container4__text2 span{
+        color: white;
+    }
 
 
 
 
-.container4__line {
-    width: 50%;
-    border-radius: 80%;
-    height: 0.5rem;
-    margin: 0 25%;
-    text-align: center;
-    margin-top: 15rem;
-}
+    .container4__line {
+        width: 50%;
+        border-radius: 80%;
+        height: 0.5rem;
+        margin: 0 25%;
+        text-align: center;
+        margin-top: 15rem;
+    }
 
 
 
@@ -1626,12 +1718,60 @@ main{
 }
 
 
+@media (max-width: 450px){
+    /*  preload */
+
+
+    .text{
+        font-size: 6rem;
+    }
+
+
+
+
+    /* CONTAINER 3 */
+    /* Enlaces */
+    .container3__button {
+        width: 100%;
+        margin-top: 2rem;
+        position: relative;
+        text-align: center;
+    }
+
+    .container3__button img{
+        width: 60%;
+    }
+    .container3__button-text p{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;
+        position: absolute;
+        width: 100%;
+        top: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        left: 0;
+        font-size: 2.2rem;
+    }
+
+    .container3__button:hover{
+        transform: scale(1.1);
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        transition: all 2s; 
+    }
+}
+
+
 @media (max-width: 320px){
 
  
     
     .text{
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
 
@@ -1798,25 +1938,39 @@ main{
         font-weight: 600;
         font-size: 1.6rem;
     }
+    /* Enlaces */
+    .container3__button {
+        width: 100%;
+        margin-top: 2rem;
+        position: relative;
+        text-align: center;
+    }
 
-    .container3__enlaceNft{
-        bottom: 0rem;
-        padding-bottom: 15rem;
+    .container3__button img{
+        width: 70%;
     }
-    
-    .container3__enlaceNft a{
-        font-size: 1.2rem;
-        padding: 0.9rem 1.5rem;
+    .container3__button-text p{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;
+        position: absolute;
+        width: 100%;
+        top: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        left: 0;
+        font-size: 2rem;
     }
-    
-    .container3__circuloNft{
-        width: 3.5rem;
-        height: 3.5rem;
+
+    .container3__button:hover{
+        transform: scale(1.1);
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        transition: all 2s; 
     }
-    .container3__enlaceNft a:hover ~ .container3__circuloNft{
-        width: 310px;
-    }
-  
 
     .container3__card{
         display: flex;

@@ -10,8 +10,6 @@ gsap.from("main",{
 /* Header */
 
 
-
-
 gsap.from(".nav__logo",{
     opacity:0,
     duration:5.3,
@@ -213,18 +211,6 @@ gsap.from(".container3__card-webgl6",{
 })
 
 
-gsap.from(".container3__enlaceNft",{
-    duration:3,
-    opacity:0,
-    y:"+=200",
-    ease:"linear",
-    scrollTrigger:{
-        trigger: ".container3__enlaceNft",
-        start: "top 150%",
-        end: "100% 100%",
-        scrub: 2,
-    }
-})
 
 
 /* CONTAINER 4 */
