@@ -10,11 +10,6 @@ gsap.from("main",{
 /* Header */
 
 
-gsap.from(".nav",{
-    opacity:0,
-    duration:5.3,
-    y: -200,
-})
 
 
 gsap.from(".nav__logo",{

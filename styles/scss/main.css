@@ -16,7 +16,7 @@
     list-style: none;
     color: white;
     position: absolute;
-    z-index: 5000;
+    z-index: 99999;
     display: flex;
     width: 100%;
     height: 100%;
@@ -107,7 +107,7 @@
     .nav .nav__nav-toggle {
       display: block; }
     .nav .navVisible {
-      left: 0%; }
+      left: 100%; }
     .nav .nav__img {
       width: 100%; }
     .nav .nav__img-img {
