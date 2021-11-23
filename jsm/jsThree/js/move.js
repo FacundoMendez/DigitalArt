@@ -3,7 +3,7 @@ gsap.registerPlugin( CSSPlugin )
 
 gsap.from("main",{
     opacity:-2,
-    duration:3.3,
+    duration:4.3,
     y: -200,
 })
 
@@ -12,17 +12,15 @@ gsap.from("main",{
 
 gsap.from(".nav__logo",{
     opacity:0,
-    duration:3.3,
+    duration:4.3,
     x: -400,
 })
 
 gsap.from(".nav__listEnlaces",{
     opacity:0,
-    duration:3.3,
+    duration:4.3,
     y: -200,
 })
-
-
 
 const card1 = document.querySelector(".card1")
 const card2 = document.querySelector(".card2")

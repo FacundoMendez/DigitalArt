@@ -46,7 +46,8 @@ main{
 .preload{
     width: 100%;
     height: 100vh;
-    background: radial-gradient(circle, rgba(0,1,31,1) 0%, rgba(0,0,0,1) 100%);
+  /*   background: radial-gradient(circle, rgba(0,1,31,1) 0%, rgba(0,0,0,1) 100%); */
+    background-color: black;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -57,6 +58,7 @@ main{
     align-items: center;
     width: 100%;
 }
+
 
 .text{
     width: 100%;
@@ -592,7 +594,10 @@ main{
         padding-right: 8rem;
     }
 
-
+    .videoLogo{
+        width:35%
+    }
+    
 
     .planet__button {
         width: 35%;
@@ -685,6 +690,10 @@ main{
         width: 47%;
         margin-top: 2rem;
         position: relative;
+    }
+    
+    .videoLogo{
+        width:40%
     }
     
 
@@ -1016,6 +1025,11 @@ main{
         margin-top: 4rem;
         position: relative;
     }
+        
+    .videoLogo{
+        width:45%;
+    }
+    
     
     .planet__button img{
         width: 55%;
@@ -1381,6 +1395,10 @@ main{
         width: 40%;
         margin-top: 4rem;
         position: relative;
+    }
+    
+    .videoLogo{
+        width:50%;
     }
     
     .planet__button img{
@@ -1801,7 +1819,9 @@ main{
         margin-left: 0%;
     }
 
-
+    .videoLogo{
+        width:90%;
+    }
 
     /* CONTAINER 3 */
     /* Enlaces */
@@ -1843,7 +1863,9 @@ main{
 @media (max-width: 320px){
 
  
-    
+    .videoLogo{
+        width:100%;
+    }
     .text{
         font-size: 6rem;
     }
