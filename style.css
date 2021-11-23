@@ -12,16 +12,16 @@
 
 body::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
-  }
-  
+}
+
 body::-webkit-scrollbar-track {
   background: rgb(0, 0, 0);        /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
+    background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
 }
 
 html{
@@ -91,8 +91,9 @@ main{
     position: relative;
     width: 80px;
     height: 80px;
-  }
-  .lds-ring div {
+}
+
+.lds-ring div {
     box-sizing: border-box;
     display: block;
     position: absolute;
@@ -104,24 +105,24 @@ main{
     filter: drop-shadow(1px 1px 55px blue);
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     border-color: rgb(97, 62, 252) transparent transparent transparent;
-  }
-  .lds-ring div:nth-child(1) {
+}
+.lds-ring div:nth-child(1) {
     animation-delay: -0.45s;
-  }
-  .lds-ring div:nth-child(2) {
+}
+.lds-ring div:nth-child(2) {
     animation-delay: -0.3s;
-  }
-  .lds-ring div:nth-child(3) {
+}
+.lds-ring div:nth-child(3) {
     animation-delay: -0.15s;
-  }
-  @keyframes lds-ring {
+}
+@keyframes lds-ring {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
 
 
 
@@ -155,11 +156,13 @@ main{
     width: 40%;
     margin-top: 2rem;
     position: relative;
+    margin-left: 25%;
 }
 
 .planet__button img{
     width: 65%;
 }
+
 .planet__button-text p{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -197,6 +200,10 @@ main{
     font-size: 3.5rem;
     font-weight: 600;
     font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: c;
 
 }
 
@@ -438,9 +445,9 @@ main{
 }
 
   /* Enlaces */
-  .container3__button {
-    width: 100%;
-    margin-top: 2rem;
+.container3__button {
+    width: 76%;
+    margin-bottom: 15rem;
     position: relative;
     text-align: center;
 }
@@ -455,7 +462,7 @@ main{
     letter-spacing: 2px;
     position: absolute;
     width: 100%;
-    top: 20%;
+    top: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -583,8 +590,21 @@ main{
         font-size: 2.5rem;
         width: 50%;
         padding-right: 8rem;
-
     }
+
+
+
+    .planet__button {
+        width: 35%;
+        margin-top: 2rem;
+        position: relative;
+        margin-left: 0%;
+    }
+    
+    .planet__button img{
+        width: 100%;
+    }
+
 
     .container3__box1{
         position: relative;
@@ -662,45 +682,45 @@ main{
     }
 
     .planet__button {
-        width: 40%;
+        width: 47%;
         margin-top: 2rem;
         position: relative;
     }
     
 
   /* Enlaces */
-  .container3__button {
-    width: 100%;
-    margin-top: 2rem;
-    position: relative;
-    text-align: center;
-}
+    .container3__button {
+        width: 100%;
+        margin-top: 2rem;
+        position: relative;
+        text-align: center;
+    }
 
-.container3__button img{
-    width: 20%;
-}
-.container3__button-text p{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 2px;
-    position: absolute;
-    width: 100%;
-    top: 26%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 900;
-    filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
-    left: 0;
-    font-size: 2rem;
-}
+    .container3__button img{
+        width: 20%;
+    }
+    .container3__button-text p{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;
+        position: absolute;
+        width: 100%;
+        top: 26%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        left: 0;
+        font-size: 2rem;
+    }
 
-.container3__button:hover{
-    transform: scale(1.1);
-    filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
-    transition: all 2s; 
-}
+    .container3__button:hover{
+        transform: scale(1.1);
+        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+        transition: all 2s; 
+    }
 
 
     .container3__title p{
@@ -992,7 +1012,7 @@ main{
     }
 
     .planet__button {
-        width: 40%;
+        width: 47%;
         margin-top: 4rem;
         position: relative;
     }
@@ -1372,7 +1392,7 @@ main{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         letter-spacing: 1px;
         position: absolute;
-        top: 20%;
+        top: 25%;
         font-weight: 900;
         filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
         left: 0;
@@ -1774,7 +1794,12 @@ main{
     .text{
         font-size: 6rem;
     }
-
+    .planet__button {
+        width: 47%;
+        margin-top: 2rem;
+        position: relative;
+        margin-left: 0%;
+    }
 
 
 
@@ -1831,7 +1856,7 @@ main{
     }
     
     .planet__button {
-        width: 60%;
+        width: 67%;
         margin-top: 5rem;
         position: relative;
     }
@@ -2032,7 +2057,6 @@ main{
         width: 100%;
     }
 
-   
 
     /* CONTAINER 4 -- WHAT IS AN NFT */
     .container4{
@@ -2097,7 +2121,6 @@ main{
         width: 100%;
         text-align: center;
         font-size: 2.5rem;
- 
     }
 
 
@@ -2125,7 +2148,6 @@ main{
         text-align: center;
         margin-top: 15rem;
     }
-  
 
 
     /* about */
