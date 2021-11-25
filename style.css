@@ -44,96 +44,25 @@ main{
 
 
 .preload{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
   /*   background: radial-gradient(circle, rgba(0,1,31,1) 0%, rgba(0,0,0,1) 100%); */
     background-color: black;
     position: fixed;
-    top: -4rem;
+    top: 0rem;
     left: 0px;
     z-index: 9000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
-/* 
-
-.text{
-    width: 100%;
-    filter: drop-shadow(1px 1px 80px blue);
-    font-family: 'Rampart One', cursive;
-    font-weight: 500;
-    font-size: 8rem;
-    text-align: center;
-    color: transparent;
-    background: -webkit-linear-gradient(to bottom right, #1C8EFF 50%, #D30EF2 50%);
-    background: -moz-linear-gradient(to bottom right, #1C8EFF 50%, #D30EF2 50%);
-    background: linear-gradient(to bottom right, #1C8EFF 41%, #D30EF2 56%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-background-clip: text;
-    pointer-events: none;
-    animation: anim1 4s infinite;
-    padding-bottom: 3rem;
-}
-
-@keyframes anim1{
-    0%{color: #e2157f94}
-    0%{color: #a30da394}
-    50%{color: #5683fd}
-    650%{color: #9a0dbd}
-    85%{color: #39029e93}
-    100%{color: #9a0dbd}
-}
-
-.lds-ring {
-    display: inline-block;
-    position: relative;
-    width: 80px;
-    height: 80px;
-}
-
-.lds-ring div {
-    box-sizing: border-box;
-    display: block;
-    position: absolute;
-    width: 58px;
-    height: 58px;
-    margin: 5px;
-    border: 8px solid #fdd;
-    border-radius: 50%;
-    filter: drop-shadow(1px 1px 55px blue);
-    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    border-color: rgb(97, 62, 252) transparent transparent transparent;
-}
-.lds-ring div:nth-child(1) {
-    animation-delay: -0.45s;
-}
-.lds-ring div:nth-child(2) {
-    animation-delay: -0.3s;
-}
-.lds-ring div:nth-child(3) {
-    animation-delay: -0.15s;
-}
-@keyframes lds-ring {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-} */
-
 
 
 .cerrar{
     opacity: -0;
     transition: all 0.5s;
 }
-
-
 
 
 

@@ -23,14 +23,10 @@ border-radius: 20px;       /* roundness of the scroll thumb */
 border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
 }
   
-.videoAbout{
-  position: fixed;
-  height: 130vh;
-  overflow: hidden;
-}
+
 
 main{
-  background-color: rgba(2, 0, 5, 0.844);
+  background-color: black;
   position: relative;
   overflow: hidden;
 
@@ -47,11 +43,12 @@ main{
 
 div.foo{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 25rem;
-  padding-top: 15rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(21,0,50,1) 35%, rgba(46,0,80,1) 51%, rgba(21,0,50,1) 66%, rgba(3,0,6,1) 100%);
 }
 .letter{
@@ -155,14 +152,17 @@ div.foo{
   /* Main */
     
 .presentDonate{
+  position: relative;
+  z-index: 100;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 10rem;
 }
 
 .presentDonate__text{
-  padding: 10rem ;
+  padding: 10rem 25rem ;
   color: white;
   font-size: 2rem;
   text-align: center;
@@ -231,65 +231,82 @@ div.foo{
 
 
 
-/* FOOTER */
-
-
-.container5{
-  background-color: black;
-  color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 10rem 1fr 13rem 1fr;
-  grid-template-areas:
-      ".           logoFooter     ."
-      "listFooter      .         social"
-      ".             copy         ."
-      "legacy        legacy      legacy"
-  ;
-  padding: 2rem;
-  justify-items: center;
+.container7 {
   position: relative;
-  align-items: center;
-}
-
-.nav4{
-  grid-area: listFooter;
-  list-style: none;
-}
-.nav4 li{
-  padding: 0.2rem;
-  font-size: 1.5rem;
-}
-.navLi4 a{
-  text-decoration: none;
-  color: white;
-}
-
-.titleFooter{
-  grid-area: logoFooter;
-  font-size: 2.5rem;
-}
-
-.titleFooter h2{
-  font-size: 3.5rem;
-}
-
-.socialFooter{
-  grid-area: social;
-  font-size: 1.5rem;
-}
-
-.autorFooter{
-  grid-area: copy;
-  padding-top: 8rem;
-  font-size: 1.3rem;
-}
-
-.legalFooter{
-  grid-area: legacy;
-  font-size: 1.2rem;
+  border: 1px solid rgb(29, 0, 83);
+  box-shadow: 0 0 3rem rgb(225, 188, 250);
+  background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  width: 50%;
+  border-radius: 80%;
+  height: 0.5rem;
+  margin: 15rem 25%;
   text-align: center;
-  color: rgba(128, 128, 128, 0.694);
 }
 
 
+
+footer{
+  position:relative;
+}
+
+
+
+
+@media (max-width :1400px){
+  .presentDonate__text{
+    padding: 10rem 10rem ;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+  }
+}
+
+
+
+@media (max-width: 1082px){
+  .presentDonate__text{
+    padding: 10rem 10rem ;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+  }
+}
+
+
+@media (max-width :868px){
+  .presentDonate__text{
+    padding: 10rem 5rem ;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 634px){
+  .presentDonate__text{
+    padding: 10rem 3rem ;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+  }
+}
+
+
+
+@media (max-width: 320px){
+
+  .presentDonate__text{
+    padding: 10rem 2rem ;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+  }
+}
+  

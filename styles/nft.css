@@ -7,7 +7,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box; 
-  
+  user-select: none; 
 }
 
 html{
@@ -139,7 +139,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   font-style: italic;
   letter-spacing: 1rem;
   padding: 5rem 0;
-
+  margin-top: 20rem;
 }
 
 .boxHalloween{
@@ -179,6 +179,8 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   padding: 0;
   border-bottom: none;
 }
+
+
 
 .card-bodyHallow {
   display: flex;
@@ -414,10 +416,10 @@ border-bottom: none;
   padding-bottom: 2rem;
 }
 
- .card-body p {
-   font-size: 2rem;
-   margin: 0 0 40px;
- }
+.card-body p {
+  font-size: 2rem;
+  margin: 0 0 40px;
+}
 
 .price{
   padding: 1rem 2rem;
@@ -486,36 +488,32 @@ border-bottom: none;
 
 @media (min-width: 900px) and (max-width :1500px){
   
-
-  /* carrucel */
-
-
-  .carousel-inner img{
-    height:75rem;
-    opacity: 0.9; 
+  
+  .banner__text{
+    font-size: 6vw;
+    width: 100%;
+    height: 35vh;
+    text-shadow: 0.6rem 0.1rem 1.5rem rgb(0, 0, 0);
   }
-
-
-  .text h2{
-    font-size: 7rem;
-    top: 25%;
-    padding: 0 6rem;
+  
+  .banner__img{
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    scale: 0.1;
+    margin-top: 10rem;
   }
+  
 
-  .text h3{
-    font-size: 2.5rem;
-    top: 38%;
-    padding: 0 10rem;
-  }
-
-  .galler {
-    top: 45%;
-    margin-left: 14rem;
-  }
-
-  .collec {
-    top: 45%;
-    margin-left: 26rem;
+  /* Special Halloween */
+  .titleHallow{
+    font-size: 4rem;
+    margin-top: -20rem;
   }
 
     /* Carrucel hallowen */
@@ -550,9 +548,7 @@ border-bottom: none;
 
 /* sPECIAL HALLOWEEN */
 
-.titleHallow{
-  font-size: 4rem;
-}
+
 
   /* GALLERY */
   .boxCard{
@@ -574,66 +570,39 @@ border-bottom: none;
 }
 
 @media (min-width: 481px) and (max-width :899px){
-   
-  /* carrucel */
 
-  .carousel-inner img{
-    width: auto;
-    height:60%;
-    opacity: 0.9; 
-  }
-
-
-  .text h2{
-    font-size: 4rem;
-    top: 26%;
-    padding: 0rem 8rem;
+  
+  .banner__text{
+    font-size: 7vw;
     width: 100%;
+    height: 0vh;
+    text-shadow: 0.6rem 0.1rem 1.5rem rgb(0, 0, 0);
+    margin-top: -6rem;
   }
   
-  .text h3{
-    font-size: 1.6rem;
-    top: 36%;
-    padding: 2rem 9rem;
+  .banner__img{
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    scale: 0.1;
+  
   }
+  
 
-  .galler {
-    padding: 4rem 0rem;
-    top: 44%;
-    margin-left: 9rem;
-  }
-  .galler a{
-    font-size: 1.7rem;
-  }
 
-  .collec {
-    top: 44%;
-    padding: 4rem 0rem;
-    margin-left: 18rem;
-  }
-  .collec a{
-    font-size: 1.7rem;
-  }
-
-    /* Carrucel hallowen */
-
-  .textHa a{
-    text-decoration: none;
-    position: relative;
-    min-width: 35%;
-    margin: 0 auto;
-    font-size: 2rem;
-  }
-
-  .textHa p{
-    font-size: 4rem;
-  }
+  
 
   /* Special Halloween */
   .titleHallow{
     font-size: 3rem;
+    margin-top: -35rem;
   }
-   
+
   /* TOP collections */
   .textTop10{
     font-size: 4rem;
@@ -673,60 +642,39 @@ border-bottom: none;
 
 
 @media (max-width: 480px) {
-  
-  /* carrucel */
 
-  .carousel-inner img{
-    width: auto;
-    height:60%;
-    opacity: 0.7;
-  }
-
-
-  .text h2{
-    font-size: 2.6rem;
-    top: 20%;
-    padding-left: 0;
-    margin-left: 7rem;
-    width: 100%;
+  .banner{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    margin-bottom: 0rem;
+    margin-top: -15rem;
   }
   
-  .text h3{
-    font-size: 1.4rem;
-    top: 30%;
-    padding-left: 0;
-    padding: 2rem 0;
-    margin-left: 7rem;
-  }
-
-  .galler {
-    padding: 4rem 0rem;
-    top: 40%;
-    margin-left: 7rem;
-  }
-  .galler a{
-    font-size: 1.3rem;
-  }
-
-  .collec {
-    top: 40%;
-    padding: 4rem 0rem;
-    margin-left: 15rem;
-  }
-  .collec a{
-    font-size: 1.3rem;
-  }
-
-  .carousel-control-next-icon{
-    width: 3rem;
-    height: 3rem;
+  .banner__container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    transform: translate3d(0px, 0px, 0px) scale(0.85, 0.75);
+    padding-top: -10rem;
   }
   
-  .carousel-control-prev-icon{
-    width: 3rem;
-    height:3rem;
+  .banner__text{
+    font-size: 10vw;
+    width: 100vw;
+    height: 10vh;
+    text-shadow: 0.6rem 0.1rem 1.5rem rgb(0, 0, 0);  
+    margin-top: 18rem;
+  }
+  
+  .banner__img{
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
   
   }
+  
 
     /* Carrucel hallowen */
 
@@ -749,6 +697,7 @@ border-bottom: none;
     /* Special Halloween */
     .titleHallow{
       font-size: 2rem;
+      margin-top: -15rem;
     }
 
 
