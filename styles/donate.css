@@ -181,7 +181,7 @@ div.foo{
 }
 
 /* modal */
-
+/* 
 #staticBackdrop{
   background-color: rgba(0, 0, 0, 0.719);
 }
@@ -205,6 +205,7 @@ div.foo{
   border: 20px solid black;
   box-shadow: 0 0 0.2rem white;
   border: none;
+  
 }
 
 .btn:hover{
@@ -227,9 +228,91 @@ div.foo{
   font-size: 2rem;
   background: rgb(0, 0, 0) ;
   border: none;
+ 
+}
+ */
+
+ .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+
 }
 
+.wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  transition: all .4s;
+}
 
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__content {
+  border-radius: 4px;
+  position: relative;
+  width: 600px;
+  height: 20rem;
+  background: rgba(0, 0, 0, 0.781);
+}
+
+.modal__content p{
+  padding: 2rem 2rem;
+  font-size: 2.4rem; 
+  color: white;
+}
+
+.modal__content h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 3rem; 
+  color: white;
+}
+
+.modal__content hr{
+  background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+  height: 1rem;
+}
+
+.modal__close {
+  position: absolute;
+  top: -20px;
+  right: 15px;
+  font-size: 5rem;
+  color: #ad81ff;
+  text-decoration: none;
+}
+
+/* CONTAINER 7 (LINE) */
 
 .container7 {
   position: relative;
@@ -246,10 +329,6 @@ div.foo{
 }
 
 
-
-footer{
-  position:relative;
-}
 
 
 
@@ -295,18 +374,86 @@ footer{
     text-align: center;
     line-height: 3rem;
   }
+
+
+    
+  .modal__content {
+    border-radius: 4px;
+    position: relative;
+    width: 480px;
+    height: 20rem;
+    background: rgba(0, 0, 0, 0.781);
+  }
+
+  .modal__content p{
+    padding: 2rem 2rem;
+    font-size: 2rem; 
+    color: white;
+  }
+
+  .modal__content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem; 
+    color: white;
+  }
+
+    
 }
 
-
-
-@media (max-width: 320px){
-
-  .presentDonate__text{
-    padding: 10rem 2rem ;
+@media (max-width: 482px){
+  .modal__content {
+    border-radius: 4px;
+    position: relative;
+    width: 370px;
+    height: 20rem;
+    background: rgba(0, 0, 0, 0.781);
+  }
+  
+  .modal__content p{
+    padding: 2rem 2rem;
+    font-size: 1.5rem; 
     color: white;
-    font-size: 2rem;
-    text-align: center;
-    line-height: 3rem;
+  }
+  
+  .modal__content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2.5rem; 
+    color: white;
+  }
+}
+
+@media (max-width: 350px){
+
+  .modal__content {
+    border-radius: 4px;
+    position: relative;
+    width: 300px;
+    height: 20rem;
+    background: rgba(0, 0, 0, 0.781);
+  }
+  
+  .modal__content p{
+    padding: 2rem 2rem;
+    font-size: 1.2rem; 
+    color: white;
+  }
+  
+  .modal__content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem; 
+    color: white;
   }
 }
   
