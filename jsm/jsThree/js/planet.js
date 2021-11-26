@@ -2,10 +2,8 @@ import {OrbitControls} from "../three.js-master/examples/jsm/controls/OrbitContr
 
 const canvas = document.querySelector('.planetWebGL')
 
-
 // scene setup
 const scene = new THREE.Scene();
-
 
 const size = {
     width :  window.innerWidth,
@@ -23,12 +21,9 @@ window.addEventListener ('resize', () => {
     renderer.setPixelRatio(Math.min(window.devicePixelRatio),2)
 })
 
-
 const camera = new THREE.PerspectiveCamera(60, size.width/size.height, 0.1,1000)
 camera.position.z = 3
 scene.add(camera)
-
-
 
 // renderer setup
 const renderer = new THREE.WebGLRenderer({
@@ -38,37 +33,11 @@ const renderer = new THREE.WebGLRenderer({
 renderer.setSize ( size.width , size.height)
 renderer.setPixelRatio(Math.min(window.devicePixelRatio),2)
 
-
-
 // orbit control setup
  const controls = new OrbitControls(camera,canvas);
 controls.enableDamping = true
 controls.enableZoom = false 
 controls.enablePan= false
-
-
-
-
-
-
-
-/* 
-// galaxy geometry
-const starGeometry = new THREE.SphereGeometry(80, 64, 64);
-
-// galaxy material
-const starMaterial = new THREE.MeshBasicMaterial({
-    map : THREE.ImageUtils.loadTexture('./jsm/jsThree/img/texturePlaneta/galaxy.png'),
-    side: THREE.BackSide
-});
-
-// galaxy mesh
-const starMesh = new THREE.Mesh(starGeometry, starMaterial);
-scene.add(starMesh); */
-
-
-
-
 
 // ambient light
 const ambientlight = new THREE.AmbientLight(0xffffff, 0.2);
@@ -78,7 +47,6 @@ scene.add(ambientlight);
 const pointLight = new THREE.PointLight(0xffffff, 1)
 pointLight.position.set(5, 3, 5);
 scene.add(pointLight);
-
 
 
 // earth geometry
@@ -110,10 +78,7 @@ const cloudMetarial = new THREE.MeshPhongMaterial({
 // cloud mesh
 const cloudMesh = new THREE.Mesh(cloudGeometry, cloudMetarial);
 
-
 scene.add(cloudMesh);
-
-
 
 const textureLoader = new THREE.TextureLoader()
 
@@ -143,27 +108,15 @@ const particle = new THREE.Points(geometry,material)
 particle.position.z= -1
 scene.add(particle)
 
-
-
-
-
-
 const clock = new THREE.Clock()
 
 const animate = () =>{
-
-
-    
-    
-/*     starMesh.rotation.y -= 0.0007; */
     earthMesh.rotation.y += -0.00009 
     particle.rotation.y += -0.0009
     particle.rotation.z += 0.0009
 
     earthMesh.rotation.y -= 0.0015;
     cloudMesh.rotation.y -= 0.0019;
-
-
     controls.update()
     renderer.render(scene,camera)
     window.requestAnimationFrame(animate)
@@ -171,6 +124,4 @@ const animate = () =>{
 }
 
 animate()
-
-
 renderer.render(scene,camera)

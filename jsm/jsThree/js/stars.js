@@ -1,8 +1,4 @@
-
 const canvas = document.querySelector('.starsWebGL')
-
-
-
 
 // scene setup
 const scene = new THREE.Scene();
@@ -24,13 +20,10 @@ window.addEventListener ('resize', () => {
     renderer.setPixelRatio(Math.min(window.devicePixelRatio),2)
 })
 
-
 const camera = new THREE.PerspectiveCamera(60, size.width/size.height, 0.1,1000)
 camera.position.z = 2
 camera.rotation.x = Math.PI/2;
 scene.add(camera)
-
-
 
 // renderer setup
 const renderer = new THREE.WebGLRenderer({
@@ -40,14 +33,6 @@ const renderer = new THREE.WebGLRenderer({
 
 renderer.setPixelRatio(Math.min(window.devicePixelRatio),2)
 renderer.setSize ( size.width , size.height, false)
-
-
-
-
-
-
-/* ---------------------------- */
-
 
 const textureLoader = new THREE.TextureLoader()
 
@@ -75,13 +60,7 @@ const material = new THREE.PointsMaterial({
 const particle = new THREE.Points(geometry,material)
 scene.add(particle)
 
-
-
-
 const animate = () =>{
-
-
-
     particle.rotation.x += -0.0001 
     particle.rotation.y += 0.001
     particle.rotation.z += 0.0003 
@@ -92,6 +71,5 @@ const animate = () =>{
 }
 
 animate()
-
 
 renderer.render(scene,camera)

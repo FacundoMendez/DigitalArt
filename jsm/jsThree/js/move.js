@@ -8,8 +8,6 @@ gsap.from("main",{
 })
 
 /* Header */
-
-
 gsap.from(".nav__logo",{
     opacity:0,
     duration:4.3,
@@ -28,8 +26,6 @@ const card3 = document.querySelector(".card3")
 const card4 = document.querySelector(".card4")
 const card5 = document.querySelector(".card5")
 const card6 = document.querySelector(".card6")
-
-
 
 /* MOVILE CARD */
 
@@ -121,9 +117,6 @@ gsap.from(card6,{
     }
 })
 
-
-
-
 gsap.from(".container3__title",{
     opacity:-4,
     scale:.5,
@@ -207,9 +200,6 @@ gsap.from(".container3__card-webgl6",{
         scrub: 4,
     }
 })
-
-
-
 
 /* CONTAINER 4 */
 

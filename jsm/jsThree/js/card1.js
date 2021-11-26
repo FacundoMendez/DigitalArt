@@ -111,3 +111,6 @@ animate()
 
 renderer.render(scene,camera)
 renderer.clear()
+
+
+

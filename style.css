@@ -29,17 +29,13 @@ html{
     background-color: black;
 }
 
-
 main{
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.801);
     position: relative;
 }
 
-
-
 /* PRELOAD */
-
 
 .preload{
     width: 100vw;
@@ -56,7 +52,6 @@ main{
     align-items: center;
 }
 
-
 .videoLogo{
     background-color: black;
     background: transparent;
@@ -67,23 +62,17 @@ main{
     transition: all 0.5s;
 }
 
-
-
 .planetWebGL{
     overflow: hidden;
     width: 100%;
     height: 100vh;
 }
 
-
-/* ------------ */
-
 .planet{
     width: 100%;
     min-height: 100vh;
     position: relative;
     box-shadow: 0 0 2rem #000000;
-
 }
 
 .planet__button {
@@ -138,7 +127,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: c;
-
 }
 
 .planet__scroll p{
@@ -153,12 +141,7 @@ main{
     text-align: center;
     bottom:5%;
     z-index: 100;
-    
-
 }
-
-
-
 
 /* CONTAINER 4 -- WHATS IS NFT */
 
@@ -181,7 +164,6 @@ main{
     -webkit-background-clip: text;
     background-clip: text;
 }
-
 
 .container4__text{
     display: flex;
@@ -244,20 +226,15 @@ main{
     letter-spacing: .4px;
     font-family: 'Poppins';
     font-weight: 900;
-    
 }
 
 .container4__text2-d1{
     padding: 0.2rem 0;
-
 }
 
 .container4__text2 span{
     color: white;
 }
-
-
-
 
 .container4__line {
     position: relative;
@@ -274,7 +251,6 @@ main{
     margin-top: 15rem;
 }
   
-
 /* CONTAINER 3-*/
 
 .container3__movil{
@@ -293,7 +269,6 @@ main{
     flex-wrap: wrap;
     position: relative;
 }
-
 
 .starsWebGL{
     position: absolute;
@@ -323,14 +298,12 @@ main{
     width: 20%;
     left: 0%;
     top: 6%;
-
 }
 .container3__box4{
     position: relative;
     width: 20%;
     left: 0%;
     top: 6%;
-
 }
 
 .container3__box6{
@@ -338,9 +311,7 @@ main{
     width: 20%;
     left: 0%;
     top: 6%;
-
 }
-
 
 .container3__text{
     font-size: 2.2rem;
@@ -355,12 +326,10 @@ main{
     padding-bottom: 15rem;
 }
 
-
 .container3__title{
     width: 100%;
     padding-bottom: 8rem;
     padding-top: 10rem;
-
 }
 
 .container3__title p{
@@ -412,7 +381,6 @@ main{
     transition: all 2s; 
 }
 
-
 /* CONTEINER 2 -ABOUT- */
 .container2-color{
     background-image: url("./img/museum.jpg");
@@ -427,19 +395,15 @@ main{
     background-color: rgba(0, 0, 0, 0.678);
     min-height: 100vh;
     padding-top: 10rem;
-
 }
 
-
 .titleAbout{
-    
     padding: 5rem 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    
 }
 
 .titleAbout h2 {
@@ -453,9 +417,7 @@ main{
     color: rgb(255, 255, 255);
     font-size: 6rem;
     margin-bottom: 8rem;
- 
 }
-
 
 .textAbout p{
     margin-top: 3rem;
@@ -468,7 +430,6 @@ main{
     margin-bottom: 15rem;
     padding: 0 20rem;
 }
-
 
 .enlaceAbout{
     display: flex;
@@ -506,12 +467,6 @@ main{
     transition: all 0.9s ;
 }
 
-
-
-
-
-
-
   /* MOBILE */
 
 @media (max-width :1400px){
@@ -530,7 +485,6 @@ main{
         width:35%
     }
     
-
     .planet__button {
         width: 35%;
         margin-top: 2rem;
@@ -541,7 +495,6 @@ main{
     .planet__button img{
         width: 100%;
     }
-
 
     .container3__box1{
         position: relative;
@@ -555,14 +508,12 @@ main{
         width: 25%;
         left: 0%;
         top: 6%;
-    
     }
     .container3__box4{
         position: relative;
         width: 25%;
         left: 0%;
         top: 6%;
-    
     }
     
     .container3__box6{
@@ -570,7 +521,6 @@ main{
         width: 25%;
         left: 0%;
         top: 6%;
-    
     }
 
         /* Enlaces */
@@ -606,9 +556,7 @@ main{
         filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
         transition: all 2s; 
     }
-
 }
-
 
 @media (max-width: 1082px){
 
@@ -627,7 +575,6 @@ main{
     .videoLogo{
         width:40%
     }
-    
 
   /* Enlaces */
     .container3__button {
@@ -663,7 +610,6 @@ main{
         transition: all 2s; 
     }
 
-
     .container3__title p{
         font-family: 'Open Sans', sans-serif;
         font-size: 5rem;
@@ -678,7 +624,6 @@ main{
         text-align: center;
         padding: 0 15rem;
     }
-    
  
     .container3__box1{
         position: relative;
@@ -692,14 +637,12 @@ main{
         width: 25%;
         left: 0%;
         top: 6%;
-    
     }
     .container3__box4{
         position: relative;
         width: 25%;
         left: 0%;
         top: 6%;
-    
     }
     
     .container3__box6{
@@ -707,9 +650,7 @@ main{
         width: 25%;
         left: 0%;
         top: 6%;
-    
     }
-    
     
     /* CONTAINER 4 -- WHAT IS AN NFT */
     .container4{
@@ -723,7 +664,6 @@ main{
     .container4__title p{
         font-size: 8rem;
     }
-
 
     .container4__text{
         display: flex;
@@ -758,7 +698,6 @@ main{
         padding-left: 0;
         width: 100%;
         font-size: 2rem;
-
     }
 
     .container4__text2-title{
@@ -766,9 +705,7 @@ main{
         width: 100%;
         text-align: center;
         font-size: 3.2rem;
-
     }
-
 
     .container4__text2 li{
         margin-left: 3rem;
@@ -776,15 +713,11 @@ main{
 
     .container4__text2-d1{
         padding: 0.2rem 0;
-
     }
 
     .container4__text2 span{
         color: white;
     }
-
-
-
 
     .container4__line {
         width: 50%;
@@ -795,7 +728,6 @@ main{
         margin-top: 15rem;
     }
     
-
     .container3__box{
         display: flex;
         justify-content: center;
@@ -849,10 +781,6 @@ main{
         padding-bottom: 10rem;
     }
 
-
-
-
-
 /* CONTEINER 2 -ABOUT- */
     .container2-color{
         background-image: url("./img/museum.jpg");
@@ -870,7 +798,6 @@ main{
         padding-bottom:13rem ;
     }
 
-
     .titleAbout{
         padding: 5rem 5rem;
         display: flex;
@@ -878,7 +805,6 @@ main{
         align-items: center;
         justify-content: center;
         width: 100%;
-        
     }
 
     .titleAbout h2 {
@@ -892,9 +818,7 @@ main{
         color: rgb(255, 255, 255);
         font-size: 5rem;
         margin-bottom: 8rem;
-    
     }
-
 
     .textAbout p{
         margin-top: 3rem;
@@ -907,7 +831,6 @@ main{
         margin-bottom: 15rem;
         padding: 0 2rem;
     }
-
 
     .enlaceAbout{
         display: flex;
@@ -962,7 +885,6 @@ main{
         width:45%;
     }
     
-    
     .planet__button img{
         width: 55%;
     }
@@ -998,9 +920,7 @@ main{
         font-size: 3.5rem;
         width: 100%;
         padding-right: 0rem;
-
     }
-    
  
     /* displays none */
     
@@ -1036,8 +956,6 @@ main{
         display: none;
     }
 
-
-
     .imgContainer1{
         opacity: 0.5;
     }
@@ -1062,7 +980,6 @@ main{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
     }
     .card1{
         background-image: url("./img/cc/1.webp");
@@ -1070,7 +987,6 @@ main{
         width: 55%;
         height: 30rem;
         margin: 10rem 2rem;
-
     }
     .card2{
         background-image: url("./img/cc/2.webp");
@@ -1078,9 +994,7 @@ main{
         width: 55%;
         height: 30rem;
         margin: 10rem 2rem;
-
     }
-    
 
     .card3{
         background-image: url("./img/cc/3.webp");
@@ -1088,20 +1002,15 @@ main{
         width: 55%;
         height: 30rem;
         margin: 10rem 2rem;
-
     }
     
-
     .card4{
         background-image: url("./img/cc/4.webp");
         background-size: cover;
         width: 55%;
         height: 30rem;
         margin: 10rem 2rem;
-
-
     }
-    
 
     .card5{
         background-image: url("./img/cc/5.webp");
@@ -1109,10 +1018,7 @@ main{
         width: 60%;
         height: 30rem;
         margin: 10rem 2rem;
-
-
     }
-    
 
     .card6{
         background-image: url("./img/cc/6.webp");
@@ -1120,12 +1026,8 @@ main{
         width: 60%;
         height: 30rem;
         margin: 10rem 2rem;
-
-
-
     }
     
-
     .container3__box{
         display: flex;
         justify-content: center;
@@ -1161,7 +1063,6 @@ main{
         width: 500px;
     }
 
-
     .container3__title p{
         font-family: 'Open Sans', sans-serif;
         font-size: 4rem;
@@ -1177,7 +1078,6 @@ main{
         padding: 0 5rem;
     }
     
- 
     .container3__card{
         display: flex;
         flex-direction: row;
@@ -1222,8 +1122,6 @@ main{
         transition: all 2s; 
     }
 
-
-
     /* CONTAINER 4 -- WHAT IS AN NFT */
     .container4{
         background-color: rgb(0, 0, 0);
@@ -1236,7 +1134,6 @@ main{
     .container4__title p{
         font-size: 6rem;
     }
-
 
     .container4__text{
         display: flex;
@@ -1271,7 +1168,6 @@ main{
         padding-left: 0;
         width: 100%;
         font-size: 2rem;
-
     }
 
     .container4__text2-title{
@@ -1279,9 +1175,7 @@ main{
         width: 100%;
         text-align: center;
         font-size: 3.2rem;
-
     }
-
 
     .container4__text2 li{
         margin-left: 3rem;
@@ -1289,15 +1183,11 @@ main{
 
     .container4__text2-d1{
         padding: 0.2rem 0;
-
     }
 
     .container4__text2 span{
         color: white;
     }
-
-
-
 
     .container4__line {
         width: 50%;
@@ -1308,7 +1198,6 @@ main{
         margin-top: 15rem;
     }  
 }
-
 
 @media (max-width: 634px){
     .text{
@@ -1364,10 +1253,8 @@ main{
         font-size: 3.5rem;
         width: 100%;
         padding-right: 0rem;
-
     }
     
-
     .planet__enlace{
         position: absolute;
         width: 100%;
@@ -1379,8 +1266,6 @@ main{
         color: rgba(255, 255, 255, 0.26);
         font-size: 2rem;
     }
-    
-
 
    /* CONTAINER 1 */
     .imgContainer1{
@@ -1405,14 +1290,11 @@ main{
         text-align:center;
     }
 
-
     .imgNft{
         padding-left: 0;
         max-width: 100%;
         padding-bottom: 15rem;
-
     }
-
 
     /* container 3 CARDS */
 
@@ -1422,8 +1304,6 @@ main{
         width: 60%;
         height: 30rem;
         margin: 8rem 0rem;
-
-
     }
     .card2{
         background-image: url("./img/cc/2.webp");
@@ -1431,10 +1311,7 @@ main{
         width: 60%;
         height: 30rem;
         margin: 8rem 0rem;
-
-        
     }
-    
 
     .card3{
         background-image: url("./img/cc/3.webp");
@@ -1442,32 +1319,24 @@ main{
         width: 60%;
         height: 30rem;
         margin: 8rem 0rem;
-
-
     }
     
-
     .card4{
         background-image: url("./img/cc/4.webp");
         background-size: cover;
         width: 60%;
         height: 30rem;
         margin: 8rem 0rem;
-
-
     }
     
-
     .card5{
         background-image: url("./img/cc/5.webp");
         background-size: cover;
         width: 60%;
         height: 30rem;
         margin: 8rem 0rem;
-
     }
     
-
     .card6{
         background-image: url("./img/cc/6.webp");
         background-size: cover;
@@ -1475,14 +1344,10 @@ main{
         height: 30rem;
         margin: 8rem 0rem;
     }
-    
-
 
     .container3{
         overflow: hidden;
     }
-
-
     
     .container3__title p{
         font-family: 'Open Sans', sans-serif;
@@ -1499,7 +1364,6 @@ main{
         padding: 0 2rem;
     }
     
-
     .container3__text{
         display: flex;
         flex-wrap: wrap;
@@ -1507,7 +1371,6 @@ main{
         align-items: center;
         padding: 6rem;
     }
-
 
     .container3__card{
         display: flex;
@@ -1553,9 +1416,6 @@ main{
         transition: all 2s; 
     }
 
-    
-
-
     /* CONTAINER 4 -- WHAT IS AN NFT */
     .container4{
         background-color: rgb(0, 0, 0);
@@ -1568,7 +1428,6 @@ main{
     .container4__title p{
         font-size: 4rem;
     }
-
 
     .container4__text{
         display: flex;
@@ -1603,7 +1462,6 @@ main{
         padding-left: 0;
         width: 100%;
         font-size: 1.6rem;
-
     }
 
     .container4__text2-title{
@@ -1611,9 +1469,7 @@ main{
         width: 100%;
         text-align: center;
         font-size: 2.5rem;
-
     }
-
 
     .container4__text2 li{
         margin-left: 3rem;
@@ -1621,16 +1477,11 @@ main{
 
     .container4__text2-d1{
         padding: 0.2rem 0;
-
     }
 
     .container4__text2 span{
         color: white;
     }
-
-
-
-
     .container4__line {
         width: 50%;
         border-radius: 80%;
@@ -1639,9 +1490,6 @@ main{
         text-align: center;
         margin-top: 15rem;
     }
-
-
-
 
     /* about */
 
@@ -1657,9 +1505,7 @@ main{
         color: white;
         background-color: rgba(0, 0, 0, 0.623);
         min-height: 60vh;
-
     }
-
 
     .titleAbout{
         padding: 5rem 3rem;
@@ -1667,8 +1513,7 @@ main{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
-        
+        width: 100%;        
     }
 
     .titleAbout h2 {
@@ -1682,9 +1527,7 @@ main{
         color: rgb(255, 255, 255);
         font-size: 4.5rem;
         margin-bottom: 8rem;
-    
     }
-
 
     .textAbout p{
         margin-top: 3rem;
@@ -1697,7 +1540,6 @@ main{
         margin-bottom: 15rem;
         padding: 0 2rem;
     }
-
 
     .enlaceAbout{
         display: flex;
@@ -1736,11 +1578,8 @@ main{
     }
 }
 
-
 @media (max-width: 450px){
     /*  preload */
-
-
     .text{
         font-size: 6rem;
     }
@@ -1791,17 +1630,14 @@ main{
     }
 }
 
-
 @media (max-width: 320px){
 
- 
     .videoLogo{
         width:100%;
     }
     .text{
         font-size: 6rem;
     }
-
 
     .planet{
         width: 100%;
@@ -1841,8 +1677,6 @@ main{
         transition: all 2s; 
     }
 
-    
-
     .planet__title{
         color: white;
         font-size: 3rem;
@@ -1863,8 +1697,7 @@ main{
         left: 10%;
         padding-top: 3rem;
         padding-left: 2rem;
-    }
-    
+    }   
 
         /* CONTAINER 1 */
     .imgContainer1{
@@ -1882,14 +1715,12 @@ main{
 
     /* container 3 cards */
 
-
     .card1{
         background-image: url("./img/cc/1.webp");
         background-size: cover;
         width: 90%;
         height: 30rem;
         margin: 6rem 0rem;
-
     }
     .card2{
         background-image: url("./img/cc/2.webp");
@@ -1898,7 +1729,6 @@ main{
         height: 30rem;
         margin: 6rem 0rem;
     }
-    
 
     .card3{
         background-image: url("./img/cc/3.webp");
@@ -1908,7 +1738,6 @@ main{
         margin: 6rem 0rem;
     }
     
-
     .card4{
         background-image: url("./img/cc/4.webp");
         background-size: cover;
@@ -1917,7 +1746,6 @@ main{
         margin: 6rem 0rem;
     }
     
-
     .card5{
         background-image: url("./img/cc/5.webp");
         background-size: cover;
@@ -1926,7 +1754,6 @@ main{
         margin: 6rem 0rem;
     }
     
-
     .card6{
         background-image: url("./img/cc/6.webp");
         background-size: cover;
@@ -1935,8 +1762,6 @@ main{
         margin: 6rem 0rem;
     }
     
-    
-
     .container3__box{
         display: flex;
         justify-content: center;
@@ -2011,7 +1836,6 @@ main{
         width: 100%;
     }
 
-
     /* CONTAINER 4 -- WHAT IS AN NFT */
     .container4{
         background-color: rgb(0, 0, 0);
@@ -2032,7 +1856,6 @@ main{
         -webkit-background-clip: text;
         background-clip: text;
     }
-
 
     .container4__text{
         display: flex;
@@ -2067,7 +1890,6 @@ main{
         padding-left: 0;
         width: 100%;
         font-size: 1.6rem;
-
     }
 
     .container4__text2-title{
@@ -2077,22 +1899,17 @@ main{
         font-size: 2.5rem;
     }
 
-
     .container4__text2 li{
         margin-left: 3rem;
     }
 
     .container4__text2-d1{
         padding: 0.2rem 0;
-
     }
 
     .container4__text2 span{
         color: white;
     }
-
-
-
 
     .container4__line {
         width: 50%;
@@ -2102,7 +1919,6 @@ main{
         text-align: center;
         margin-top: 15rem;
     }
-
 
     /* about */
 
@@ -2118,9 +1934,7 @@ main{
         color: white;
         background-color: rgba(0, 0, 0, 0.644);
         min-height: 60vh;
-
     }
-
 
     .titleAbout{
         padding: 5rem 2rem;
@@ -2128,8 +1942,7 @@ main{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
-        
+        width: 100%;   
     }
 
     .titleAbout h2 {
@@ -2145,7 +1958,6 @@ main{
         margin-bottom: 8rem;
     }
 
-
     .textAbout p{
         margin-top: 3rem;
         color: white;
@@ -2157,7 +1969,6 @@ main{
         margin-bottom: 15rem;
         padding: 0 2rem;
     }
-
 
     .enlaceAbout{
         display: flex;
