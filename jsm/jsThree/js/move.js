@@ -226,16 +226,7 @@
     
     /* CONTAINER 4 */
     
-    gsap.from(".container4",{
-        opacity:-3,
-        scale:2,
-        scrollTrigger:{
-            trigger: ".container4",
-            start: "top 100%",
-            end: "100% 100%",
-            scrub: 2,
-        }
-    })
+
     
     gsap.from(".container4__title",{
         opacity:-3,

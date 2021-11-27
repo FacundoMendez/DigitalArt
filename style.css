@@ -1309,11 +1309,6 @@ main{
         font-size: 3rem;
         color: transparent;
         font-weight: 900;
-        background: -webkit-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-        background: -moz-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-        background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-        -webkit-background-clip: text;
-        background-clip: text;
         width: 100%;
         text-align: center;
         padding: 0 2rem;
@@ -1536,12 +1531,26 @@ main{
     .text{
         font-size: 6rem;
     }
+
+    .planetWebGL{
+
+        height: 70vh;
+    }
+
+
     .planet__button {
         width: 47%;
         margin-top: 2rem;
         position: relative;
         margin-left: 0%;
     }
+
+
+    .videoLogo{
+        width:90%;
+        margin-top: -60px;
+    }
+
     .container3__text{
         display: flex;
         flex-wrap: wrap;
@@ -1550,13 +1559,8 @@ main{
         padding: 3rem;
     }
 
-    .videoLogo{
-        width:90%;
-        top: -30px;
-    }
 
     /* CONTAINER 3 */
-    /* Enlaces */
     .container3__button {
         width: 100%;
         margin-top: 2rem;
@@ -1568,12 +1572,13 @@ main{
         width: 60%;
     }
 
-
     .container3__fondo{
-        margin-top: 25rem;
+        margin-top: 5rem;
     }
     
-   
+    .container4{
+        padding: 10rem 0;
+    }
 
     .container4__title p{
         font-size: 4.5rem;
@@ -1583,6 +1588,10 @@ main{
     .container4__text2-title{
         padding-top: 0rem;
   
+    }
+
+    .container4__line {
+        margin-top: 10rem;
     }
 
   
@@ -1808,11 +1817,7 @@ main{
         font-size: 3rem;
         color: transparent;
         font-weight: 900;
-        background: -webkit-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-        background: -moz-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-        background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-        -webkit-background-clip: text;
-        background-clip: text;
+
     }
 
     .container4__text{
@@ -1951,9 +1956,6 @@ main{
         width: 3.5rem;
         height: 3.5rem;
         border-radius: 50%;
-        background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-        background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-        background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
     }
 
     .enlaceAbout a:hover ~ .circuloAbout{
