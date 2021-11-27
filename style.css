@@ -919,9 +919,6 @@ main{
         padding-right: 0rem;
     }
  
-    /* displays none */
-    
-   
 
     .imgContainer1{
         opacity: 0.5;
@@ -1035,11 +1032,6 @@ main{
         font-size: 4rem;
         color: transparent;
         font-weight: 900;
-        background: -webkit-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-        background: -moz-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-        background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-        -webkit-background-clip: text;
-        background-clip: text;
         width: 100%;
         text-align: center;
         padding: 0 5rem;
@@ -1264,14 +1256,10 @@ main{
     }
 
     /* container 3 CARDS */
-
-    .card1{
-        background-image: url("./img/cc/1.webp");
-        background-size: cover;
-        width: 60%;
-        height: 30rem;
-        margin: 8rem 0rem;
+    .planet__scroll{
+        display: none;
     }
+
     .card2{
         background-image: url("./img/cc/2.webp");
         background-size: cover;
@@ -1531,9 +1519,7 @@ main{
         width: 4rem;
         height: 4rem;
         border-radius: 50%;
-        background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-        background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-        background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+
     }
 
     .enlaceAbout a:hover ~ .circuloAbout{
@@ -1556,9 +1542,17 @@ main{
         position: relative;
         margin-left: 0%;
     }
+    .container3__text{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+    }
 
     .videoLogo{
         width:90%;
+        top: -30px;
     }
 
     /* CONTAINER 3 */
@@ -1573,28 +1567,25 @@ main{
     .container3__button img{
         width: 60%;
     }
-    .container3__button-text p{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        letter-spacing: 2px;
-        position: absolute;
-        width: 100%;
-        top: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: 900;
-        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
-        left: 0;
-        font-size: 2.2rem;
+
+
+    .container3__fondo{
+        margin-top: 25rem;
+    }
+    
+   
+
+    .container4__title p{
+        font-size: 4.5rem;
+        padding: 0 2rem;
     }
 
-    .container3__button:hover{
-        transform: scale(1.1);
-        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
-        transition: all 2s; 
+    .container4__text2-title{
+        padding-top: 0rem;
+  
     }
+
+  
 }
 
 @media (max-width: 320px){
