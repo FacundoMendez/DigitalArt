@@ -1,24 +1,6 @@
 gsap.registerPlugin (ScrollTrigger);
 gsap.registerPlugin( CSSPlugin )
 
-gsap.from("main",{
-    opacity:-2,
-    duration:4.3,
-    y: -200,
-})
-
-/* Header */
-gsap.from(".nav__logo",{
-    opacity:0,
-    duration:4.3,
-    x: -400,
-})
-
-gsap.from(".nav__listEnlaces",{
-    opacity:0,
-    duration:4.3,
-    y: -200,
-})
 
 const card1 = document.querySelector(".card1")
 const card2 = document.querySelector(".card2")
@@ -31,6 +13,27 @@ const card6 = document.querySelector(".card6")
 
 ScrollTrigger.matchMedia({
     "(min-width: 800px)":function(){
+
+        gsap.from("main",{
+            opacity:-2,
+            duration:4.3,
+            y: -200,
+        })
+        
+        /* Header */
+        gsap.from(".nav__logo",{
+            opacity:0,
+            duration:4.3,
+            x: -400,
+        })
+        
+        gsap.from(".nav__listEnlaces",{
+            opacity:0,
+            duration:4.3,
+            y: -200,
+        })
+        
+
         gsap.from(card1,{
             duration:3,
             opacity:0,
