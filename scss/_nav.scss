@@ -82,6 +82,40 @@
             
         }
 
+
+        .nav__Meta{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            filter: hue-rotate(50deg) drop-shadow(1px 1px 100px rgb(0, 4, 255));
+            font-size: 1.8rem;
+            text-decoration: none;
+            text-shadow: 0 0 8rem blue;
+            z-index: 9999;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            left: 30%;
+            top: 22%;
+   
+        }
+
+        .nav__listEnlacesMeta:hover{
+            transform: scale(1.1);
+            filter: hue-rotate(50deg) drop-shadow(1px 1px 5px blue);
+            transition: all 0.4s; 
+        }
+
+  
+        .nav__listEnlacesMeta{
+            margin-bottom: 1.2rem;
+        }
+
+        .nav__listSombraM img{
+            width: 80%;
+        }
+
+ 
  
     }
 
@@ -96,7 +130,7 @@
         height: 6rem;
     }  
 
-
+}
 
     
     /* TOGGLE */
@@ -111,9 +145,9 @@
         margin-left: 8rem;
     } 
 
-    
+
     /* MOBILE */
-    @media (max-width: 868px) {
+    @media (max-width: 1189px) {
         .nav__listEnlacesMuseum{
             display: none !important;
         } 
@@ -165,6 +199,3 @@
             height: 5rem;
         }  
     }
-
-
-}

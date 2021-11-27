@@ -9,9 +9,7 @@
   margin: 0 auto;
   position: fixed;
   width: 100%;
-  overflow: hidden;
-  /* TOGGLE */
-  /* MOBILE */ }
+  overflow: hidden; }
   .nav .nav__list {
     list-style: none;
     color: white;
@@ -63,55 +61,81 @@
       background-clip: text;
       text-decoration: none;
       padding: 0 0.5rem; }
+    .nav .nav__list .nav__Meta {
+      text-decoration: none;
+      color: white;
+      filter: hue-rotate(50deg) drop-shadow(1px 1px 100px #0004ff);
+      font-size: 1.8rem;
+      text-decoration: none;
+      text-shadow: 0 0 8rem blue;
+      z-index: 9999;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      left: 30%;
+      top: 22%; }
+    .nav .nav__list .nav__listEnlacesMeta:hover {
+      transform: scale(1.1);
+      filter: hue-rotate(50deg) drop-shadow(1px 1px 5px blue);
+      transition: all 0.4s; }
+    .nav .nav__list .nav__listEnlacesMeta {
+      margin-bottom: 1.2rem; }
+    .nav .nav__list .nav__listSombraM img {
+      width: 80%; }
   .nav .nav__img {
     width: 96%;
     margin: 0 auto; }
   .nav .nav__img-img {
     width: 100%;
     height: 6rem; }
-  .nav .nav__nav-toggle {
+
+/* TOGGLE */
+.nav__nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  line-height: 60px;
+  cursor: pointer;
+  display: none;
+  margin-left: 8rem; }
+
+/* MOBILE */
+@media (max-width: 1189px) {
+  .nav__listEnlacesMuseum {
+    display: none !important; }
+  .header {
+    height: 6rem; }
+  .nav__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    padding: 8rem 0;
+    height: calc(100% - 50px);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s; }
+  .nav__listEnlaces {
+    margin: 3rem 0;
+    height: 8rem;
+    line-height: 1rem; }
+  .nav__listBox {
     color: white;
-    background: none;
-    border: none;
-    font-size: 30px;
-    line-height: 60px;
-    cursor: pointer;
-    display: none;
-    margin-left: 8rem; }
-  @media (max-width: 868px) {
-    .nav .nav__listEnlacesMuseum {
-      display: none !important; }
-    .nav .header {
-      height: 6rem; }
-    .nav .nav__menu {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #000000;
-      position: fixed;
-      top: 50px;
-      width: 100%;
-      padding: 8rem 0;
-      height: calc(100% - 50px);
-      overflow-y: auto;
-      left: 100%;
-      transition: left 0.3s; }
-    .nav .nav__listEnlaces {
-      margin: 3rem 0;
-      height: 8rem;
-      line-height: 1rem; }
-    .nav .nav__listBox {
-      color: white;
-      text-decoration: none;
-      font-size: 2.5rem !important; }
-    .nav .nav__nav-toggle {
-      display: block; }
-    .nav .navVisible {
-      left: 100%; }
-    .nav .nav__img {
-      width: 100%; }
-    .nav .nav__img-img {
-      height: 5rem; } }
+    text-decoration: none;
+    font-size: 2.5rem !important; }
+  .nav__nav-toggle {
+    display: block; }
+  .navVisible {
+    left: 100%; }
+  .nav__img {
+    width: 100%; }
+  .nav__img-img {
+    height: 5rem; } }
 
 .socialFooter {
   display: flex;
