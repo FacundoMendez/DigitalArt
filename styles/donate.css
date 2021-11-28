@@ -33,13 +33,6 @@ main{
 }
 
 
-.nav__list{
-  margin-top: 0.2rem;
-}
-.nav__logo{
-  margin-bottom:1rem;
-}
-
 
 div.foo{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -179,58 +172,6 @@ div.foo{
   height: 60%;
 
 }
-
-/* modal */
-/* 
-#staticBackdrop{
-  background-color: rgba(0, 0, 0, 0.719);
-}
-
-.modal-title{
-  font-size: 2.5rem;
-}
-
-.modal-body{
-  font-size: 2rem;
-  padding: 2rem;
-}
-
-.btn{
-  width: 25rem;
-  margin: 15rem;
-  font-size: 3rem;
-  background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-  background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-  background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-  border: 20px solid black;
-  box-shadow: 0 0 0.2rem white;
-  border: none;
-  
-}
-
-.btn:hover{
-  background-color: rgba(0, 0, 0, 0.466) ;
-  font-size: 3.1rem;
-  transition: all 0.1s ease-out;
-}
-
-.btn-secondary:hover{
-  background-color: rgba(0, 0, 0, 0.884) ;
-  font-size: 2rem;
-  transition: all 0.1s ease-out;
-}
-
-.btn-secondary{
-  width: 10rem;
-  height: 4rem;
-  margin: 10rem 5rem;
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  background: rgb(0, 0, 0) ;
-  border: none;
- 
-}
- */
 
  .wrapper {
   display: flex;

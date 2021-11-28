@@ -130,6 +130,12 @@
     font-size: 2.5rem !important; }
   .nav__nav-toggle {
     display: block; }
+  .nav__Meta {
+    font-size: 2.5rem !important;
+    left: 25% !important;
+    top: 35% !important; }
+  .nav__listSombraM img {
+    width: 90% !important; }
   .navVisible {
     left: 100%; }
   .nav__img {

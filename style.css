@@ -431,40 +431,38 @@ main{
     padding: 0 20rem;
 }
 
-.enlaceAbout{
-    display: flex;
-    justify-content: flex-start;
+.container2__button {
+    width: 76%;
+    margin-bottom: 15rem;
     position: relative;
-    bottom: 0rem;
+    text-align: center;
 }
 
-.enlaceAbout a{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 2.5rem;
+.container2__button img{
+    width: 47%;
+    height: 9rem;
+}
+.container2__button-text p{
     text-decoration: none;
-    color: white;
-    z-index: 1;
-    padding: 0.5rem 1.5rem;
-    width: max-content;
-}
-
-.circuloAbout{
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
     position: absolute;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    background: -webkit-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-    background: -moz-linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
-    background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
+    width: 100%;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+    left: 0;
+    font-size: 2.5rem;
 }
 
-.enlaceAbout a:hover ~ .circuloAbout{
-    background-color:rgb(255, 1, 86);
-    border-radius: 2%;
-    width: 450px;
-    color: white;
-    transition: all 0.9s ;
+.container2__button:hover{
+    transform: scale(1.1);
+    filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+    transition: all 2s; 
 }
 
   /* MOBILE */
@@ -550,12 +548,27 @@ main{
         left: 0;
         font-size: 2.5rem;
     }
-
-    .container3__button:hover{
-        transform: scale(1.1);
-        filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
-        transition: all 2s; 
+    .container2__button img{
+        width: 47%;
+        height: 9rem;
     }
+
+
+    .container2__button {
+        width: 100%;
+        margin-bottom: 10rem;
+        position: relative;
+        text-align: center;
+    }
+ 
+    .container2__button-text p{
+        font-size: 2rem;
+    }
+    .container2__button img{
+        width: 30%;
+        height: 7rem;
+    }
+
 }
 
 @media (max-width: 1082px){
@@ -798,6 +811,22 @@ main{
         padding-bottom:13rem ;
     }
 
+        .container2__button {
+        width: 100%;
+        margin-bottom: 10rem;
+        position: relative;
+        text-align: center;
+    }
+ 
+    .container2__button-text p{
+    
+        font-size: 2.2rem;
+    }
+    .container2__button img{
+        width: 40%;
+        height: 8rem;
+    }
+
     .titleAbout{
         padding: 5rem 5rem;
         display: flex;
@@ -867,6 +896,10 @@ main{
 }
 
 @media (max-width: 868px) {
+
+    .container2__button{
+        display: none;
+    }
 
     .text{
         font-size: 10rem;

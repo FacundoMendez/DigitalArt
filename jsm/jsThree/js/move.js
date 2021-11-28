@@ -238,6 +238,19 @@
             scrub:1.8,
         }
     })
+
+    gsap.from(".container2",{
+        duration:2,
+        backgroundColor: '#ffffff',
+        x:"-=3000",
+        opacity:-2,
+        scrollTrigger:{
+            trigger: ".container2",
+            start: "top 100%",
+            end: "50% 60%",
+            scrub: 3,
+        }
+    })
     
     gsap.from(".container4__text2",{
         opacity:-3,
