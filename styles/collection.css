@@ -43,6 +43,8 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   position: relative;
   border: 2px solid black;
   border-radius: 5%;
+  margin-left: 0rem;
+
   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
@@ -108,7 +110,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
 
 
 
-@media (max-width: 1400px){
+@media (max-width: 1401px){
 
   .collection{
     margin: 0 auto;
@@ -124,6 +126,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
       padding-top: 20rem;
       background-image: url("../img/fondoBlanco.jpg");
       background-size: contain;
+      align-items: center;
   }
         
   .card {
@@ -132,6 +135,8 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
     border-radius: 5%;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     width: 80%;
+    margin-left: 5rem;
+
   }
    
   .card-header img {
@@ -219,6 +224,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
     position: relative;
     border: 2px solid black;
     border-radius: 5%;
+    margin-left: 4.5rem;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
  
@@ -233,7 +239,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 35px;
+    padding: 20px;
     position: absolute;
     bottom: 0;
     color: rgb(0, 0, 0);
@@ -245,7 +251,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
     
     
   .card-body h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
     
     
@@ -284,43 +290,42 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
 
   .collection{
     margin: 0 auto;
+    
   }
   
   .galleryNft{
     display: grid;
-    padding-top: 20rem;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr;
-    gap: 4rem;
-    padding: 1rem;
     padding-bottom: 20rem;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 6rem;
+    padding: 5rem;
     position: relative;
+    padding-top: 20rem;
     background-image: url("../img/fondoBlanco.jpg");
     background-size: contain;
-  }
-        
-  .card {
+}
+      
+.card {
     position: relative;
     border: 2px solid black;
     border-radius: 5%;
+    margin-left: 3rem;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-  }
-  
-  
-  .card-header img {
+}
+ 
+.card-header img {
     border-radius: 5%;
     width:100%;
-    height: 60rem;
+    height: 45rem;
     object-fit: cover;
-  }
-  
-  
-  .card-body {
+}
+.card-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 35px;
+    padding: 20px;
     position: absolute;
     bottom: 0;
     color: rgb(0, 0, 0);
@@ -332,7 +337,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
     
     
   .card-body h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
     
     
@@ -375,7 +380,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
     display: grid;
     grid-template-columns: 1fr;
     gap: 4rem;
-    padding: 5rem;
+    padding: 0rem;
     position: relative;
     padding-bottom: 20rem;
     padding-top: 20rem;
@@ -387,6 +392,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
     position: relative;
     border: 2px solid black;
     border-radius: 5%;
+    margin-left: 4.5rem;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   }
   
@@ -404,7 +410,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 35px;
+    padding: 20px;
     position: absolute;
     bottom: 0;
     color: rgb(0, 0, 0);
@@ -416,7 +422,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
     
     
   .card-body h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
     
     
@@ -447,9 +453,36 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   .user-info small {
     color: #545d7a;
   }
-
 }
-  
+
+
+  @media (max-width: 460px){
+    .collection{
+      margin: 0 auto;
+    }
+    
+    
+    .galleryNft{
+      gap: 4rem;
+      padding: 5rem;
+      padding-top: 20rem;
+    }
+          
+    .card {
+      margin-left: 3rem;
+    }
+    
+    .card-body {
+      padding: 20px;
+    }
+      
+      
+    .card-body h2{
+      font-size: 2rem;
+    }
+      
+
+  } 
 @media (max-width: 320px){
   .collection{
     margin: 0 auto;
@@ -460,8 +493,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
     grid-template-columns: 1fr;
     gap: 4rem;
     padding-bottom: 20rem;
-
-    padding:1rem;
+    padding:0rem;
     padding-top: 20rem;
     position: relative;
     background-image: url("../img/fondoBlanco.jpg");
@@ -473,13 +505,14 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
     border: 2px solid black;
     border-radius: 5%;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin-left: 3rem;
   }
   
   
   .card-header img {
     border-radius: 5%;
     width:100%;
-    height: 60rem;
+    height: 50rem;
     object-fit: cover;
   }
   
@@ -501,7 +534,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
     
     
   .card-body h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
     
     
@@ -532,64 +565,5 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   .user-info small {
     color: #545d7a;
   }
-
-  /* FOOTER */
-
-
-.container5{
-  background-color: black;
-  color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 10rem 1fr 13rem 1fr;
-  grid-template-areas:
-      "logoFooter  logoFooter  logoFooter"
-      "listFooter      .       social"
-      "copyD           copyD       copyD"
-      "legacy        legacy     legacy"
-  ;
-  padding: 2rem;
-  justify-items: center;
-  align-items: center;
-}
-
-.nav4{
-  grid-area: listFooter;
-  list-style: none;
-}
-.nav4 li{
-  padding: 0.2rem;
-  font-size: 1.5rem;
-}
-.navLi4 a{
-  text-decoration: none;
-  color: white;
-}
-
-.titleFooter{
-  grid-area: logoFooter;
-  font-size: 1.5rem;
-  
-}
-
-.socialFooter{
-  grid-area: social;
-  font-size: 1.5rem;
-}
-
-.autorFooter{
-  grid-area: copyD;
-  padding-top: 0rem;
-  font-size: 1.3rem;
-}
-
-.legalFooter{
-  grid-area: legacy;
-  font-size: 1.2rem;
-  text-align: center;
-  color: rgba(128, 128, 128, 0.694);
-}
-
-
 
 }
