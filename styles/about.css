@@ -350,7 +350,7 @@ main{
 
 .container6{
   background-color: rgb(0, 0, 0);
-  height: 150vh;
+  height: 140vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -554,7 +554,7 @@ main{
   /* Container 6 */
 
   .container6{
-    height: 180vh;
+    height: 170vh;
     display: flex;
     justify-content: center;
     align-items: center;
