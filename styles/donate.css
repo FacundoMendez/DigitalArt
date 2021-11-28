@@ -146,12 +146,13 @@ div.foo{
     
 .presentDonate{
   position: relative;
-  z-index: 100;
+  z-index: 1200;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 10rem;
+
 }
 
 .presentDonate__text{
@@ -267,6 +268,7 @@ div.foo{
   height: 0.5rem;
   margin: 15rem 25%;
   text-align: center;
+  
 }
 
 

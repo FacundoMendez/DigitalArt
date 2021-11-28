@@ -23,25 +23,6 @@ border-radius: 20px;       /* roundness of the scroll thumb */
 border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
 }
 
- /* Collection gallery */
-
-
-/* 
-.galleryNft{
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem,42rem)) ;
-  height:  100%;
-  justify-content: center;
-  gap: 6rem;
-  padding-bottom: 15rem;
-  padding-top: 20rem;
-  position: relative;
-  background-image: url("../img/fondoBlanco.jpg");
-  background-size: contain;
-}
-   */
-
 .collection{
  margin: 0 auto;
 }
@@ -55,6 +36,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   position: relative;
   background-image: url("../img/fondoBlanco.jpg");
   background-size: contain;
+  box-shadow: 0 0 14rem rgb(42, 17, 110);
 }
      
 .card {

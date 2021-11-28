@@ -182,7 +182,8 @@
   padding: 2rem;
   justify-items: center;
   align-items: center;
-  z-index: 1000; }
+  z-index: 1000;
+  position: relative; }
 
 .nav4 {
   grid-area: listFooter;

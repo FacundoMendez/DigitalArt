@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
 
 *{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box; 
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; 
 }
   
 html{
@@ -20,25 +20,23 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-background: rgb(0, 0, 0);        /* color of the tracking area */
+  background: rgb(0, 0, 0);        /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-border-radius: 20px;       /* roundness of the scroll thumb */
-border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
+  background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
 }
 
 .videoAbout{
-position: fixed;
-height: 130vh;
-overflow: hidden;
+  position: fixed;
+  height: 130vh;
+  overflow: hidden;
+
 }
 
-
 /* About PRESENT*/
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
-
 
 main{
   background-color: rgba(0, 0, 0, 0.63);
@@ -78,7 +76,6 @@ main{
   top:0;
   left:0;
 }
-
 
 .letter, .letter:before, .letter:after{
   transition: all 0.4s ease-in-out;
@@ -222,7 +219,6 @@ main{
 
 }
 
-
 .box1{
   margin-left: 30%;
   grid-area: box1;
@@ -238,8 +234,6 @@ main{
   margin-left: 30%;
   grid-area: box3;
 }
-
-
 
 
 /* Container3 */
@@ -297,7 +291,6 @@ main{
   background: linear-gradient(to right, #b405c4 0%, #6B89FF 100%);
 }
 
-
 .titlepp{
   grid-area: titlepp;
 }
@@ -321,7 +314,6 @@ main{
   grid-area: algorithm6;
 }
   
-  
 .boxAlgorithm{
   background-color: rgba(13, 0, 37, 0.87);
   border-radius: 12%;
@@ -334,7 +326,6 @@ main{
   border-top: 50px solid rgb(20, 0, 77); 
   
 }
-
 
 .boxAlgorithm h3{
   font-size: 2.6rem;
@@ -353,10 +344,7 @@ main{
   font-family: 'Prompt', sans-serif;
   font-weight: 500;
   line-height: 2.6rem;
-
 }
-
-
 
 /* Container 6 */
 
@@ -390,13 +378,10 @@ main{
   margin: 0 25%;
   text-align: center;
 }
-
-
-
   /* FOOTER */
   
-  
 .container5{
+
   background-color: black;
   color: white;
   display: grid;
@@ -430,7 +415,6 @@ main{
 .titleFooter{
   grid-area: logoFooter;
   font-size: 2.5rem;
-  
 }
 
 .socialFooter{
@@ -451,7 +435,6 @@ main{
   color: rgba(128, 128, 128, 0.694);
 }
 
-
 @media (max-width :1400px){
   .foo{
     width: 100vw;
@@ -469,11 +452,7 @@ main{
     font-weight: 900;
     font-size: 15rem;
     margin: 0.1em;
-
   }
-  
-
-
   
   /* DEFI */
   
@@ -484,7 +463,6 @@ main{
     justify-content: center;
     align-items: center;
   }
-  
   
   .defi{
     text-align: center;
@@ -503,7 +481,6 @@ main{
     padding:0 25rem ;
     padding-bottom: 15rem;
     text-align:center;
-    
   }
     
   .boxAbout{
@@ -520,7 +497,6 @@ main{
     line-height: 2.5rem;
   }
   
-
   
   /* Container3 */
     
@@ -555,7 +531,6 @@ main{
     margin-top: 2rem;
     height: 4px;
   }
-
     
   .boxAlgorithm{
     width: 90%;
@@ -563,9 +538,7 @@ main{
     border-right: 45px solid transparent; 
     border-bottom: 40px solid rgb(20, 0, 77); 
     border-top: 40px solid rgb(20, 0, 77); 
-    
   }
-  
   
   .boxAlgorithm h3{
     font-size: 2.5rem;
@@ -578,12 +551,10 @@ main{
     line-height: 2.5rem;
   }
   
-  
-  
   /* Container 6 */
 
   .container6{
-    height: 100vh;
+    height: 180vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -609,8 +580,6 @@ main{
 
   }
 
-
-
 @media (max-width: 1082px){
   .foo{
     width: 100vw;
@@ -628,11 +597,7 @@ main{
     font-weight: 900;
     font-size: 15rem;
     margin: 0.1em;
-
   }
-  
-
-
   
   /* DEFI */
   
@@ -643,7 +608,6 @@ main{
     justify-content: center;
     align-items: center;
   }
-  
   
   .defi{
     text-align: center;
@@ -662,7 +626,6 @@ main{
     padding:0 10rem ;
     padding-bottom: 15rem;
     text-align:center;
-    
   }
     
   .boxAbout{
@@ -678,9 +641,7 @@ main{
     margin-bottom: 10rem ;
     line-height: 2.2rem;
   }
-  
 
-  
   /* Container3 */
     
   .container3{
@@ -716,16 +677,13 @@ main{
     height: 4px;
   }
 
-    
   .boxAlgorithm{
     width: 90%;
     border-left: 45px solid transparent; 
     border-right: 45px solid transparent; 
     border-bottom: 40px solid rgb(20, 0, 77); 
     border-top: 40px solid rgb(20, 0, 77); 
-    
   }
-  
   
   .boxAlgorithm h3{
     font-size: 2.5rem;
@@ -738,12 +696,10 @@ main{
     line-height: 2.4rem;
   }
   
-  
-  
   /* Container 6 */
 
   .container6{
-    height: 100vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -766,10 +722,6 @@ main{
     margin: 10% 25%;
     text-align: center;
   }
-
-
-
-
 }
 
 @media (max-width :868px){
@@ -789,11 +741,7 @@ main{
     font-weight: 900;
     font-size: 12rem;
     margin: 0.1em;
-
   }
-  
-
-
   
   /* DEFI */
   
@@ -804,7 +752,6 @@ main{
     justify-content: center;
     align-items: center;
   }
-  
   
   .defi{
     text-align: center;
@@ -823,7 +770,6 @@ main{
     padding:0 10rem ;
     padding-bottom: 15rem;
     text-align:center;
-    
   }
     
   .boxAbout{
@@ -839,8 +785,6 @@ main{
     margin-bottom: 5rem ;
     line-height: 2.2rem;
   }
-  
-
   
   /* Container3 */
     
@@ -887,9 +831,7 @@ main{
     border-right: 45px solid transparent; 
     border-bottom: 40px solid rgb(20, 0, 77); 
     border-top: 40px solid rgb(20, 0, 77); 
-    
   }
-  
   
   .boxAlgorithm h3{
     font-size: 2.5rem;
@@ -902,12 +844,10 @@ main{
     line-height: 2.4rem;
   }
   
-  
-  
   /* Container 6 */
 
   .container6{
-    height: 100vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -930,9 +870,6 @@ main{
     margin: 10% 25%;
     text-align: center;
   }
-
-
-
 }
 
 @media (max-width: 634px){
@@ -953,11 +890,7 @@ main{
     font-weight: 900;
     font-size: 7rem;
     margin: 0.1em;
-
   }
-  
-
-
   
   /* DEFI */
   
@@ -968,7 +901,6 @@ main{
     justify-content: center;
     align-items: center;
   }
-  
   
   .defi{
     text-align: center;
@@ -991,7 +923,6 @@ main{
     padding:0 2rem ;
     padding-bottom: 15rem;
     text-align:center;
-    
   }
     
   .boxAbout{
@@ -1006,8 +937,6 @@ main{
     font-weight: 600;
     margin-bottom: 5rem ;
   }
-  
-
   
   /* Container3 */
     
@@ -1046,7 +975,6 @@ main{
     margin-top: 2rem;
     height: 4px;
   }
-
     
   .boxAlgorithm{
     width: 80%;
@@ -1054,9 +982,7 @@ main{
     border-right: 45px solid transparent; 
     border-bottom: 40px solid rgb(20, 0, 77); 
     border-top: 40px solid rgb(20, 0, 77); 
-    
   }
-  
   
   .boxAlgorithm h3{
     font-size: 1.9rem;
@@ -1068,24 +994,14 @@ main{
     font-size: 1.6rem;
   }
   
-  
-  
   /* Container 6 */
   
   .container6{
     display: none;
   }
-
-
-
 }
 
-
-
 @media (max-width: 320px){
-
-
-
   /* ------------ */
   .foo{
     width: 100vw;
@@ -1103,11 +1019,7 @@ main{
     font-weight: 900;
     font-size: 5rem;
     margin: 0.1em;
-
   }
-  
-
-
   
   /* DEFI */
   
@@ -1118,7 +1030,6 @@ main{
     justify-content: center;
     align-items: center;
   }
-  
   
   .defi{
     text-align: center;
@@ -1154,8 +1065,6 @@ main{
     font-weight: 600;
     margin-bottom: 5rem ;
   }
-  
-
   
   /* Container3 */
     
@@ -1194,16 +1103,13 @@ main{
     margin-top: 2rem;
     height: 4px;
   }
-
     
   .boxAlgorithm{
     border-left: 45px solid transparent; 
     border-right: 45px solid transparent; 
     border-bottom: 40px solid rgb(20, 0, 77); 
     border-top: 40px solid rgb(20, 0, 77); 
-    
   }
-  
   
   .boxAlgorithm h3{
     font-size: 1.9rem;
@@ -1215,14 +1121,10 @@ main{
     font-size: 1.6rem;
   }
   
-  
-  
   /* Container 6 */
   
   .container6{
     display: none;
   }
-
-
 }
   
