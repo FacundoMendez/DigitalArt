@@ -174,7 +174,7 @@ div.foo{
 
 }
 
- .wrapper {
+.wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -268,12 +268,7 @@ div.foo{
   height: 0.5rem;
   margin: 15rem 25%;
   text-align: center;
-  
 }
-
-
-
-
 
 
 @media (max-width :1400px){
@@ -283,6 +278,23 @@ div.foo{
     font-size: 2rem;
     text-align: center;
     line-height: 3rem;
+  }
+  .foo{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+  .letter{
+    font-weight: 900;
+    font-size: 15rem;
+    margin: 0.1em;
   }
 }
 
@@ -296,6 +308,23 @@ div.foo{
     text-align: center;
     line-height: 3rem;
   }
+  .foo{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+  .letter{
+    font-weight: 900;
+    font-size: 15rem;
+    margin: 0.1em;
+  }
 }
 
 
@@ -306,6 +335,23 @@ div.foo{
     font-size: 2rem;
     text-align: center;
     line-height: 3rem;
+  }
+  .foo{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+  .letter{
+    font-weight: 900;
+    font-size: 11.3rem;
+    margin: 0.1em;
   }
 }
 
@@ -318,7 +364,23 @@ div.foo{
     line-height: 3rem;
   }
 
-
+  .foo{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+  .letter{
+    font-weight: 900;
+    font-size: 6.5rem;
+    margin: 0.1em;
+  }
     
   .modal__content {
     border-radius: 4px;
@@ -351,7 +413,7 @@ div.foo{
   .modal__content {
     border-radius: 4px;
     position: relative;
-    width: 370px;
+    width: 390px;
     height: 20rem;
     background: rgba(0, 0, 0, 0.781);
   }
@@ -371,14 +433,48 @@ div.foo{
     font-size: 2.5rem; 
     color: white;
   }
+
+  .foo{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+  .letter{
+    font-weight: 900;
+    font-size: 5rem;
+    margin: 0.1em;
+  }
 }
 
 @media (max-width: 350px){
-
+  .foo{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+  .letter{
+    font-weight: 900;
+    font-size: 4.7rem;
+    margin: 0.1em;
+  }
   .modal__content {
     border-radius: 4px;
     position: relative;
-    width: 300px;
+    width: 310px;
     height: 20rem;
     background: rgba(0, 0, 0, 0.781);
   }
