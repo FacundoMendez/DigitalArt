@@ -248,7 +248,7 @@
             trigger: ".container2",
             start: "top 100%",
             end: "50% 60%",
-            scrub: 3,
+            scrub: 2,
         }
     })
     

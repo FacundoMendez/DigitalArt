@@ -24,13 +24,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-background: rgb(0, 0, 0);        /* color of the tracking area */
+  background: rgb(0, 0, 0);        /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
-border-radius: 20px;       /* roundness of the scroll thumb */
-border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
+  background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
 }
 
 
@@ -83,9 +83,6 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
 
 }
 
-
-/* Special Halloween */
-
     /* ribbon */
 
 .ribbon {
@@ -109,9 +106,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   text-transform: uppercase;
   text-align: center;
   border: 2px solid rgb(93, 0, 255);
-
 }
-
 
 /* top right*/
 .ribbon-top-right {
@@ -127,7 +122,6 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
 
 /* box */
 
-
 .titleHallow{
   font-family:fantasy;
   font-size: 6rem;
@@ -142,7 +136,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   margin-top: 20rem;
 }
 
-.boxHalloween{
+.boxHallow{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -153,9 +147,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   padding: 5rem;
   justify-content: center;
   position: relative;
-
 }
-
 
 .cardHallow {
   position: relative;
@@ -180,21 +172,37 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   border-bottom: none;
 }
 
-
-
 .card-bodyHallow {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 6rem 20px;
+  padding: 7.5rem 20px;
   height: 10rem;
   background-color: white;
 }
 
 .card-bodyHallow h2{
   font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.card__boxText{
+  display: flex;
   padding-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card__boxText span{
+  font-size: 2.5rem;
+  color: #160018;
+  font-weight: 700;
+  font-style: italic;
+  padding-left: 1rem;
+  padding-bottom: 0.1rem;
 }
 
 .card-bodyHallow p {
@@ -202,10 +210,11 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   margin: 0 0 40px;
 }
 
-
 .userHallow {
   display: flex;
-  margin-top: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .userHallow img {
@@ -220,11 +229,16 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   margin: 0;
   padding: 1.5rem 0;
   font-size: 2rem;
+  color: transparent;
+  background: -webkit-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  background: -moz-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 .user-infoHallow small {
   color: #545d7a;
 }
-
 
 
 /*top 10 collections  */
@@ -245,9 +259,7 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
   font-style: italic;
   letter-spacing: 1rem;
   padding: 5rem 0;
-
 }
-
 
 
 @-webkit-keyframes scroll {
@@ -397,9 +409,9 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
  }
  
 .card-header {
-margin: 0;
-padding: 0;
-border-bottom: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
 }
 
 .card-body {
@@ -546,10 +558,6 @@ border-bottom: none;
     height: 80px;
   }
 
-/* sPECIAL HALLOWEEN */
-
-
-
   /* GALLERY */
   .boxCard{
     display: flex;
@@ -566,12 +574,10 @@ border-bottom: none;
     margin: 0 auto;
   }
 
-
 }
 
 @media (min-width: 481px) and (max-width :899px){
 
-  
   .banner__text{
     font-size: 7vw;
     width: 100%;
@@ -590,14 +596,8 @@ border-bottom: none;
     height: 100%;
     opacity: 0.8;
     scale: 0.1;
-  
   }
-  
 
-
-  
-
-  /* Special Halloween */
   .titleHallow{
     font-size: 3rem;
     margin-top: -35rem;
@@ -624,7 +624,6 @@ border-bottom: none;
     width: 70px;
     height: 70px;
   }
-
 
   /* GALLERY */
 
@@ -672,11 +671,8 @@ border-bottom: none;
     left: 50%;
     width: 100vw;
     height: 100vh;
-  
   }
   
-
-    /* Carrucel hallowen */
 
   .textHa a{
     text-decoration: none;
@@ -695,47 +691,40 @@ border-bottom: none;
   }
 
     /* Special Halloween */
-    .titleHallow{
-      font-size: 2rem;
-      margin-top: -15rem;
-    }
+  .titleHallow{
+    font-size: 2rem;
+    margin-top: -15rem;
+  }
+
+  /* TOP collections */
+
+  .slider {
+    height:140px;
+  }
+  .textTop10{
+    font-size: 3rem;
+    padding: 5rem 0;
+  }
 
 
- /* TOP collections */
+  .slidex p{
+    font-size: 1.5rem;
+  }
+  .slidex h3{
+    font-size: 1.5rem;
+  }
 
-
- .slider {
-  height:140px;
-}
-.textTop10{
-  font-size: 3rem;
-  padding: 5rem 0;
-}
-
-
-.slidex p{
-  font-size: 1.5rem;
-}
-.slidex h3{
-  font-size: 1.5rem;
-}
-
-.slidex img{
-  width: 70px;
-  height: 70px;
-}
-
-
-  
+  .slidex img{
+    width: 70px;
+    height: 70px;
+  }
 
   /* GALLERY */
   .boxCard{
     grid-template-columns: auto ;
     grid-template-rows: repeat(6, auto);
     gap: 6rem;
-
   }
-
 
   .card {
     width: 100%;
@@ -772,8 +761,6 @@ border-bottom: none;
   .user-info h5 {
     font-size: 1.4rem;
   }
-
-
 }
 
 
