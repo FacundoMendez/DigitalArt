@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb {
      
 .card {
   position: relative;
-  border: 2px solid black;
+  border: 2px solid rgba(90, 90, 90, 0.459);
   border-radius: 5%;
   margin-left: 0rem;
   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
@@ -121,7 +121,6 @@ body::-webkit-scrollbar-thumb {
         
   .card {
     position: relative;
-    border: 2px solid black;
     border-radius: 5%;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     width: 80%;

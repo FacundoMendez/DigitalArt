@@ -48,28 +48,8 @@ main{
   position: relative;
   width: 100%;
   height: 100vh;
-  transform: translate3d(0px, 0px, 0px) scale(1, 0.75);
+  transform: translate3d(0px, 0px, 0px) scale(1.15, 0.75);
   padding-top: 12rem;
-}
-
-.banner__text{
-  font-size: 6vw;
-  font-family: 'Prompt', sans-serif;
-  letter-spacing: 0.1px;
-  word-spacing: -1px;
-  font-weight: 900;
-  text-transform: uppercase;
-  color:rgb(238, 238, 238);
-  width: 90%;
-  height: 35vh;
-  display: flex;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: 1000;
-  text-shadow: 0.6rem 0.1rem 1.5rem rgb(0, 0, 0);
 }
 
 .banner__img{
@@ -80,9 +60,7 @@ main{
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  opacity: 0.8;
   scale: 0.1;
-
 }
 
     /* ribbon */
@@ -517,13 +495,13 @@ main{
 
 
 @keyframes rotate {
-from {
-    -webkit-transform: rotate(0deg);
-}
-to { 
-    -webkit-transform: rotate(360deg);
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to { 
+      -webkit-transform: rotate(360deg);
 
-}
+  }
 }
 
 .user img:hover {
@@ -581,9 +559,6 @@ animation-timing-function: linear;
 }
 
 
-
-
-
 /* Notebooks tablets */
 
 @media (min-width: 900px) and (max-width :1500px){
@@ -634,7 +609,6 @@ animation-timing-function: linear;
     margin-top: 10rem;
   }
  
-  
   /* Special Halloween */
   .titleHallow{
     font-size: 7rem;
@@ -689,41 +663,39 @@ animation-timing-function: linear;
 
 }
 
-
-
 @media (min-width: 481px) and (max-width :899px){
   .container3__button {
     width: 100%;
     margin-top: 2rem;
     position: relative;
     text-align: center;
-}
+  }
 
-.container3__button img{
-    width: 35%;
-}
-.container3__button-text p{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 2px;
-    position: absolute;
-    width: 100%;
-    top: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 900;
-    filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
-    left: 0;
-    font-size: 2.5rem;
-}
+  .container3__button img{
+      width: 35%;
+  }
+  .container3__button-text p{
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     letter-spacing: 2px;
+     position: absolute;
+     width: 100%;
+     top: 20%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: 900;
+     filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+     left: 0;
+     font-size: 2.5rem;
+   }
 
-.container3__button:hover{
-    transform: scale(1.1);
-    filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
-    transition: all 2s; 
-}
+  .container3__button:hover{
+     transform: scale(1.1);
+     filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
+     transition: all 2s; 
+   }
   .banner__text{
     font-size: 7vw;
     width: 100%;
@@ -792,12 +764,12 @@ animation-timing-function: linear;
     margin-top: 2rem;
     position: relative;
     text-align: center;
-}
+  }
 
-.container3__button img{
+  .container3__button img{
     width: 50%;
-}
-.container3__button-text p{
+  }
+  .container3__button-text p{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -812,17 +784,17 @@ animation-timing-function: linear;
     filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
     left: 0;
     font-size: 2.5rem;
-}
-.titleHallow{
-  font-size: 5rem;
-  margin-top: -15rem;
-}
+  }
+  .titleHallow{
+    font-size: 5rem;
+    margin-top: -15rem;
+  }
 
-.container3__button:hover{
+  .container3__button:hover{
     transform: scale(1.1);
     filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
     transition: all 2s; 
-}
+  }
 }
 
 @media (max-width: 480px) {
@@ -831,11 +803,11 @@ animation-timing-function: linear;
     margin-top: 2rem;
     position: relative;
     text-align: center;
-}
+  }
 
-.container3__button img{
-    width: 75%;
-}
+  .container3__button img{
+      width: 75%;
+  }
   .banner{
     width: 100vw;
     height: 100vh;
@@ -921,7 +893,7 @@ animation-timing-function: linear;
   }
 
   .container3__button img{
-      width: 70%;
+    width: 70%;
   }
   .container3__button-text p{
       text-decoration: none;
