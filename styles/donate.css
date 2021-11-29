@@ -26,7 +26,8 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
 
 
 main{
-  background-color: black;
+  background-image: url("../img/backdonate2.jpg");
+  background-size: cover;
   position: relative;
   overflow: hidden;
 
@@ -273,11 +274,12 @@ div.foo{
 
 @media (max-width :1400px){
   .presentDonate__text{
-    padding: 10rem 10rem ;
+    padding: 10rem 20rem ;
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     line-height: 3rem;
+    font-style: italic;
   }
   .foo{
     width: 100vw;

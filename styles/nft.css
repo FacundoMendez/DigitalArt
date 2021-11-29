@@ -125,17 +125,22 @@ main{
 /* box */
 
 .titleHallow{
-  font-family:fantasy;
-  font-size: 6rem;
-  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
   width: 100%;
   text-align: center;
   background-color: black;
   color: white;
   font-style: italic;
-  letter-spacing: 1rem;
   padding: 5rem 0;
   margin-top: 20rem;
+  color: transparent;
+  font-weight: 900;
+  background: -webkit-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  background: -moz-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .boxHallow{
@@ -181,7 +186,7 @@ main{
   align-items: flex-start;
   padding: 7.5rem 20px;
   height: 10rem;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.973);
 }
 
 .card-bodyHallow h2{
@@ -220,13 +225,32 @@ main{
 }
 
 .userHallow img {
-  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(0, 0, 4, 0.925);
+  border: 1px solid rgba(0, 0, 0, 0.521);
   border-radius: 50%;
   width: 60px;
-  background-color: rgba(0, 0, 4, 0.925);
   height: 60px;
   margin-right: 10px;
+  animation: userHallow 1s ease-in-out infinite;
 }
+
+@keyframes rotate {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to { 
+      -webkit-transform: rotate(360deg);
+
+  }
+}
+
+.userHallow img:hover {
+  animation-name: rotate; 
+  animation-duration: 1.5s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
 .user-infoHallow h5 {
   margin: 0;
   padding: 1.5rem 0;
@@ -251,15 +275,19 @@ main{
 }
 
 .textTop10{
-  font-family:fantasy;
+  font-family: 'Open Sans', sans-serif;
   font-size: 6rem;
-  font-weight: 400;
+  font-weight: 900;
   width: 100%;
   text-align: center;
   background-color: black;
-  color: white;
+  color: transparent;
+  background: -webkit-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  background: -moz-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  -webkit-background-clip: text;
+  background-clip: text;
   font-style: italic;
-  letter-spacing: 1rem;
   padding: 5rem 0;
 }
 
@@ -484,11 +512,36 @@ main{
   background-color: rgba(0, 0, 4, 0.925);
   height: 62px;
   margin-right: 10px;
+  animation: userHallow2 1s ease-in-out infinite;
+}
+
+
+@keyframes rotate {
+from {
+    -webkit-transform: rotate(0deg);
+}
+to { 
+    -webkit-transform: rotate(360deg);
+
+}
+}
+
+.user img:hover {
+animation-name: rotate; 
+animation-duration: 1.5s; 
+animation-iteration-count: infinite;
+animation-timing-function: linear;
 }
 .user-info h5 {
   margin: 0;
   padding: 2rem 0;
   font-size: 1.8rem;
+  color: transparent;
+  background: -webkit-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  background: -moz-linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  background: linear-gradient(to bottom right, #1C8EFF 5%, #D30EF2 74%);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 .user-info small {
   color: #545d7a;
@@ -526,6 +579,7 @@ main{
   filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
   transition: all 2s; 
 }
+
 
 
 
@@ -579,12 +633,12 @@ main{
     scale: 0.1;
     margin-top: 10rem;
   }
+ 
   
-
   /* Special Halloween */
   .titleHallow{
-    font-size: 4rem;
-    margin-top: -20rem;
+    font-size: 7rem;
+    margin-top: -5rem;
   }
 
     /* Carrucel hallowen */
@@ -599,7 +653,7 @@ main{
   }
 
   .textTop10{
-    font-size: 4rem;
+    font-size: 5rem;
     padding: 5rem 0;
   }
   
@@ -611,7 +665,7 @@ main{
   }
   
   .slidex img{
-    border: 1.5px solid rgb(76, 0, 255);
+    border: 1.5px solid rgb(0, 0, 0);
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -691,7 +745,7 @@ main{
   }
 
   .titleHallow{
-    font-size: 3rem;
+    font-size: 7rem;
     margin-top: -35rem;
   }
 
@@ -758,6 +812,10 @@ main{
     filter: hue-rotate(50deg) drop-shadow(1px 1px 35px blue);
     left: 0;
     font-size: 2.5rem;
+}
+.titleHallow{
+  font-size: 5rem;
+  margin-top: -15rem;
 }
 
 .container3__button:hover{
@@ -828,7 +886,7 @@ main{
 
     /* Special Halloween */
   .titleHallow{
-    font-size: 2rem;
+    font-size: 4rem;
     margin-top: -15rem;
   }
 

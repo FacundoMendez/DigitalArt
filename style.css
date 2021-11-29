@@ -75,6 +75,41 @@ main{
     box-shadow: 0 0 2rem #000000;
 }
 
+.planet__click img{
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    bottom: 2rem;
+    z-index: 2000;
+    right: 5rem;
+    opacity: 1;
+    filter: hue-rotate(50deg) drop-shadow(1px 1px 20px rgba(150, 143, 255, 0.603));
+    animation: touch 4s ease-in-out infinite;
+    transform: rotate(-20deg);
+}
+
+
+
+@keyframes touch {
+  0% {
+      opacity: .5;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  60% {
+      opacity: .5;
+  }
+
+  90% {
+     opacity: 1;
+  }
+
+
+}
+
 .planet__button {
     width: 40%;
     margin-top: 2rem;
@@ -899,6 +934,8 @@ main{
 
 @media (max-width: 868px) {
 
+
+
     .container2__button{
         display: none;
     }
@@ -1194,6 +1231,10 @@ main{
 }
 
 @media (max-width: 634px){
+
+    .planet__click{
+        display: none;
+    }
     .text{
         font-size: 8rem;
     }
