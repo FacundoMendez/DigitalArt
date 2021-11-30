@@ -209,9 +209,11 @@ border:4px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
  }
 
  .card-body h2{
-  font-size: 2rem;
-  font-weight: 900;
+  font-size: 2.5rem;
+  color: #160018;
+  font-weight: 700;
   font-style: italic;
+  padding-bottom: 0.1rem;
 }
 
 .card__boxText{
