@@ -397,6 +397,40 @@ div.foo{
 
 
 @media (max-width :868px){
+
+  .presentDonate__logo:hover > .presentDontate__ojos{
+    display: none;
+    transition: all 2s; 
+  }
+  
+  .presentDonate__logo{
+    animation: logo 1s ease-in-out infinite;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+  }
+  
+  .presentDonate__logo img{
+    width: 25%;
+  
+  } 
+  
+  .metacuerpo{
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+    top: 10.5%;
+    padding-left: 23%;
+    text-align: center;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+   .metacuerpo img{
+    width: 50%;
+  
+  } 
+
   .presentDonate__text{
     padding: 10rem 5rem ;
     color: white;
@@ -495,6 +529,28 @@ div.foo{
 }
 
 @media (max-width: 482px){
+
+
+  .presentDonate__logo img{
+    width: 35%;
+  
+  } 
+  
+  .metacuerpo{
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+    top: 28.5%;
+    padding-left: 26.5%;
+    text-align: center;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+   .metacuerpo img{
+    width: 60%;
+  
+  } 
+
   .modal__content {
     border-radius: 4px;
     position: relative;
