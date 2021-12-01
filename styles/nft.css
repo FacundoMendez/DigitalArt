@@ -104,13 +104,13 @@ main{
 
 .titleHallow{
   font-family: 'Open Sans', sans-serif;
-  font-weight: 900;
   width: 100%;
   text-align: center;
   background-color: black;
   color: white;
   font-style: italic;
   padding: 5rem 0;
+  font-size: 8rem;
   margin-top: 20rem;
   color: transparent;
   font-weight: 900;
@@ -530,6 +530,7 @@ animation-timing-function: linear;
   margin-bottom: 15rem;
   position: relative;
   text-align: center;
+  width: 100%;
 }
 
 .container3__button img{
