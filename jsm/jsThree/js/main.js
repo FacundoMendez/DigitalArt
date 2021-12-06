@@ -1358,7 +1358,7 @@ const materialCardReyleon1 = new THREE.MeshBasicMaterial({
   map: cardReyleon1Texture,
 }) 
 materialCardReyleon1.roughnessMap = cardReyleon1Texture        
-const geometryCardReyleon1= new THREE.BoxBufferGeometry(50,50,2)
+const geometryCardReyleon1= new THREE.BoxBufferGeometry(49,45,2)
 const cardReyleon1= new THREE.Mesh(geometryCardReyleon1,materialCardReyleon1)
 
 cardReyleon1.position.y = -2;
@@ -1372,7 +1372,7 @@ const materialCardReyleon2 = new THREE.MeshBasicMaterial({
   map: cardReyleon2Texture,
 }) 
 materialCardReyleon2 .roughnessMap = cardReyleon2Texture        
-const geometryCardReyleon2 = new THREE.BoxBufferGeometry(50,43,2)
+const geometryCardReyleon2 = new THREE.BoxBufferGeometry(45,43,2)
 const cardReyleon2  = new THREE.Mesh(geometryCardReyleon2 ,materialCardReyleon2 )
 
 cardReyleon2.position.y = 47;
@@ -1415,7 +1415,7 @@ const materialCardReyleon6 = new THREE.MeshBasicMaterial({
   map: cardReyleon6Texture,
 }) 
 materialCardReyleon6.roughnessMap = cardReyleon6Texture        
-const geometryCardReyleon6= new THREE.BoxBufferGeometry(50,45,2)
+const geometryCardReyleon6= new THREE.BoxBufferGeometry(40,40,2)
 const cardReyleon6 = new THREE.Mesh(geometryCardReyleon6,materialCardReyleon6)
 
 cardReyleon6.position.y = 45;
@@ -1429,7 +1429,7 @@ const materialCardReyleon7 = new THREE.MeshBasicMaterial({
   map: cardReyleon7Texture,
 }) 
 materialCardReyleon7.roughnessMap = cardReyleon7Texture        
-const geometryCardReyleon7= new THREE.BoxBufferGeometry(50,45,2)
+const geometryCardReyleon7= new THREE.BoxBufferGeometry(45,45,2)
 const cardReyleon7 = new THREE.Mesh(geometryCardReyleon7,materialCardReyleon7)
 
 cardReyleon7.position.y = -3;
@@ -1739,7 +1739,7 @@ const animate = () =>{
       
       if(salto){
         t = ((Date.now()- ti) /1000) *5
-        let yDis = yi + (vi * t) - (0.5 * 9.8 * Math.pow(t,2))
+        let yDis = yi + (vi * t) - (0.5 * 5.8 * Math.pow(t,2))
         if (yDis <= yi) salto = false
         camera.position.y = yDis
       }
