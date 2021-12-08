@@ -361,8 +361,8 @@ main{
   padding-top: 20rem;
   position: relative;
   background-image: url(../img/backblue.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-attachment: fixed;
+  background-size: cover;
   background-color: rgb(2, 7, 17);
   box-shadow: 0 0 14rem rgb(42, 17, 110);
 }

@@ -421,6 +421,7 @@ main{
 .container2-color{
     background-image: url("./img/museum.jpg");
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 

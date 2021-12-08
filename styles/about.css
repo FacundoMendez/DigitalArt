@@ -241,6 +241,7 @@ main{
 .container3{
   background-image: url(../img/aa1.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   opacity: 0.87;
   width: 100%;
@@ -261,7 +262,6 @@ main{
   padding-bottom: 20rem;
   position: relative;
   border-radius: 20%;
-  margin-bottom: 1%;
 }
 
 .titlepp h2{

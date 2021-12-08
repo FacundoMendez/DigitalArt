@@ -35,7 +35,8 @@ body::-webkit-scrollbar-thumb {
   padding: 20rem;
   position: relative;
   background-image: url("../img/fondoBlanco.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-attachment: fixed;
   box-shadow: 0 0 14rem rgb(42, 17, 110);
 }
      
