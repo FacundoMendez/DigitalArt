@@ -60,7 +60,6 @@ main{
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  scale: 0.1;
 }
 
     /* ribbon */
@@ -127,10 +126,10 @@ main{
   flex-direction: row;
   align-self: center;
   justify-content: center;
+  align-items: center;
   background-color: black;
-  gap: 2rem;
-  padding: 5rem;
-  justify-content: center;
+  gap: 5rem;
+  padding: 5rem 10rem;
   position: relative;
 }
 
@@ -527,7 +526,7 @@ animation-timing-function: linear;
 
 .container3__button {
   width: 76%;
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
   position: relative;
   text-align: center;
   width: 100%;

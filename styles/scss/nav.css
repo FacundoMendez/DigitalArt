@@ -2,7 +2,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 5000; }
+  z-index: 5000; 
+}
 
 .nav {
   display: flex;
@@ -63,7 +64,7 @@
       text-decoration: none;
       padding: 0 0.5rem; }
   .nav .nav__img {
-    width: 95%;
+    width: 100%;
     margin: 0 auto; }
   .nav .nav__img-img {
     width: 100%;

@@ -84,7 +84,7 @@
     .nav .nav__list .nav__listSombraM img {
       width: 80%; }
   .nav .nav__img {
-    width: 96%;
+    width: 100%;
     margin: 0 auto; }
   .nav .nav__img-img {
     width: 100%;
@@ -178,7 +178,10 @@
   display: grid;
   grid-template-columns: 1fr 2.5rem 1fr;
   grid-template-rows: 10rem 1fr 13rem 1fr;
-  grid-template-areas: "logoFooter  logoFooter   logoFooter" "listFooter      .       social" "copy           copy       copy" "legacy        legacy     legacy";
+  grid-template-areas: "logoFooter  logoFooter   logoFooter"
+ "listFooter      .       social"
+ "copy           copy       copy"
+ "legacy        legacy     legacy";
   padding: 2rem;
   justify-items: center;
   align-items: center;
